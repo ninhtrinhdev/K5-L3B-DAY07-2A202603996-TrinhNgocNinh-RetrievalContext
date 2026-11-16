@@ -1,0 +1,48 @@
+{
+ "corpus": "whs",
+ "split": "dev",
+ "config": "D-hybrid-rerank",
+ "n": 18,
+ "model": "google/gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "whs",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "budget_chars": 12000,
+  "max_searches": 4,
+  "controller_model": "google/gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768",
+  "llm_provider": "openrouter"
+ },
+ "status": {
+  "answered": 15,
+  "abstain": 3
+ },
+ "tool_use": "18/18",
+ "search_calls_distribution": {
+  "1": 16,
+  "2": 2
+ },
+ "answerable_gold_in_final_context": "15/15",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {
+  "d-im2": [
+   "202221"
+  ],
+  "d-ch3": [
+   "202092"
+  ],
+  "d-mh2": [
+   "397"
+  ]
+ },
+ "errors": [],
+ "seconds_total": 107.7,
+ "median_ms_per_question": 4266.8,
+ "prompt_tokens": 228740,
+ "output_tokens": 5834,
+ "api_calls": 65,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

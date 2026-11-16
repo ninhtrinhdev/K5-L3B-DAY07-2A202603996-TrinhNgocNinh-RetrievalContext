@@ -1,0 +1,68 @@
+{
+ "run": "day6-test-B-rerank",
+ "pass": "7/7",
+ "rate_percent": 100.0,
+ "needs_27_of_30": false,
+ "by_group": {
+  "all": "5/5",
+  "unanswerable": "2/2"
+ },
+ "per_question": [
+  {
+   "query_id": "t01",
+   "group": "all",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t02",
+   "group": "all",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t03",
+   "group": "all",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t04",
+   "group": "all",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t05",
+   "group": "all",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t06",
+   "group": "all",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t07",
+   "group": "all",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  }
+ ]
+}

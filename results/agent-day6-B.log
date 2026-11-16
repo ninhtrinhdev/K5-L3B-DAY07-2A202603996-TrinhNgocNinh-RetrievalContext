@@ -1,0 +1,50 @@
+d01      answered searches=1 gold_in_ctx=True 
+d02      answered searches=1 gold_in_ctx=True 
+d03      answered searches=1 gold_in_ctx=True 
+d04      answered searches=1 gold_in_ctx=True 
+d05      answered searches=1 gold_in_ctx=True 
+d06      answered searches=1 gold_in_ctx=True 
+d07      answered searches=1 gold_in_ctx=True 
+d08      abstain  searches=1 gold_in_ctx=True 
+d09      abstain  searches=1 gold_in_ctx=True 
+d10      answered searches=1 gold_in_ctx=True 
+d11      answered searches=1 gold_in_ctx=True 
+d12      answered searches=1 gold_in_ctx=True 
+d13      answered searches=1 gold_in_ctx=True 
+d14      answered searches=1 gold_in_ctx=True 
+d15      answered searches=1 gold_in_ctx=True 
+d16      abstain  searches=2 gold_in_ctx=None 
+d17      abstain  searches=3 gold_in_ctx=None 
+{
+ "corpus": "day6",
+ "split": "dev",
+ "config": "B-rerank",
+ "n": 17,
+ "model": "gemini-3.5-flash-lite",
+ "status": {
+  "answered": 13,
+  "abstain": 4
+ },
+ "tool_use": "17/17",
+ "search_calls_distribution": {
+  "1": 15,
+  "2": 1,
+  "3": 1
+ },
+ "answerable_gold_in_final_context": "15/15",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [
+  "d08",
+  "d09"
+ ],
+ "numbers_not_in_cited_text": {},
+ "errors": [],
+ "seconds_total": 197.7,
+ "median_ms_per_question": 5760.2,
+ "prompt_tokens": 90515,
+ "output_tokens": 5756,
+ "api_calls": 73,
+ "api_retries": 9,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}
+done

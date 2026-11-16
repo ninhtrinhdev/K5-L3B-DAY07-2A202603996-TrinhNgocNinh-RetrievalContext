@@ -1,0 +1,17 @@
+{
+ "locked_on": "2026-11-16",
+ "llm": {"provider": "openrouter", "model": "google/gemini-3.5-flash-lite", "note": "same model as the first Day 6 runs (Gemini API direct); OpenRouter used after the direct free-tier quota ran out"},
+ "selection_rule": "highest Hit@3 on dev, ties broken by MRR and by fewer false abstentions; cost and time reported, not used to break ties",
+ "day6": {
+  "retrieval_chosen": {"method": "rerank", "base": "dense top-15 -> model reorder", "dev": "Hit@1 13/15, Hit@3 14/15, MRR 0.91"},
+  "agent_chosen": {"config": "B-rerank", "method": "rerank", "top_k": 5, "budget_chars": 6000, "max_searches": 4},
+  "agent_baseline": {"config": "A-dense", "method": "dense", "top_k": 5, "budget_chars": 6000, "max_searches": 4}
+ },
+ "whs": {
+  "agent_chosen": {"config": "D-hybrid-rerank", "method": "hybrid_rerank", "top_k": 5, "budget_chars": 12000, "max_searches": 4,
+                   "dev": "15/15 answerable answered, 0 false abstentions, 3/3 unanswerable abstained"},
+  "agent_baseline": {"config": "C-dense", "method": "dense", "top_k": 5, "budget_chars": 12000, "max_searches": 4,
+                     "dev": "14/15 answered (d-mh1 abstained), 3/3 unanswerable abstained"}
+ },
+ "rule": "Each configuration runs once on the test split. Test runs after this file: Day 6 retrieval + agent (A, B), WHO agent (C, D). The earlier Day 6 agent test runs (Gemini direct, B had a rerank JSON-parse error on t04) are kept in results/agent/superseded-gemini-direct/ and were re-run after only the parser fix; no prompt, retrieval or question change."
+}

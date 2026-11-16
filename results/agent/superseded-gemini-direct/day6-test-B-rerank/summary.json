@@ -1,0 +1,43 @@
+{
+ "corpus": "day6",
+ "split": "test",
+ "config": "B-rerank",
+ "n": 7,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "day6",
+  "method": "rerank",
+  "top_k": 5,
+  "budget_chars": 6000,
+  "max_searches": 4,
+  "controller_model": "gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768"
+ },
+ "status": {
+  "answered": 4,
+  "error": 1,
+  "abstain": 2
+ },
+ "tool_use": "6/6",
+ "search_calls_distribution": {
+  "1": 4,
+  "3": 2
+ },
+ "answerable_gold_in_final_context": "4/4",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {},
+ "errors": [
+  {
+   "id": "t04",
+   "error": "ApiError: rerank trả JSON không hợp lệ: [\n  {\n    \"order\": [\n      0,\n      1,\n      2,\n      3,\n      4,\n      5,\n      6,\n      7,\n      8,\n      9,\n      10,\n      11,\n      12,\n      13,\n      14\n    ]\n  }\n]"
+  }
+ ],
+ "seconds_total": 116.6,
+ "median_ms_per_question": 5916.9,
+ "prompt_tokens": 48081,
+ "output_tokens": 3458,
+ "api_calls": 45,
+ "api_retries": 8,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

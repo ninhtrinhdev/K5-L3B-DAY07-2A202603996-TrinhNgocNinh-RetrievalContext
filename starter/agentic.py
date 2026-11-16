@@ -70,6 +70,9 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
+        elif action.get('action') == 'abstain':  # the model says the evidence is missing: a deliberate refusal, not an invalid answer
+            return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [],
+                    'events': events + [{'event': 'abstain', 'reason': action.get('reason', '')}]}
         else:
-            raise ValueError('action phải là search hoặc answer')
+            raise ValueError('action phải là search, answer hoặc abstain')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}

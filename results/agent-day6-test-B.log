@@ -1,0 +1,35 @@
+t01      answered searches=1 gold_in_ctx=True 
+t02      answered searches=1 gold_in_ctx=True 
+t03      answered searches=1 gold_in_ctx=True 
+t04      answered searches=1 gold_in_ctx=True 
+t05      answered searches=1 gold_in_ctx=True 
+t06      abstain  searches=2 gold_in_ctx=None 
+t07      abstain  searches=2 gold_in_ctx=None 
+{
+ "corpus": "day6",
+ "split": "test",
+ "config": "B-rerank",
+ "n": 7,
+ "model": "google/gemini-3.5-flash-lite",
+ "status": {
+  "answered": 5,
+  "abstain": 2
+ },
+ "tool_use": "7/7",
+ "search_calls_distribution": {
+  "1": 5,
+  "2": 2
+ },
+ "answerable_gold_in_final_context": "5/5",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {},
+ "errors": [],
+ "seconds_total": 38.7,
+ "median_ms_per_question": 4454.1,
+ "prompt_tokens": 38847,
+ "output_tokens": 2619,
+ "api_calls": 30,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

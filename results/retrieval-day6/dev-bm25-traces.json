@@ -1,0 +1,1927 @@
+[
+ {
+  "query_id": "d01",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "What daily dose of elemental calcium is recommended to prevent pre-eclampsia in areas where dietary calcium intake is low?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 19,
+    "evidence": "calcium supplementation during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is recommended for the prevention of preeclampsia in all women"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "What daily dose of elemental calcium is recommended to prevent pre-eclampsia in areas where dietary calcium intake is low?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p019-001",
+    "rank": 1,
+    "score": 37.90887,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendation**\n\n4. In areas where dietary calcium intake is low, calcium supplementation during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is recommended for the prevention of preeclampsia in all women, but especially in those at high risk of developing pre-eclampsia.\n\n- (Mod"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-000",
+    "rank": 2,
+    "score": 32.88392,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pr"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-002",
+    "rank": 3,
+    "score": 29.66282,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remarks**\n\n- a. The guideline development group agreed that healthy dietary practices should be promoted in the general population, among pregnant women.\n\n- b. The group considered appropriate dietary calcium intake as a healthy dietary practice. Available evidence supports the theory that "
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 4,
+    "score": 24.66115,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-000",
+    "rank": 5,
+    "score": 20.95833,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- b. Most calcium supplementation trials to date have used fairly high doses of daily calcium (1.5–2.0 g/day). While recommending those doses the guideline development group agreed that lower doses of calcium supplementation should be evaluated. This is important in view of the logistic and financia"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-000",
+    "rank": 6,
+    "score": 19.49351,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the "
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-006",
+    "rank": 7,
+    "score": 19.01629,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "A considerable risk reduction for pre-eclampsia (64%) was found in eight trials that involved women or populations with low baseline dietary calcium intake (10 678 women; RR 0.36, 95% CI 0.20–0.65) while four trials showed no statistically significant reduction in the risk of pre-eclampsia for women"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-001",
+    "rank": 8,
+    "score": 17.6263,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Vitamin D supplementation**\n\nA Cochrane systematic review of 6 RCTs, involving a total of 1023 women, investigated the effects on pregnancy outcomes of vitamin D supplementation alone or in combination with other vitamins and minerals, including calcium, for women during pregnancy ( _13_ ). F"
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-002",
+    "rank": 9,
+    "score": 16.22704,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n3. Restriction in dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications is not recommended.\n\n- (Moderate-quality evidence. Weak recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p031-003",
+    "rank": 10,
+    "score": 16.18163,
+    "page": 31,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n12. Magnesium sulfate is recommended for the prevention of eclampsia in women with severe pre-eclampsia in preference to other anticonvulsants.\n\n- (High-quality evidence. Strong recommendation.)\n\n13. Magnesium sulfate is recommended for the treatment of women with eclamps"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.9
+ },
+ {
+  "query_id": "d02",
+  "group": "dieu_kien",
+  "split": "dev",
+  "question": "When should low-dose aspirin be started for the prevention of pre-eclampsia, and at what dose?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 22,
+    "evidence": "Low-dose acetylsalicylic acid (aspirin, 75 mg/day) for the prevention of pre-eclampsia and its related complications should be initiated before 20 weeks of pregnancy."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "When should low-dose aspirin be started for the prevention of pre-eclampsia, and at what dose?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p022-004",
+    "rank": 1,
+    "score": 25.68155,
+    "page": 22,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendations**\n\n7. Low-dose acetylsalicylic acid (aspirin, 75 mg/day) is recommended for the prevention of pre-eclampsia in women at high risk of developing the condition.\n\n- (Moderate-quality evidence. Strong recommendation.)\n\n8. Low-dose acetylsalicylic acid (aspirin, 75 mg/day) for th"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-000",
+    "rank": 2,
+    "score": 23.07297,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pr"
+   },
+   {
+    "id": "who-preeclampsia-2011-p022-001",
+    "rank": 3,
+    "score": 18.22463,
+    "page": 22,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Treatment effects of antiplatelet agents compared with placebo were evaluated across three dosage categories [low-dose aspirin (acetylsalicylic acid): 75 mg/day or lower; higher-dose aspirin: more than 75 mg/day; and aspirin more than 75 mg/day + dipyridamole] for the following critical (or proxy) o"
+   },
+   {
+    "id": "who-preeclampsia-2011-p022-005",
+    "rank": 4,
+    "score": 15.56133,
+    "page": 22,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remarks**\n\n- a. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous preeclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, bu"
+   },
+   {
+    "id": "who-preeclampsia-2011-p023-000",
+    "rank": 5,
+    "score": 15.15477,
+    "page": 23,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate "
+   },
+   {
+    "id": "who-preeclampsia-2011-p021-002",
+    "rank": 6,
+    "score": 13.33435,
+    "page": 21,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Antiplatelets for prevention of pre-eclampsia**\n\nEvidence related to the effects of antiplatelet agents, such as aspirin and dipyridamole, when used for the prevention of pre-eclampsia and its complications came from a Cochrane systematic review of 60 RCTs involving 37 720 women ( _15_ ). Mos"
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 7,
+    "score": 12.12259,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-002",
+    "rank": 8,
+    "score": 11.96908,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|For settings where it is not possible to administer the full magnesium<br>sulfate regimen, the use of magnesium sulfate loading dose followed<br>by immediate transfer to a higher level health-car"
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-001",
+    "rank": 9,
+    "score": 11.7769,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- d. The guideline development group deliberated on the best course of action in settings in which it is not possible to administer the full magnesium sulfate regimen. The group debated the possible (but yet unproven) benefits of administering only the loading dose versus transferring women with sev"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-004",
+    "rank": 10,
+    "score": 11.30858,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The group noted that for some research priorities there is planned or ongoing research. Since there is no certainty that the planned or ongoing research would give conclusive results, the research topics are listed as research priorities in this document. The evidence base for making recommendations"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.8
+ },
+ {
+  "query_id": "d03",
+  "group": "dien_dat_lai",
+  "split": "dev",
+  "question": "Is staying on strict bed rest advised for pregnant women who have high blood pressure?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 17,
+    "evidence": "Strict bedrest is not recommended for improving pregnancy outcomes in women with hypertension (with or without proteinuria) in pregnancy."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Is staying on strict bed rest advised for pregnant women who have high blood pressure?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p017-003",
+    "rank": 1,
+    "score": 11.04718,
+    "page": 17,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendations**\n\n1. Advice to rest at home is not recommended as an intervention for the primary prevention of pre-eclampsia and hypertensive disorders of pregnancy in women considered to be at risk of developing those conditions.\n\n- (Low-quality evidence. Weak recommendation.)\n\n2. Strict"
+   },
+   {
+    "id": "who-preeclampsia-2011-p026-005",
+    "rank": 2,
+    "score": 10.68244,
+    "page": 26,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### Nifedipine versus prasozin\n\nOne trial (150 women) comparing nifedipine with prasozin showed no statistically significant differences for any of the critical (or proxy) outcomes addressed: HELLP syndrome (one trial, 145 women; RR 1.15, 95% CI 0.37–3.60); renal failure\n\nIn summary, the analysis"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-004",
+    "rank": 3,
+    "score": 10.14487,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remarks**\n\n- a. The guideline development group considered that there is absence of clinical uncertainty over whether treatment of severe hypertension during pregnancy is beneficial. This recommendation was made based on expert opinion; the group considered that most maternal deaths related"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-002",
+    "rank": 4,
+    "score": 10.05087,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- e. The guideline development group considered that there is little clinical uncertainty over whether treatment of severe postpartum hypertension is beneficial. This recommendation was made based on expert opinion and the guideline development group considered that most maternal deaths related to h"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-000",
+    "rank": 5,
+    "score": 10.04091,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "monitoring of hypertension could be stopped. Hence, the group highlighted this topic as a research priority.\n\n- c. The guideline development group put more emphasis on the frequency of postpartum deaths related to stroke and recognized that the maximum increase in blood pressure usually occurs towar"
+   },
+   {
+    "id": "who-preeclampsia-2011-p017-001",
+    "rank": 6,
+    "score": 9.70103,
+    "page": 17,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Bedrest for treatment of hypertension in pregnancy_\n\nEvidence related to different degrees of bedrest for improving pregnancy outcomes in women with hypertension in pregnancy was extracted from one Cochrane systematic review of four RCT ( _10_ ). The trials were relatively small, with a tota"
+   },
+   {
+    "id": "who-preeclampsia-2011-p024-005",
+    "rank": 7,
+    "score": 9.35349,
+    "page": 24,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### Calcium channel blockers versus hydralazine\n\nCompared with hydralazine, calcium channel blockers (nifedipine and isradipine) showed a statistically significant reduction in the risk of persistent high blood pressure (five trials, 263 women; RR 0.33, 95% CI 0.15–0.70). No statistically signifi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-001",
+    "rank": 8,
+    "score": 9.07877,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- d. In women diagnosed with mild pre-eclampsia antenatally, but not treated with antihypertensive drugs, the initiation of antihypertensive treatment postpartum should be considered for minimizing the risk of complications of severe high blood pressure (see remark ‘c’ above). That remark was made b"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-001",
+    "rank": 9,
+    "score": 8.69752,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "3. Vitamin D supplementation alone should be evaluated for the prevention of hypertensive disorders of pregnancy.\n\n4. For mild to moderate high blood pressure, there is a need to determine whether treatment is better than no treatment.\n\n5. Further research is needed on the relative effectiveness of "
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-000",
+    "rank": 10,
+    "score": 8.68578,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.5
+ },
+ {
+  "query_id": "d04",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "Which anticonvulsant is recommended in preference to others for treating women with eclampsia?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 31,
+    "evidence": "Magnesium sulfate is recommended for the treatment of women with eclampsia in preference to other anticonvulsants."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Which anticonvulsant is recommended in preference to others for treating women with eclampsia?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p010-001",
+    "rank": 1,
+    "score": 17.87879,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|The choice and route of administration of an antihypertensive drug for<br>severe hypertension during pregnancy, in preference to others, should<br>be based primarily on the prescribing clinician'"
+   },
+   {
+    "id": "who-preeclampsia-2011-p031-003",
+    "rank": 2,
+    "score": 14.23257,
+    "page": 31,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendations**\n\n12. Magnesium sulfate is recommended for the prevention of eclampsia in women with severe pre-eclampsia in preference to other anticonvulsants.\n\n- (High-quality evidence. Strong recommendation.)\n\n13. Magnesium sulfate is recommended for the treatment of women with eclamps"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-003",
+    "rank": 3,
+    "score": 12.74222,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n9. Women with severe hypertension during pregnancy should receive treatment with antihypertensive drugs.\n\n10. The choice and route of administration of an antihypertensive drug for severe hypertension during pregnancy, in preference to others, should be based primarily on"
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-005",
+    "rank": 4,
+    "score": 12.73307,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n16. The use of corticosteroids for the specific purpose of treating women with HELLP syndrome is not recommended.\n\n- (Very-low-quality evidence. Weak recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-001",
+    "rank": 5,
+    "score": 11.78344,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuret"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-000",
+    "rank": 6,
+    "score": 8.75337,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the "
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-003",
+    "rank": 7,
+    "score": 8.37628,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In women with severe pre-eclampsia, a viable fetus and between<br>34 and 36 (plus 6 days) weeks of gestation, a policy of expectant<br>management may be recommended, provided that uncontrolled<br"
+   },
+   {
+    "id": "who-preeclampsia-2011-p017-003",
+    "rank": 8,
+    "score": 8.19356,
+    "page": 17,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n1. Advice to rest at home is not recommended as an intervention for the primary prevention of pre-eclampsia and hypertensive disorders of pregnancy in women considered to be at risk of developing those conditions.\n\n- (Low-quality evidence. Weak recommendation.)\n\n2. Strict"
+   },
+   {
+    "id": "who-preeclampsia-2011-p034-006",
+    "rank": 9,
+    "score": 8.09112,
+    "page": 34,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n20. In women with severe pre-eclampsia at term, a policy of early delivery is recommended.\n\n- (Low-quality evidence. Strong recommendation.)\n\n21. In women with mild pre-eclampsia or gestational hypertension at term, induction of labour is recommended.\n\n- (Moderate-quality"
+   },
+   {
+    "id": "who-preeclampsia-2011-p035-004",
+    "rank": 10,
+    "score": 7.48343,
+    "page": 35,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n22. In women treated with antihypertensive drugs antenatally, continued antihypertensive treatment postpartum is recommended.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n23. Treatment with antihypertensive drugs is recommended for severe postpartum hypertensio"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 2,
+  "elapsed_ms": 0.6
+ },
+ {
+  "query_id": "d05",
+  "group": "dieu_kien",
+  "split": "dev",
+  "question": "Under what conditions is expectant management recommended for severe pre-eclampsia with a viable fetus before 34 weeks?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 33,
+    "evidence": "In women with severe pre-eclampsia, a viable fetus, and before 34 weeks of gestation, a policy of expectant management is recommended, provided that uncontrolled maternal hypertension, increasing maternal organ dysfunction or fetal distress are absent and can be monitored."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Under what conditions is expectant management recommended for severe pre-eclampsia with a viable fetus before 34 weeks?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p033-003",
+    "rank": 1,
+    "score": 36.68404,
+    "page": 33,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendations**\n\n17. Induction of labour is recommended for women with severe pre-eclampsia at a gestational age when the fetus is not viable or unlikely to achieve viability within one or two weeks.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n18. In women with severe pre-ecla"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-002",
+    "rank": 2,
+    "score": 30.00525,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|For settings where it is not possible to administer the full magnesium<br>sulfate regimen, the use of magnesium sulfate loading dose followed<br>by immediate transfer to a higher level health-car"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-003",
+    "rank": 3,
+    "score": 26.51627,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In women with severe pre-eclampsia, a viable fetus and between<br>34 and 36 (plus 6 days) weeks of gestation, a policy of expectant<br>management may be recommended, provided that uncontrolled<br"
+   },
+   {
+    "id": "who-preeclampsia-2011-p012-003",
+    "rank": 4,
+    "score": 17.51802,
+    "page": 12,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "also include nulliparity, adolescent pregnancy and conditions leading to hyperplacentation and large placentas (e.g. twin pregnancy). Preeclampsia is usually classified as mild or severe. In most settings, pre-eclampsia is classified as severe when any of the following conditions is present: severe "
+   },
+   {
+    "id": "who-preeclampsia-2011-p034-002",
+    "rank": 5,
+    "score": 17.3222,
+    "page": 34,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- c. The guideline development group considered that there was not enough evidence to make a clear-cut recommendation for women with severe pre-eclampsia between 34 and 36 (plus 6 days) weeks of gestation. However, considering the long-term adverse consequences of late preterm birth, the group put m"
+   },
+   {
+    "id": "who-preeclampsia-2011-p035-000",
+    "rank": 6,
+    "score": 17.00365,
+    "page": 35,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- b. The guideline development group considered that, in women with pre-eclampsia at term, expectant management is associated with a substantial risk of further maternal and fetal complications and absence of substantial maternal and fetal benefits.\n\n- c. In settings where gestational age is difficu"
+   },
+   {
+    "id": "who-preeclampsia-2011-p033-001",
+    "rank": 7,
+    "score": 15.81573,
+    "page": 33,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Interventionist versus expectant care for severe pre-eclampsia before term**\n\nEvidence related to the differential effects of a policy of interventionist care and early delivery compared with a policy of expectant care and delayed delivery for women with early onset severe pre-eclampsia was e"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-001",
+    "rank": 8,
+    "score": 14.07747,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "3. Vitamin D supplementation alone should be evaluated for the prevention of hypertensive disorders of pregnancy.\n\n4. For mild to moderate high blood pressure, there is a need to determine whether treatment is better than no treatment.\n\n5. Further research is needed on the relative effectiveness of "
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-000",
+    "rank": 9,
+    "score": 12.98526,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pr"
+   },
+   {
+    "id": "who-preeclampsia-2011-p034-001",
+    "rank": 10,
+    "score": 12.9189,
+    "page": 34,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- b. The guideline development group considered that the gestational age threshold for using expectant management in very preterm fetuses depends on the fetal viability status and on the anticipated prolongation of gestation with expectant management. The guideline development group acknowledged tha"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.6
+ },
+ {
+  "query_id": "d06",
+  "group": "ngoai_le",
+  "split": "dev",
+  "question": "What should be done when the full magnesium sulfate regimen cannot be administered in a facility?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 31,
+    "evidence": "the use of magnesium sulfate loading dose followed by immediate transfer to a higher level health-care facility is recommended for women with severe pre-eclampsia and eclampsia."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "What should be done when the full magnesium sulfate regimen cannot be administered in a facility?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p032-001",
+    "rank": 1,
+    "score": 18.88954,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- d. The guideline development group deliberated on the best course of action in settings in which it is not possible to administer the full magnesium sulfate regimen. The group debated the possible (but yet unproven) benefits of administering only the loading dose versus transferring women with sev"
+   },
+   {
+    "id": "who-preeclampsia-2011-p031-003",
+    "rank": 2,
+    "score": 16.57076,
+    "page": 31,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendations**\n\n12. Magnesium sulfate is recommended for the prevention of eclampsia in women with severe pre-eclampsia in preference to other anticonvulsants.\n\n- (High-quality evidence. Strong recommendation.)\n\n13. Magnesium sulfate is recommended for the treatment of women with eclamps"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-002",
+    "rank": 3,
+    "score": 16.37197,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|For settings where it is not possible to administer the full magnesium<br>sulfate regimen, the use of magnesium sulfate loading dose followed<br>by immediate transfer to a higher level health-car"
+   },
+   {
+    "id": "who-preeclampsia-2011-p038-004",
+    "rank": 4,
+    "score": 15.44803,
+    "page": 38,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 7. Applicability issues\n\nAnticipated impact on the organization of care and resources\n\nEvidence-based management of pre-eclampsia and eclampsia can be achieved with the use of relatively inexpensive drugs. However, the guideline development group noted that the following issues should be consider"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-001",
+    "rank": 5,
+    "score": 13.40461,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "3. Vitamin D supplementation alone should be evaluated for the prevention of hypertensive disorders of pregnancy.\n\n4. For mild to moderate high blood pressure, there is a need to determine whether treatment is better than no treatment.\n\n5. Further research is needed on the relative effectiveness of "
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-000",
+    "rank": 6,
+    "score": 12.85479,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "eclampsia, but the group members were divided on the use of magnesium sulfate as a prophylaxis for mild pre-eclampsia.\n\n- c. Large trials have evaluated and demonstrated the effectiveness of full regimens of magnesium sulfate, which include a loading dose followed by 24-hour maintenance therapy. Spe"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-001",
+    "rank": 7,
+    "score": 12.00645,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|The choice and route of administration of an antihypertensive drug for<br>severe hypertension during pregnancy, in preference to others, should<br>be based primarily on the prescribing clinician'"
+   },
+   {
+    "id": "who-preeclampsia-2011-p031-004",
+    "rank": 8,
+    "score": 11.7201,
+    "page": 31,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remarks**\n\n- a. Magnesium sulfate is a lifesaving drug and should be available in all health-care facilities throughout the health system. The guideline development group believed that capacity for clinical surveillance of women and administration of calcium gluconate were essential compone"
+   },
+   {
+    "id": "who-preeclampsia-2011-p028-004",
+    "rank": 9,
+    "score": 11.34006,
+    "page": 28,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Six RCTs (11 444 women), including the large multicentre Magpie Trial ( _20_ ) involving 10 141 participants, provided the evidence for this comparison. About half of the women recruited into the trial had received the maintenance regimen of magnesium sulfate through the intravenous route (1 g/h) an"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-004",
+    "rank": 10,
+    "score": 10.34387,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- e. The group also considered the issue of interaction between iron supplements and calcium supplements. In this regard the group noted that concomitant administration of the two should be avoided. Ideally, the two supplements should be administered several hours apart (e.g. morning and evening). W"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 2,
+  "elapsed_ms": 0.5
+ },
+ {
+  "query_id": "d07",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "What blood pressure and proteinuria criteria can be used to identify pre-eclampsia?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 12,
+    "evidence": "onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "What blood pressure and proteinuria criteria can be used to identify pre-eclampsia?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p012-001",
+    "rank": 1,
+    "score": 16.27807,
+    "page": 12,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Pre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturba"
+   },
+   {
+    "id": "who-preeclampsia-2011-p012-003",
+    "rank": 2,
+    "score": 13.90273,
+    "page": 12,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "also include nulliparity, adolescent pregnancy and conditions leading to hyperplacentation and large placentas (e.g. twin pregnancy). Preeclampsia is usually classified as mild or severe. In most settings, pre-eclampsia is classified as severe when any of the following conditions is present: severe "
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-003",
+    "rank": 3,
+    "score": 11.67484,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Other research questions**\n\n1. What educational interventions can be targeted at women and health-care providers to improve knowledge of signs and symptoms of hypertensive disorders of pregnancy to promote appropriate and timely care?\n\n2. How can the use of practices recommended in guidelin"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-001",
+    "rank": 4,
+    "score": 10.71138,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The search strategies employed to identify the trials and the specific criteria for inclusion and exclusion of the trials are described in the individual systematic reviews.\n\nThe following procedures were used to process in a consistent manner each systematic review used to extract the evidence for "
+   },
+   {
+    "id": "who-preeclampsia-2011-p022-005",
+    "rank": 5,
+    "score": 8.68444,
+    "page": 22,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remarks**\n\n- a. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous preeclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, bu"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-000",
+    "rank": 6,
+    "score": 8.01213,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Diuretics for preventing pre-eclampsia_\n\nEvidence related to the effects of diuretics on the prevention of pre-eclampsia came from a Cochrane systematic review of five RCTs involving 1836 women in the USA ( _18_ ). Both primiparous and multiparous women with gestations from first to the thir"
+   },
+   {
+    "id": "who-preeclampsia-2011-p038-004",
+    "rank": 7,
+    "score": 7.88485,
+    "page": 38,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 7. Applicability issues\n\nAnticipated impact on the organization of care and resources\n\nEvidence-based management of pre-eclampsia and eclampsia can be achieved with the use of relatively inexpensive drugs. However, the guideline development group noted that the following issues should be consider"
+   },
+   {
+    "id": "who-preeclampsia-2011-p024-002",
+    "rank": 8,
+    "score": 7.15015,
+    "page": 24,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving "
+   },
+   {
+    "id": "who-preeclampsia-2011-p039-000",
+    "rank": 9,
+    "score": 7.14771,
+    "page": 39,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "relevant data related to the management of pre-eclampsia and eclampsia. Clearly defined review criteria and indicators are needed and could be associated with locally agreed targets. In this context, one basic indicator is suggested:\n\n- Proportion of women with eclampsia receiving magnesium sulfate "
+   },
+   {
+    "id": "who-preeclampsia-2011-p033-003",
+    "rank": 10,
+    "score": 7.14172,
+    "page": 33,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n17. Induction of labour is recommended for women with severe pre-eclampsia at a gestational age when the fetus is not viable or unlikely to achieve viability within one or two weeks.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n18. In women with severe pre-ecla"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.4
+ },
+ {
+  "query_id": "d08",
+  "group": "metadata_filter",
+  "split": "dev",
+  "question": "How many trials and how many women did the Cochrane systematic review include?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 18,
+    "evidence": "A Cochrane systematic review of 13 RCTs, involving a total of 15 730 women"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "How many trials and how many women did the Cochrane systematic review include?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 1,
+    "score": 14.98556,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-000",
+    "rank": 2,
+    "score": 14.13973,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "eclampsia, but the group members were divided on the use of magnesium sulfate as a prophylaxis for mild pre-eclampsia.\n\n- c. Large trials have evaluated and demonstrated the effectiveness of full regimens of magnesium sulfate, which include a loading dose followed by 24-hour maintenance therapy. Spe"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-000",
+    "rank": 3,
+    "score": 12.12496,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Diuretics for preventing pre-eclampsia_\n\nEvidence related to the effects of diuretics on the prevention of pre-eclampsia came from a Cochrane systematic review of five RCTs involving 1836 women in the USA ( _18_ ). Both primiparous and multiparous women with gestations from first to the thir"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-000",
+    "rank": 4,
+    "score": 10.3667,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Cochrane systematic reviews of randomized controlled trials (RCTs) were the primary source of evidence for the recommendations.<sup>2</sup> Based on the list of selected questions and outcomes, the guideline steering group identified the relevant Cochrane systematic reviews and determined whether th"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-003",
+    "rank": 5,
+    "score": 10.25012,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Other research questions**\n\n1. What educational interventions can be targeted at women and health-care providers to improve knowledge of signs and symptoms of hypertensive disorders of pregnancy to promote appropriate and timely care?\n\n2. How can the use of practices recommended in guidelin"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-001",
+    "rank": 6,
+    "score": 9.49154,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The search strategies employed to identify the trials and the specific criteria for inclusion and exclusion of the trials are described in the individual systematic reviews.\n\nThe following procedures were used to process in a consistent manner each systematic review used to extract the evidence for "
+   },
+   {
+    "id": "who-preeclampsia-2011-p028-003",
+    "rank": 7,
+    "score": 9.32801,
+    "page": 28,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "##### Prevention of pre-eclampsia\n\nA Cochrane systematic review of 15 RCTs investigated the relative effects of magnesium sulfate and other anticonvulsants when used for prevention of eclampsia ( _19_ ). Notable comparisons in this review were between magnesium sulfate and placebo or no anticonvulsa"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-003",
+    "rank": 8,
+    "score": 9.08866,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The standardized criteria used in grading the evidence and the GRADE tables **are not included in this document** (although table numbers – prefixed with ‘EB’– are included for ease of reference): they are being published online separately in a document entitled _WHO recommendations for pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-004",
+    "rank": 9,
+    "score": 8.95075,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The raw data which constitute the basis of the GRADE tables are also not included in this document, but can be made available upon request to researchers interested in finding out how the GRADE tables were constructed. The guideline steering group used the information presented in the GRADE tables t"
+   },
+   {
+    "id": "who-preeclampsia-2011-p030-004",
+    "rank": 10,
+    "score": 8.77132,
+    "page": 30,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Evidence related to the comparative effects of alternative magnesium sulfate regimens for the treatment of pre-eclampsia and eclampsia came from a Cochrane systematic review of six RCTs involving 866 women ( _25_ ). Two of the trials (451 women) had compared regimens for eclampsia while the other fo"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.4
+ },
+ {
+  "query_id": "d09",
+  "group": "metadata_filter",
+  "split": "dev",
+  "question": "How many trials and how many women did the Cochrane systematic review include?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 21,
+    "evidence": "came from a Cochrane systematic review of 60 RCTs involving 37 720 women"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "How many trials and how many women did the Cochrane systematic review include?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 1,
+    "score": 14.98556,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-000",
+    "rank": 2,
+    "score": 14.13973,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "eclampsia, but the group members were divided on the use of magnesium sulfate as a prophylaxis for mild pre-eclampsia.\n\n- c. Large trials have evaluated and demonstrated the effectiveness of full regimens of magnesium sulfate, which include a loading dose followed by 24-hour maintenance therapy. Spe"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-000",
+    "rank": 3,
+    "score": 12.12496,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Diuretics for preventing pre-eclampsia_\n\nEvidence related to the effects of diuretics on the prevention of pre-eclampsia came from a Cochrane systematic review of five RCTs involving 1836 women in the USA ( _18_ ). Both primiparous and multiparous women with gestations from first to the thir"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-000",
+    "rank": 4,
+    "score": 10.3667,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Cochrane systematic reviews of randomized controlled trials (RCTs) were the primary source of evidence for the recommendations.<sup>2</sup> Based on the list of selected questions and outcomes, the guideline steering group identified the relevant Cochrane systematic reviews and determined whether th"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-003",
+    "rank": 5,
+    "score": 10.25012,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Other research questions**\n\n1. What educational interventions can be targeted at women and health-care providers to improve knowledge of signs and symptoms of hypertensive disorders of pregnancy to promote appropriate and timely care?\n\n2. How can the use of practices recommended in guidelin"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-001",
+    "rank": 6,
+    "score": 9.49154,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The search strategies employed to identify the trials and the specific criteria for inclusion and exclusion of the trials are described in the individual systematic reviews.\n\nThe following procedures were used to process in a consistent manner each systematic review used to extract the evidence for "
+   },
+   {
+    "id": "who-preeclampsia-2011-p028-003",
+    "rank": 7,
+    "score": 9.32801,
+    "page": 28,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "##### Prevention of pre-eclampsia\n\nA Cochrane systematic review of 15 RCTs investigated the relative effects of magnesium sulfate and other anticonvulsants when used for prevention of eclampsia ( _19_ ). Notable comparisons in this review were between magnesium sulfate and placebo or no anticonvulsa"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-003",
+    "rank": 8,
+    "score": 9.08866,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The standardized criteria used in grading the evidence and the GRADE tables **are not included in this document** (although table numbers – prefixed with ‘EB’– are included for ease of reference): they are being published online separately in a document entitled _WHO recommendations for pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-004",
+    "rank": 9,
+    "score": 8.95075,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The raw data which constitute the basis of the GRADE tables are also not included in this document, but can be made available upon request to researchers interested in finding out how the GRADE tables were constructed. The guideline steering group used the information presented in the GRADE tables t"
+   },
+   {
+    "id": "who-preeclampsia-2011-p030-004",
+    "rank": 10,
+    "score": 8.77132,
+    "page": 30,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Evidence related to the comparative effects of alternative magnesium sulfate regimens for the treatment of pre-eclampsia and eclampsia came from a Cochrane systematic review of six RCTs involving 866 women ( _25_ ). Two of the trials (451 women) had compared regimens for eclampsia while the other fo"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 0.4
+ },
+ {
+  "query_id": "d10",
+  "group": "dien_dat_lai",
+  "split": "dev",
+  "question": "Does taking vitamin C and vitamin E during pregnancy help prevent pre-eclampsia?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 21,
+    "evidence": "Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Does taking vitamin C and vitamin E during pregnancy help prevent pre-eclampsia?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p021-001",
+    "rank": 1,
+    "score": 28.65773,
+    "page": 21,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-001",
+    "rank": 2,
+    "score": 22.89342,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuret"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-003",
+    "rank": 3,
+    "score": 19.82892,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n5. Vitamin D supplementation during\n\n- pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (Very-low-quality evidence. Strong recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-004",
+    "rank": 4,
+    "score": 16.16943,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a st"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-001",
+    "rank": 5,
+    "score": 15.37292,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Vitamin D supplementation**\n\nA Cochrane systematic review of 6 RCTs, involving a total of 1023 women, investigated the effects on pregnancy outcomes of vitamin D supplementation alone or in combination with other vitamins and minerals, including calcium, for women during pregnancy ( _13_ ). F"
+   },
+   {
+    "id": "who-preeclampsia-2011-p012-003",
+    "rank": 6,
+    "score": 14.47073,
+    "page": 12,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "also include nulliparity, adolescent pregnancy and conditions leading to hyperplacentation and large placentas (e.g. twin pregnancy). Preeclampsia is usually classified as mild or severe. In most settings, pre-eclampsia is classified as severe when any of the following conditions is present: severe "
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-000",
+    "rank": 7,
+    "score": 14.38105,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the "
+   },
+   {
+    "id": "who-preeclampsia-2011-p012-001",
+    "rank": 8,
+    "score": 10.8562,
+    "page": 12,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Pre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturba"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-003",
+    "rank": 9,
+    "score": 10.42431,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/co"
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 10,
+    "score": 7.89535,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.4
+ },
+ {
+  "query_id": "d11",
+  "group": "ngoai_le",
+  "split": "dev",
+  "question": "Why did the guideline group not issue a recommendation on treating mild to moderate hypertension in pre-eclampsia?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 27,
+    "evidence": "they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Why did the guideline group not issue a recommendation on treating mild to moderate hypertension in pre-eclampsia?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p027-005",
+    "rank": 1,
+    "score": 23.86126,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "b. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-003",
+    "rank": 2,
+    "score": 13.62874,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "which was defined as agreement by the large majority of the participants (three quarters of participants), provided that those who disagreed did not feel strongly about their position. Strong disagreements would be recorded as such in the guidelines. The participants had been unable to reach a conse"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-001",
+    "rank": 3,
+    "score": 13.41206,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- d. In women diagnosed with mild pre-eclampsia antenatally, but not treated with antihypertensive drugs, the initiation of antihypertensive treatment postpartum should be considered for minimizing the risk of complications of severe high blood pressure (see remark ‘c’ above). That remark was made b"
+   },
+   {
+    "id": "who-preeclampsia-2011-p034-006",
+    "rank": 4,
+    "score": 13.31811,
+    "page": 34,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n20. In women with severe pre-eclampsia at term, a policy of early delivery is recommended.\n\n- (Low-quality evidence. Strong recommendation.)\n\n21. In women with mild pre-eclampsia or gestational hypertension at term, induction of labour is recommended.\n\n- (Moderate-quality"
+   },
+   {
+    "id": "who-preeclampsia-2011-p034-002",
+    "rank": 5,
+    "score": 12.47331,
+    "page": 34,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- c. The guideline development group considered that there was not enough evidence to make a clear-cut recommendation for women with severe pre-eclampsia between 34 and 36 (plus 6 days) weeks of gestation. However, considering the long-term adverse consequences of late preterm birth, the group put m"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-001",
+    "rank": 6,
+    "score": 12.13707,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuret"
+   },
+   {
+    "id": "who-preeclampsia-2011-p032-005",
+    "rank": 7,
+    "score": 11.88954,
+    "page": 32,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n16. The use of corticosteroids for the specific purpose of treating women with HELLP syndrome is not recommended.\n\n- (Very-low-quality evidence. Weak recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-003",
+    "rank": 8,
+    "score": 11.76148,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In women with severe pre-eclampsia, a viable fetus and between<br>34 and 36 (plus 6 days) weeks of gestation, a policy of expectant<br>management may be recommended, provided that uncontrolled<br"
+   },
+   {
+    "id": "who-preeclampsia-2011-p036-002",
+    "rank": 9,
+    "score": 11.67597,
+    "page": 36,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- e. The guideline development group considered that there is little clinical uncertainty over whether treatment of severe postpartum hypertension is beneficial. This recommendation was made based on expert opinion and the guideline development group considered that most maternal deaths related to h"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-000",
+    "rank": 10,
+    "score": 11.67161,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Diuretics for preventing pre-eclampsia_\n\nEvidence related to the effects of diuretics on the prevention of pre-eclampsia came from a Cochrane systematic review of five RCTs involving 1836 women in the USA ( _18_ ). Both primiparous and multiparous women with gestations from first to the thir"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.6
+ },
+ {
+  "query_id": "d12",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "How large was the risk reduction of pre-eclampsia with calcium supplementation among women at high risk?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 18,
+    "evidence": "the largest risk reduction (78%) was recorded among those at high risk of hypertensive disorders (five trials, 587 women; RR 0.22, 95% CI 0.12–0.42)"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "How large was the risk reduction of pre-eclampsia with calcium supplementation among women at high risk?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p018-005",
+    "rank": 1,
+    "score": 23.67206,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "For all women, irrespective of the baseline risk of developing pre-eclampsia and calcium intake status, calcium supplementation more than halved the risk of pre-eclampsia when compared with placebo (13 trials, 15 730 women; RR 0.45 95% CI 0.31–0.65). This risk reduction was 41% for women at low risk"
+   },
+   {
+    "id": "who-preeclampsia-2011-p021-003",
+    "rank": 2,
+    "score": 17.67437,
+    "page": 21,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### _Antiplatelet agents versus placebo or no antiplatelet for primary prevention_\n\nWhen any antiplatelet agent, regardless of the dose, duration of therapy and time of initiating treatment, was compared with placebo in women with normal blood pressure at trial entry, there was no statistically s"
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-006",
+    "rank": 3,
+    "score": 16.97071,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "A considerable risk reduction for pre-eclampsia (64%) was found in eight trials that involved women or populations with low baseline dietary calcium intake (10 678 women; RR 0.36, 95% CI 0.20–0.65) while four trials showed no statistically significant reduction in the risk of pre-eclampsia for women"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-001",
+    "rank": 4,
+    "score": 15.70288,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n4. In areas where dietary calcium intake is low, calcium supplementation during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is recommended for the prevention of preeclampsia in all women, but especially in those at high risk of developing pre-eclampsia.\n\n- (Mod"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-003",
+    "rank": 5,
+    "score": 14.8747,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/co"
+   },
+   {
+    "id": "who-preeclampsia-2011-p010-000",
+    "rank": 6,
+    "score": 14.75216,
+    "page": 10,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pr"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-000",
+    "rank": 7,
+    "score": 14.53859,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "- b. Most calcium supplementation trials to date have used fairly high doses of daily calcium (1.5–2.0 g/day). While recommending those doses the guideline development group agreed that lower doses of calcium supplementation should be evaluated. This is important in view of the logistic and financia"
+   },
+   {
+    "id": "who-preeclampsia-2011-p017-000",
+    "rank": 8,
+    "score": 14.39631,
+    "page": 17,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "None of the critical outcomes was assessed in either of the trials. Gestational hypertension and pre-eclampsia were reported in both trials and were selected as proxy outcomes for this recommendation. When daily rest at home was compared with unrestricted activity, there was a significant reduction "
+   },
+   {
+    "id": "who-preeclampsia-2011-p018-004",
+    "rank": 9,
+    "score": 14.28056,
+    "page": 18,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications**\n\nA Cochrane systematic review of 13 RCTs, involving a total of 15 730 women, investigated the effects of routine (daily) supplementation with at least 1 g of calcium when used for preventing pre-eclampsi"
+   },
+   {
+    "id": "who-preeclampsia-2011-p022-000",
+    "rank": 10,
+    "score": 14.04231,
+    "page": 22,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "In trials in which the gestational age at recruitment was specified, the above findings were consistent between women who commenced treatment before and after 20 weeks of pregnancy for gestational hypertension, pre-eclampsia and placental abruption. For fetal, neonatal or infant death, the use of an"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.5
+ },
+ {
+  "query_id": "d13",
+  "group": "dieu_kien",
+  "split": "dev",
+  "question": "Why was the recommendation against vitamin D supplementation strong even though the evidence quality was very low?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 20,
+    "evidence": "The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Why was the recommendation against vitamin D supplementation strong even though the evidence quality was very low?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p020-004",
+    "rank": 1,
+    "score": 25.28373,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a st"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-003",
+    "rank": 2,
+    "score": 25.20789,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n5. Vitamin D supplementation during\n\n- pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (Very-low-quality evidence. Strong recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-001",
+    "rank": 3,
+    "score": 18.75405,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuret"
+   },
+   {
+    "id": "who-preeclampsia-2011-p021-001",
+    "rank": 4,
+    "score": 17.84737,
+    "page": 21,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)"
+   },
+   {
+    "id": "who-preeclampsia-2011-p035-004",
+    "rank": 5,
+    "score": 15.70782,
+    "page": 35,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendations**\n\n22. In women treated with antihypertensive drugs antenatally, continued antihypertensive treatment postpartum is recommended.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n23. Treatment with antihypertensive drugs is recommended for severe postpartum hypertensio"
+   },
+   {
+    "id": "who-preeclampsia-2011-p011-000",
+    "rank": 6,
+    "score": 15.45825,
+    "page": 11,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the "
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-005",
+    "rank": 7,
+    "score": 14.36071,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The strength of each recommendation was determined during the Technical Consultation using GRADE methodology. By default, the strength of the recommendations was initially aligned with the quality of the evidence (i.e. moderate and high quality of evidence prompted strong recommendations while low a"
+   },
+   {
+    "id": "who-preeclampsia-2011-p020-001",
+    "rank": 8,
+    "score": 13.9268,
+    "page": 20,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Vitamin D supplementation**\n\nA Cochrane systematic review of 6 RCTs, involving a total of 1023 women, investigated the effects on pregnancy outcomes of vitamin D supplementation alone or in combination with other vitamins and minerals, including calcium, for women during pregnancy ( _13_ ). F"
+   },
+   {
+    "id": "who-preeclampsia-2011-p027-005",
+    "rank": 9,
+    "score": 13.51242,
+    "page": 27,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "b. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware"
+   },
+   {
+    "id": "who-preeclampsia-2011-p019-001",
+    "rank": 10,
+    "score": 12.97308,
+    "page": 19,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "###### **Recommendation**\n\n4. In areas where dietary calcium intake is low, calcium supplementation during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is recommended for the prevention of preeclampsia in all women, but especially in those at high risk of developing pre-eclampsia.\n\n- (Mod"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.5
+ },
+ {
+  "query_id": "d14",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "How many recommendations did the WHO Technical Consultation make in total?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 9,
+    "evidence": "The WHO Technical Consultation made a total of 23 recommendations."
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "How many recommendations did the WHO Technical Consultation make in total?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p016-002",
+    "rank": 1,
+    "score": 14.5763,
+    "page": 16,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 3. Results\n\nA total of 50 stakeholders from all six WHO regions responded to the first online scoping survey. Feedback from the surveyed experts was then used to modify the scoping questions and outcomes. Annex 2, Table 1 shows the average scores given to the scoping outcomes by the external expe"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-000",
+    "rank": 2,
+    "score": 12.42002,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "large number of international stakeholders; their opinion was collected via e-mail and through an online survey. This preliminary online consultation was followed by a meeting held in Geneva, Switzerland, on 7–8 April 2011 (WHO Technical Consultation on the Prevention and Treatment of Pre-eclampsia "
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-002",
+    "rank": 3,
+    "score": 12.31715,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Decision-making during the technical consultation**\n\nIt was planned that the participants in the Technical Consultation would discuss each of the recommendations drafted by the guideline steering group and arrived at a consensus,"
+   },
+   {
+    "id": "who-preeclampsia-2011-p009-005",
+    "rank": 4,
+    "score": 10.98661,
+    "page": 9,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "#### **Recommendations**\n\nThe WHO Technical Consultation made a total of 23 recommendations. For each recommendation, the quality of the supporting evidence was graded as very low, low, moderate or high. Then, taking into account the quality of the evidence and other factors (including the values an"
+   },
+   {
+    "id": "who-preeclampsia-2011-p016-000",
+    "rank": 5,
+    "score": 10.80709,
+    "page": 16,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Document preparation and peer review**\n\nA template for guideline reporting was developed for the WHO GREAT project series of guidelines. That guideline template was used in the preparation of this document. Prior to the Technical Consultation, the guideline steering group prepared a prelimina"
+   },
+   {
+    "id": "who-preeclampsia-2011-p009-004",
+    "rank": 6,
+    "score": 10.6899,
+    "page": 9,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The scientific evidence for the recommendations was synthesized using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology. For each preselected critical question, evidence profiles were prepared based on 19 up-to-date systematic reviews. The final recommendation"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-001",
+    "rank": 7,
+    "score": 9.2342,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Declaration of interest by participants in the WHO Technical Consultation**\n\nAccording to the WHO rules, all experts participating in WHO meetings must declare any interest relevant to the meeting prior to their participation. All guideline group members and participants of meeting completed "
+   },
+   {
+    "id": "who-preeclampsia-2011-p014-004",
+    "rank": 8,
+    "score": 9.1482,
+    "page": 14,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The raw data which constitute the basis of the GRADE tables are also not included in this document, but can be made available upon request to researchers interested in finding out how the GRADE tables were constructed. The guideline steering group used the information presented in the GRADE tables t"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-003",
+    "rank": 9,
+    "score": 8.76844,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "which was defined as agreement by the large majority of the participants (three quarters of participants), provided that those who disagreed did not feel strongly about their position. Strong disagreements would be recorded as such in the guidelines. The participants had been unable to reach a conse"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-004",
+    "rank": 10,
+    "score": 8.18699,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 6. Dissemination and implementation of the guidelines\n\nThe ultimate goal of these guidelines is to improve the quality of care and health outcomes related to hypertensive disorders of pregnancy. Hence, dissemination and implementation of these guidelines are crucial steps to be undertaken by the "
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": true,
+  "first_gold_rank": 4,
+  "elapsed_ms": 0.3
+ },
+ {
+  "query_id": "d15",
+  "group": "truc_tiep",
+  "split": "dev",
+  "question": "Where and when was the WHO Technical Consultation on pre-eclampsia and eclampsia held?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 9,
+    "evidence": "held in Geneva, Switzerland, on 7–8 April 2011"
+   },
+   {
+    "source_id": "who-preeclampsia-2011",
+    "page": 15,
+    "evidence": "held in Geneva, Switzerland, on 7–8 April 2011"
+   }
+  ],
+  "trace": {
+   "method": "bm25",
+   "query": "Where and when was the WHO Technical Consultation on pre-eclampsia and eclampsia held?",
+   "k": 10,
+   "k1": 1.5,
+   "b": 0.75
+  },
+  "results": [
+   {
+    "id": "who-preeclampsia-2011-p015-000",
+    "rank": 1,
+    "score": 19.8843,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "large number of international stakeholders; their opinion was collected via e-mail and through an online survey. This preliminary online consultation was followed by a meeting held in Geneva, Switzerland, on 7–8 April 2011 (WHO Technical Consultation on the Prevention and Treatment of Pre-eclampsia "
+   },
+   {
+    "id": "who-preeclampsia-2011-p009-004",
+    "rank": 2,
+    "score": 17.1369,
+    "page": 9,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "The scientific evidence for the recommendations was synthesized using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology. For each preselected critical question, evidence profiles were prepared based on 19 up-to-date systematic reviews. The final recommendation"
+   },
+   {
+    "id": "who-preeclampsia-2011-p016-000",
+    "rank": 3,
+    "score": 12.8924,
+    "page": 16,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Document preparation and peer review**\n\nA template for guideline reporting was developed for the WHO GREAT project series of guidelines. That guideline template was used in the preparation of this document. Prior to the Technical Consultation, the guideline steering group prepared a prelimina"
+   },
+   {
+    "id": "who-preeclampsia-2011-p016-002",
+    "rank": 4,
+    "score": 12.02384,
+    "page": 16,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 3. Results\n\nA total of 50 stakeholders from all six WHO regions responded to the first online scoping survey. Feedback from the surveyed experts was then used to modify the scoping questions and outcomes. Annex 2, Table 1 shows the average scores given to the scoping outcomes by the external expe"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-002",
+    "rank": 5,
+    "score": 11.31035,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Decision-making during the technical consultation**\n\nIt was planned that the participants in the Technical Consultation would discuss each of the recommendations drafted by the guideline steering group and arrived at a consensus,"
+   },
+   {
+    "id": "who-preeclampsia-2011-p015-001",
+    "rank": 6,
+    "score": 9.95704,
+    "page": 15,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Declaration of interest by participants in the WHO Technical Consultation**\n\nAccording to the WHO rules, all experts participating in WHO meetings must declare any interest relevant to the meeting prior to their participation. All guideline group members and participants of meeting completed "
+   },
+   {
+    "id": "who-preeclampsia-2011-p016-001",
+    "rank": 7,
+    "score": 9.58799,
+    "page": 16,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "further expansion of the guideline scoping) of the guidelines. The comments and feedback received during the preliminary online consultation were discussed during the meeting and incorporated into the document as appropriate. During the meeting, the draft guidelines were modified in line with the pa"
+   },
+   {
+    "id": "who-preeclampsia-2011-p013-002",
+    "rank": 8,
+    "score": 9.44566,
+    "page": 13,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "First, a guideline steering group was constituted, which included staff of the WHO Departments of Reproductive Health and Research, Making Pregnancy Safer, and Nutrition for Health and Development, and two external experts (see Annex 1). This group drafted a list of questions and outcomes related to"
+   },
+   {
+    "id": "who-preeclampsia-2011-p037-004",
+    "rank": 9,
+    "score": 8.45226,
+    "page": 37,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "## 6. Dissemination and implementation of the guidelines\n\nThe ultimate goal of these guidelines is to improve the quality of care and health outcomes related to hypertensive disorders of pregnancy. Hence, dissemination and implementation of these guidelines are crucial steps to be undertaken by the "
+   },
+   {
+    "id": "who-preeclampsia-2011-p009-005",
+    "rank": 10,
+    "score": 8.30999,
+    "page": 9,
+    "source": "content.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "#### **Recommendations**\n\nThe WHO Technical Consultation made a total of 23 recommendations. For each recommendation, the quality of the supporting evidence was graded as very low, low, moderate or high. Then, taking into account the quality of the evidence and other factors (including the values an"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 0.5
+ }
+]

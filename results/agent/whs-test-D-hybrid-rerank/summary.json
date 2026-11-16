@@ -1,0 +1,55 @@
+{
+ "corpus": "whs",
+ "split": "test",
+ "config": "D-hybrid-rerank",
+ "n": 30,
+ "model": "google/gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "whs",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "budget_chars": 12000,
+  "max_searches": 4,
+  "controller_model": "google/gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768",
+  "llm_provider": "openrouter"
+ },
+ "status": {
+  "answered": 24,
+  "abstain": 6
+ },
+ "tool_use": "30/30",
+ "search_calls_distribution": {
+  "1": 24,
+  "2": 4,
+  "3": 2
+ },
+ "answerable_gold_in_final_context": "24/24",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {
+  "t-tb1": [
+   "9.0"
+  ],
+  "t-tb4": [
+   "71601000"
+  ],
+  "t-tb5": [
+   "26.5"
+  ],
+  "t-ch1": [
+   "202141"
+  ],
+  "t-ch3": [
+   "20212.4"
+  ]
+ },
+ "errors": [],
+ "seconds_total": 162.5,
+ "median_ms_per_question": 4068.1,
+ "prompt_tokens": 425567,
+ "output_tokens": 12580,
+ "api_calls": 121,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

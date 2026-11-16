@@ -1,0 +1,92 @@
+{
+ "model": "gemini-2.5-flash",
+ "described": 24,
+ "figures": 44,
+ "errors": [
+  {
+   "id": "who-whs-2023-p049-fig2.3",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p055-fig2.6",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p057-fig2.7",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p058-fig2.8",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p060-fig2.9",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p061-fig2.10",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p063-fig2.11",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p063-fig2.12",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p066-fig2.13",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p066-fig2.14",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p069-fig2.15",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p069-fig2.16",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p072-fig2.18",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p074-fig2.19",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p077-fig2.21",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p085-fig3.1",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p085-fig3.2",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p088-fig3.3",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p091-fig3.4",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  {
+   "id": "who-whs-2023-p091-fig3.5",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  }
+ ],
+ "seconds": 4433.8,
+ "api_calls": 176,
+ "retries": 153,
+ "prompt_tokens": 11166,
+ "output_tokens": 16353
+}

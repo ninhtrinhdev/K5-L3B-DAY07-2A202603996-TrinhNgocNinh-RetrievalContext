@@ -1,0 +1,139 @@
+[
+ {
+  "query_id": "d01",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d02",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d03",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d04",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d05",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d06",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d07",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d08",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối. Câu hỏi mơ hồ: cùng chữ với d09 nhưng đáp án chuẩn khác (13 RCT/15 730 vs 60 RCT/37 720), tài liệu có nhiều Cochrane review. Theo luật script, từ chối câu có đáp án chấm 0."
+ },
+ {
+  "query_id": "d09",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối vì cùng lý do với d08 (câu hỏi không chỉ rõ review nào). Chấm 0 theo luật script."
+ },
+ {
+  "query_id": "d10",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d11",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d12",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d13",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d14",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d15",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d16",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "d17",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ }
+]

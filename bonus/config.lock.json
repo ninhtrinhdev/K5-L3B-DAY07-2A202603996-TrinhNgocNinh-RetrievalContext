@@ -1,0 +1,22 @@
+{
+ "locked_on": "2026-11-16",
+ "locked_by": "student decision after dev comparison of 6 methods (bonus/results/dev-summary.json)",
+ "retrieval": {
+  "method": "rerank",
+  "base": "hybrid (dense pgvector cosine + BM25, RRF k=60)",
+  "candidates": 15,
+  "snippet_chars": 1500,
+  "k": 10,
+  "llm": "gemini-3.5-flash-lite",
+  "llm_settings": {"temperature": 0.0, "json_mode": true, "thinkingLevel": "minimal", "max_tokens": 512}
+ },
+ "index": {
+  "table": "day7_chunks",
+  "corpus": "who-whs-2023",
+  "chunks": 536,
+  "embedding": "gemini-embedding-001, 768 dims, L2-normalised"
+ },
+ "dev_result": {"hit1": "12/15", "hit3": "14/15", "hit5": "14/15", "mrr": 0.967},
+ "test_sha256": "75aed127727ff67b768aec7bdfb2123d8fb7778955799731d0b1f300954984d2",
+ "rule": "No change to retrieval, index or questions after this file; test split is run once with this configuration."
+}

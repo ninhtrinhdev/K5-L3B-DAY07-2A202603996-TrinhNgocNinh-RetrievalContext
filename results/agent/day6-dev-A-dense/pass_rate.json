@@ -1,0 +1,152 @@
+{
+ "run": "day6-dev-A-dense",
+ "pass": "15/17",
+ "rate_percent": 88.2,
+ "needs_27_of_30": false,
+ "by_group": {
+  "dien_dat_lai": "2/2",
+  "dieu_kien": "3/3",
+  "metadata_filter": "0/2",
+  "ngoai_le": "2/2",
+  "truc_tiep": "6/6",
+  "unanswerable": "2/2"
+ },
+ "per_question": [
+  {
+   "query_id": "d01",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d02",
+   "group": "dieu_kien",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d03",
+   "group": "dien_dat_lai",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d04",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d05",
+   "group": "dieu_kien",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d06",
+   "group": "ngoai_le",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d07",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d08",
+   "group": "metadata_filter",
+   "answerable": true,
+   "status": "abstain",
+   "pass": false,
+   "reason": "Từ chối. Câu hỏi mơ hồ: cùng chữ với d09 nhưng đáp án chuẩn khác (13 RCT/15 730 vs 60 RCT/37 720), tài liệu có nhiều Cochrane review. Theo luật script, từ chối câu có đáp án chấm 0."
+  },
+  {
+   "query_id": "d09",
+   "group": "metadata_filter",
+   "answerable": true,
+   "status": "abstain",
+   "pass": false,
+   "reason": "Từ chối vì cùng lý do với d08 (câu hỏi không chỉ rõ review nào). Chấm 0 theo luật script."
+  },
+  {
+   "query_id": "d10",
+   "group": "dien_dat_lai",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d11",
+   "group": "ngoai_le",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d12",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d13",
+   "group": "dieu_kien",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d14",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d15",
+   "group": "truc_tiep",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "d16",
+   "group": "all",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "d17",
+   "group": "all",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  }
+ ]
+}

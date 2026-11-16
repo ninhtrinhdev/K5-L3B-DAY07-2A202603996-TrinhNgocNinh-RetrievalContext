@@ -1,0 +1,142 @@
+[
+ {
+  "query_id": "d-tb1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-tb2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-tb3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-im1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-im2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-im3",
+  "answer_grade": 0,
+  "citation_support": [
+   false
+  ],
+  "reason": "Sai: agent trả lời Canada là 'Yes' theo mô tả hình do model vision viết, trong khi hình thật tô Canada là 'No' (đáp án chuẩn). Lỗi nằm ở mô tả hình, không ở agent."
+ },
+ {
+  "query_id": "d-ch1",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-ch2",
+  "answer_grade": 1,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Số đúng (4,0% và 2,7%) nhưng câu trả lời có thêm marker trích dẫn sai ID [who-whs-2013-p018-text-002] (không tồn tại)."
+ },
+ {
+  "query_id": "d-ch3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-mh1",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: agent tìm 4 lượt nhưng không lấy được hàng Mali ở bảng tr. 101 vào context. Chấm 0 theo luật script."
+ },
+ {
+  "query_id": "d-mh2",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "620 (tr. 97) và 223 (tr. 15) đúng; hiệu 397 tính đúng; đáp án chuẩn cũng nêu 397."
+ },
+ {
+  "query_id": "d-mh3",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-tx1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-tx2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-tx3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "d-na1",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "d-na2",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "d-na3",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ }
+]

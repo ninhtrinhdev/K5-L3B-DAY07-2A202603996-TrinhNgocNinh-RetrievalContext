@@ -1,0 +1,20 @@
+{
+ "total": 48,
+ "counts": {
+  "dev/chart": 3,
+  "dev/image": 3,
+  "dev/multihop": 3,
+  "dev/table": 3,
+  "dev/text": 3,
+  "dev/unanswerable": 3,
+  "test/chart": 5,
+  "test/image": 5,
+  "test/multihop": 4,
+  "test/table": 6,
+  "test/text": 4,
+  "test/unanswerable": 6
+ },
+ "problems": [],
+ "test_sha256": "75aed127727ff67b768aec7bdfb2123d8fb7778955799731d0b1f300954984d2",
+ "note": "gold verified as exact substring of the named chunk on the stated page"
+}

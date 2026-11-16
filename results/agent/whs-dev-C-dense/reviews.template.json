@@ -1,0 +1,142 @@
+[
+ {
+  "query_id": "d-tb1",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-tb2",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-tb3",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-im1",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-im2",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-im3",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-ch1",
+  "answer_grade": null,
+  "citation_support": [
+   null,
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-ch2",
+  "answer_grade": null,
+  "citation_support": [
+   null,
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-ch3",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-mh1",
+  "answer_grade": null,
+  "citation_support": [],
+  "reason": ""
+ },
+ {
+  "query_id": "d-mh2",
+  "answer_grade": null,
+  "citation_support": [
+   null,
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-mh3",
+  "answer_grade": null,
+  "citation_support": [
+   null,
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-tx1",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-tx2",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-tx3",
+  "answer_grade": null,
+  "citation_support": [
+   null
+  ],
+  "reason": ""
+ },
+ {
+  "query_id": "d-na1",
+  "abstention_correct": null,
+  "citation_support": [],
+  "reason": ""
+ },
+ {
+  "query_id": "d-na2",
+  "abstention_correct": null,
+  "citation_support": [],
+  "reason": ""
+ },
+ {
+  "query_id": "d-na3",
+  "abstention_correct": null,
+  "citation_support": [],
+  "reason": ""
+ }
+]

@@ -1,0 +1,83 @@
+{
+ "dense": {
+  "method": "dense",
+  "split": "dev",
+  "n": 15,
+  "hit1": "9/15",
+  "hit3": "14/15",
+  "hit5": "15/15",
+  "mrr": 0.856,
+  "hit3_by_group": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "2/3",
+   "table": "3/3",
+   "text": "3/3"
+  },
+  "misses_at_3": [
+   "d-mh2"
+  ],
+  "errors": [],
+  "seconds_total": 83.2,
+  "ms_per_query": 5549.7,
+  "api_calls": 15,
+  "llm_prompt_tokens": 0,
+  "llm_output_tokens": 0
+ },
+ "bm25": {
+  "method": "bm25",
+  "split": "dev",
+  "n": 15,
+  "hit1": "6/15",
+  "hit3": "9/15",
+  "hit5": "11/15",
+  "mrr": 0.65,
+  "hit3_by_group": {
+   "chart": "3/3",
+   "image": "2/3",
+   "multihop": "0/3",
+   "table": "1/3",
+   "text": "3/3"
+  },
+  "misses_at_3": [
+   "d-tb1",
+   "d-tb2",
+   "d-im3",
+   "d-mh1",
+   "d-mh2",
+   "d-mh3"
+  ],
+  "errors": [],
+  "seconds_total": 0.0,
+  "ms_per_query": 2.2,
+  "api_calls": 0,
+  "llm_prompt_tokens": 0,
+  "llm_output_tokens": 0
+ },
+ "hybrid": {
+  "method": "hybrid",
+  "split": "dev",
+  "n": 15,
+  "hit1": "7/15",
+  "hit3": "13/15",
+  "hit5": "13/15",
+  "mrr": 0.75,
+  "hit3_by_group": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "1/3",
+   "table": "3/3",
+   "text": "3/3"
+  },
+  "misses_at_3": [
+   "d-mh1",
+   "d-mh2"
+  ],
+  "errors": [],
+  "seconds_total": 0.1,
+  "ms_per_query": 8.9,
+  "api_calls": 0,
+  "llm_prompt_tokens": 0,
+  "llm_output_tokens": 0
+ }
+}

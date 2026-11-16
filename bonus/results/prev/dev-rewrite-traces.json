@@ -1,0 +1,1277 @@
+[
+ {
+  "query_id": "d-tb1",
+  "group": "table",
+  "split": "dev",
+  "question": "What was life expectancy at birth for males and for females in Mali in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Male/Female, 2019'"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "What was life expectancy at birth for males and for females in Mali in 2019?",
+   "rewritten_queries": [
+    "Life expectancy at birth (years) Mali 2019 Male Female",
+    "Life expectancy at birth, total (years) Mali 2019 Male Female"
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p100-table-000",
+    "rank": 1,
+    "score": 0.04918,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-004",
+    "rank": 2,
+    "score": 0.04839,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-000",
+    "rank": 3,
+    "score": 0.04572,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-004",
+    "rank": 4,
+    "score": 0.04569,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-001",
+    "rank": 5,
+    "score": 0.04466,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-003",
+    "rank": 6,
+    "score": 0.04457,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-000",
+    "rank": 7,
+    "score": 0.04412,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-001",
+    "rank": 8,
+    "score": 0.04336,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-001",
+    "rank": 9,
+    "score": 0.04286,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-003",
+    "rank": 10,
+    "score": 0.04267,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 2027.3
+ },
+ {
+  "query_id": "d-tb2",
+  "group": "table",
+  "split": "dev",
+  "question": "What was the suicide mortality rate in Afghanistan in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 104,
+    "chunk_id": "who-whs-2023-p104-table-000",
+    "evidence": "| Afghanistan | 35.3 | 4.1 | <0.1 | 15.9 | 42.1 am | 62.1 |",
+    "locator": "tr. 104, bảng annex, hàng 'Afghanistan', cột 'Suicide mortality rate (per 100 000 population), 2019'"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "What was the suicide mortality rate in Afghanistan in 2019?",
+   "rewritten_queries": [
+    "suicide mortality rate Afghanistan 2019",
+    "Afghanistan suicide deaths per 100,000 population 2019"
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p104-table-000",
+    "rank": 1,
+    "score": 0.04892,
+    "page": 104,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   },
+   {
+    "id": "who-whs-2023-p063-fig2.11",
+    "rank": 2,
+    "score": 0.04815,
+    "page": 63,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.11 Mortality rates due to suicide, homicide and road traffic injury, by WHO region and globally, 2000–2019\n[Text layer in figure] Figure 2.11 Mortality rates due to suicide, homicide and road traffic injury, by WHO region and globally, 2000–2019 African Region Region of the Americas* Easter"
+   },
+   {
+    "id": "who-whs-2023-p062-text-000",
+    "rank": 3,
+    "score": 0.04788,
+    "page": 62,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•2.3 Injuries and violence\nGlobal death rates due to injuries declined by 20% during the period 2000–2019 – from 71.7 (UI: 53.8–93.8) deaths per 100 000 population to 57.4 (UI: 38.7–81.4) deaths per 100 000 population. Over this period, injuries caused about 8% of all deaths. In 2019, deaths due to "
+   },
+   {
+    "id": "who-whs-2023-p063-fig2.12",
+    "rank": 4,
+    "score": 0.04618,
+    "page": 63,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.12 Rank of deaths due to road traffic injury, suicide and homicide, by age group and sex*, 2019\n[Text layer in figure] Figure 2.12 Rank of deaths due to road traffic injury, suicide and homicide, by age group and sex*, 2019 Road traffic Suicide Homicide Age group (years) Male Female Male Fe"
+   },
+   {
+    "id": "who-whs-2023-p105-table-000",
+    "rank": 5,
+    "score": 0.04447,
+    "page": 105,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.7 | 3.8 |  |  | 3.9 |  |  |\n|  | Adolescent birth raten (per 1000 women aged 10–14 years) | UHC: Service coverage indexo | Population with household expenditures on health > 10% of total household expenditure or incomep (%) | Population with household expenditures on health > 25% of total hou"
+   },
+   {
+    "id": "who-whs-2023-p108-table-002",
+    "rank": 6,
+    "score": 0.04431,
+    "page": 108,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   },
+   {
+    "id": "who-whs-2023-p110-table-000",
+    "rank": 7,
+    "score": 0.04211,
+    "page": 110,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   },
+   {
+    "id": "who-whs-2023-p108-table-001",
+    "rank": 8,
+    "score": 0.04201,
+    "page": 108,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   },
+   {
+    "id": "who-whs-2023-p104-table-004",
+    "rank": 9,
+    "score": 0.04149,
+    "page": 104,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   },
+   {
+    "id": "who-whs-2023-p106-table-000",
+    "rank": 10,
+    "score": 0.04106,
+    "page": 106,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.4 |  | 3.5 | 3.6 | 3.7 |  |\n|  | Probability of dying from any of CVD, cancer, diabetes, CRD between age 30 and exact age 70k (%) | Suicide mortality ratek (per 100 000 population) | Total alcohol per capita (≥ 15 years of age) consumptionl (litres of pure alcohol) | Road traffic mortality ra"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 2501.3
+ },
+ {
+  "query_id": "d-tb3",
+  "group": "table",
+  "split": "dev",
+  "question": "What was the prevalence of stunting in children under 5 in Viet Nam in 2022?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 126,
+    "chunk_id": "who-whs-2023-p126-table-003",
+    "evidence": "| Viet Nam | 19.3 | 4.7 | 8.1 | 20.6 | 10 | 25 | - | - |",
+    "locator": "tr. 126, bảng annex, hàng 'Viet Nam', cột 'Prevalence of stunting in children under 5 (%), 2022'"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "What was the prevalence of stunting in children under 5 in Viet Nam in 2022?",
+   "rewritten_queries": [
+    "\"Stunting prevalence, children under 5 years (%), Viet Nam, 2022\"",
+    "\"Prevalence of stunting in children under 5 years of age (percentage), Viet Nam, 2022\""
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 1,
+    "score": 0.04918,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 2,
+    "score": 0.04788,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p124-table-001",
+    "rank": 3,
+    "score": 0.04762,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p058-text-001",
+    "rank": 4,
+    "score": 0.04668,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Still, in 2022, there were 49.8 million children under 5 years of age affected by stunting in the South-East Asia Region [30.1% (UI: 28.3–32.0)], 56.2 million in the African Region [31.0% (UI: 30.2–31.8)] and 22.9 million in the Eastern Mediterranean Region [25.1% (UI: 23.4–26.8)].\nGlobally, an esti"
+   },
+   {
+    "id": "who-whs-2023-p120-table-001",
+    "rank": 5,
+    "score": 0.04548,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p057-fig2.7",
+    "rank": 6,
+    "score": 0.04523,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022\n[Text layer in figure] Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 7,
+    "score": 0.04502,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p120-table-003",
+    "rank": 8,
+    "score": 0.04416,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p122-table-002",
+    "rank": 9,
+    "score": 0.04348,
+    "page": 122,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p058-text-000",
+    "rank": 10,
+    "score": 0.04279,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Stunting\nStunting is the result of chronic and recurrent malnutrition in mothers and in children who do not grow to their maximum potential.\nThe global prevalence of stunting in children under 5 years of age fell from 33.0% (UI: 32.4–33.5) in 2000 to 22.3% (UI: 21.8–22.9) in 2022. The decline occurr"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 2648.3
+ },
+ {
+  "query_id": "d-im1",
+  "group": "image",
+  "split": "dev",
+  "question": "According to the timeline of 75 years of public health, in which year did WHO found the Expanded Programme on Immunization?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 88,
+    "chunk_id": "who-whs-2023-p088-fig3.3",
+    "evidence": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+    "locator": "tr. 88, Figure 3.3, crop fig3.3_p088.png: mốc 1974: 'WHO founds the Expanded Programme on Immunization'"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "According to the timeline of 75 years of public health, in which year did WHO found the Expanded Programme on Immunization?",
+   "rewritten_queries": [
+    "\"Expanded Programme on Immunization\" \"1974\"",
+    "\"WHO\" \"Expanded Programme on Immunization\" \"1974\""
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p088-fig3.3",
+    "rank": 1,
+    "score": 0.04918,
+    "page": 88,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 3.3 Seventy-five years of improving public health, 1948–2023\n[Text layer in figure] Figure 3.3 Seventy-five years of improving public health, 1948–2023 1948 WHO Constituion comes into force 1974 WHO founds the Expanded Programme on Immunization to bring life-saving vaccines to all the world's"
+   },
+   {
+    "id": "who-whs-2023-p089-text-001",
+    "rank": 2,
+    "score": 0.04788,
+    "page": 89,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Working closely with Member States and other partners, WHO has seen many remarkable milestones achieved during its 75 years of existence. Smallpox was eradicated in 1980 after an ambitious 12-year global vaccination campaign led by WHO. By 2023, five of the six WHO Regions were certified free of wil"
+   },
+   {
+    "id": "who-whs-2023-p093-text-001",
+    "rank": 3,
+    "score": 0.04739,
+    "page": 93,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "5. Public health milestones through the years. (Online). Geneva: World Health Organization (https://www.who.int/campaigns/75years-of-improving-public-health/milestones#year-1945, accessed 22 April 2023).\n6. Polio Global Eradication Initiative. (Online) (https://polioeradication.org/, accessed 22 Apr"
+   },
+   {
+    "id": "who-whs-2023-p114-table-000",
+    "rank": 4,
+    "score": 0.04667,
+    "page": 114,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p118-table-003",
+    "rank": 5,
+    "score": 0.04596,
+    "page": 118,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p112-table-000",
+    "rank": 6,
+    "score": 0.0432,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p114-table-002",
+    "rank": 7,
+    "score": 0.04162,
+    "page": 114,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p093-text-000",
+    "rank": 8,
+    "score": 0.04129,
+    "page": 93,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "References\n1. Global health estimates 2019: Life expectancy, 2000–2019. Geneva: World Health Organization; 2020 (https://www.who. int/data/gho/data/themes/mortality-and-global-health-estimates/, accessed 2 May 2022). WHO Member States with a population of less than 90 000 in 2019 were not included i"
+   },
+   {
+    "id": "who-whs-2023-p067-text-001",
+    "rank": 9,
+    "score": 0.04112,
+    "page": 67,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "In 2021, the Institute of Public Health of Montenegro undertook – in partnership with the WHO European Centre for Environment and Health and the Organization’s Country Office in Montenegro – an analysis of existing policies and the broader enabling environment, as well as a baseline survey of the ac"
+   },
+   {
+    "id": "who-whs-2023-p072-text-001",
+    "rank": 10,
+    "score": 0.04096,
+    "page": 72,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Immunization uptake is a critical component of primary health care and a key measurement of progress on the path to UHC. Over the past 30 years, increasing and sustained levels of immunizations among children have contributed to improved rates of childhood survival and well-being. Unfortunately, the"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 31746.2
+ },
+ {
+  "query_id": "d-im2",
+  "group": "image",
+  "split": "dev",
+  "question": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed only the stunting threshold?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21 countries only crossed stunting threshold"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed only the stunting threshold?",
+   "rewritten_queries": [
+    "\"stunting\" \"2022\" \"countries\" \"multiple forms of malnutrition\"",
+    "\"World health statistics 2023\" \"stunting threshold\" \"2022\" \"countries affected\""
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p061-fig2.10",
+    "rank": 1,
+    "score": 0.04866,
+    "page": 61,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022\n[Text layer in figure] Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022 17 countries crossed stunting and anaemia thresholds 6 countries crosse"
+   },
+   {
+    "id": "who-whs-2023-p057-fig2.7",
+    "rank": 2,
+    "score": 0.04839,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022\n[Text layer in figure] Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20"
+   },
+   {
+    "id": "who-whs-2023-p058-text-001",
+    "rank": 3,
+    "score": 0.04789,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Still, in 2022, there were 49.8 million children under 5 years of age affected by stunting in the South-East Asia Region [30.1% (UI: 28.3–32.0)], 56.2 million in the African Region [31.0% (UI: 30.2–31.8)] and 22.9 million in the Eastern Mediterranean Region [25.1% (UI: 23.4–26.8)].\nGlobally, an esti"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 4,
+    "score": 0.04436,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p124-table-001",
+    "rank": 5,
+    "score": 0.04293,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p120-table-001",
+    "rank": 6,
+    "score": 0.04285,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 7,
+    "score": 0.04264,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p057-text-000",
+    "rank": 8,
+    "score": 0.0413,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•2.2 Child malnutrition and anaemia among women\nMalnutrition refers to deficiencies or excesses in nutrient intake, the imbalance of essential nutrients or impaired nutrient utilization. All countries are affected by one or more forms of malnutrition. This section discusses the SDG indicators on mal"
+   },
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 9,
+    "score": 0.04128,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p122-table-000",
+    "rank": 10,
+    "score": 0.04076,
+    "page": 122,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 31408.1
+ },
+ {
+  "query_id": "d-im3",
+  "group": "image",
+  "split": "dev",
+  "question": "On the map of national health and climate change plans or strategies in 2021, what status is shown for Canada?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 38,
+    "chunk_id": "who-whs-2023-p038-fig1.16",
+    "evidence": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+    "locator": "tr. 38, Figure 1.16, crop fig1.16_p038.png: Canada tô màu xanh đậm = 'No' theo chú giải"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 192072.7
+ },
+ {
+  "query_id": "d-ch1",
+  "group": "chart",
+  "split": "dev",
+  "question": "Globally, what percentage of people living with HIV knew their status in 2015 and in 2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 75,
+    "chunk_id": "who-whs-2023-p075-fig2.20",
+    "evidence": "Figure 2.20 HIV testing and treatment cascade",
+    "locator": "tr. 75, Figure 2.20, crop fig2.20_p075.png: panel a, cột xanh nhạt: 2015 = 69, 2021 = 85"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 193390.6
+ },
+ {
+  "query_id": "d-ch2",
+  "group": "chart",
+  "split": "dev",
+  "question": "What was the average annual rate of reduction (ARR) of the global under-five mortality rate in 2000-2010 and in 2010-2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 19,
+    "chunk_id": "who-whs-2023-p019-fig1.4",
+    "evidence": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+    "locator": "tr. 19, Figure 1.4, crop fig1.4_p019.png: nhãn ARR trên đường U5MR: 4.0% (2000-2010), 2.7% (2010-2021)"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "What was the average annual rate of reduction (ARR) of the global under-five mortality rate in 2000-2010 and in 2010-2021?",
+   "rewritten_queries": [
+    "\"average annual rate of reduction\" \"under-five mortality rate\" 2000-2010",
+    "\"average annual rate of reduction\" \"under-five mortality rate\" 2010-2021"
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p019-fig1.4",
+    "rank": 1,
+    "score": 0.04918,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021\n[Text layer in figure] Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021  0 20 10 40 30 50 60 80 70 2000 2005 2010 2015 2021 Mortality rate (per 1000 live b"
+   },
+   {
+    "id": "who-whs-2023-p018-text-001",
+    "rank": 2,
+    "score": 0.04813,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Substantial global progress has been made in reducing child mortality since 2000. Approximately 10 million (9.9 million, UI: 9.8–10.1 million)2 children under 5 years of age died globally in 2000, corresponding to an under-five mortality rate (U5MR) of 76 (UI: 75–78) deaths per 1000 live births. Bot"
+   },
+   {
+    "id": "who-whs-2023-p018-text-002",
+    "rank": 3,
+    "score": 0.04738,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Globally, NMR declined at a slower rate compared to U5MR, and both declined more slowly during the second decade (2010–2021) compared to the first decade (2000–2009). The ARR of the NMR dropped from 3.2% during 2000–2009 to 2.2% during 2010–2021, while the ARR of U5MR fell from 4.0% during the first"
+   },
+   {
+    "id": "who-whs-2023-p020-fig1.6",
+    "rank": 4,
+    "score": 0.04713,
+    "page": 20,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021\n[Text layer in figure] Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021 Not applicable No data available 1 12 18 29 40 Neonatal mortality rate (per 1000 live births) ۼюё юђҘ"
+   },
+   {
+    "id": "who-whs-2023-p019-fig1.5",
+    "rank": 5,
+    "score": 0.04616,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021\n[Text layer in figure] Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021  0 4 3 2 1 6 5 7 8 10 9 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 "
+   },
+   {
+    "id": "who-whs-2023-p008-table-000",
+    "rank": 6,
+    "score": 0.04482,
+    "page": 8,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "| ABR | adolescent birth rates | MRSA | methicillin-resistant |\n| AIDS | acquired immunodeficiency syndrome |  | Staphylococcus aureus |\n| AMR | antimicrobial resistance | NAP | national adaptation plan |\n| ANC | antenatal care | NCD | noncommunicable disease |\n| ARI | acute respiratory infection | "
+   },
+   {
+    "id": "who-whs-2023-p015-fig1.1",
+    "rank": 7,
+    "score": 0.04434,
+    "page": 15,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020\n[Text layer in figure] Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020 European Region Western Paciﬁc Region Region of the Americas South-East A"
+   },
+   {
+    "id": "who-whs-2023-p024-text-001",
+    "rank": 8,
+    "score": 0.04412,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "dropped only by 16.5% between 2010 and 2020, falling much short of the target of the 30% reduction by 2025. If the trend continues, the likelihood of meeting this target is lowest in Western Pacific with only a 5.7% reduction between 2010 and 2020. In contrast, the regions of Africa, Americas and So"
+   },
+   {
+    "id": "who-whs-2023-p010-text-001",
+    "rank": 9,
+    "score": 0.04393,
+    "page": 10,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "However, the rapid progress commonly observed for many of these indicators in the era of the Millennium Development Goals (MDGs) has markedly stalled since 2015, challenging the timely attainment of the SDG targets by 2030. This is evidenced by the falling annual rate of reduction in indicators such"
+   },
+   {
+    "id": "who-whs-2023-p018-text-003",
+    "rank": 10,
+    "score": 0.04206,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Children around the world face vastly different chances of survival depending on where they are born. While U5MR in the African Region fell by 52% between 2000 and 2021, it remained the highest at 72 (UI: 65–84) deaths per 1000 live births – almost twice the global U5MR and about nine times higher t"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 18415.9
+ },
+ {
+  "query_id": "d-ch3",
+  "group": "chart",
+  "split": "dev",
+  "question": "In the European Region in 2020, what proportion of the population used safely-managed drinking-water services and safely-managed sanitation services?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 66,
+    "chunk_id": "who-whs-2023-p066-fig2.13",
+    "evidence": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+    "locator": "tr. 66, Figure 2.13, crop fig2.13_p066.png: European Region: cột xanh dương 92, cột xanh lá 70"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "In the European Region in 2020, what proportion of the population used safely-managed drinking-water services and safely-managed sanitation services?",
+   "rewritten_queries": [
+    "\"Safely managed drinking-water services\" \"Safely managed sanitation services\" \"European Region\" 2020",
+    "Proportion of population using \"safely managed drinking-water services\" and \"safely managed sanitation services\" \"Europe\" 2020"
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p066-fig2.13",
+    "rank": 1,
+    "score": 0.04918,
+    "page": 66,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020\n[Text layer in figure] Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020 0 20 40 60 80 100 Proportion of the population (%) Safely-managed drinking-water services Safel"
+   },
+   {
+    "id": "who-whs-2023-p065-text-001",
+    "rank": 2,
+    "score": 0.04839,
+    "page": 65,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Despite progress, WASH services are still not universally available. Safely managed drinking-water services – i.e. located on premises, available when needed and free from contamination – were accessible by 74% of the global population in 2020, leaving 2 billion people with only basic or limited ser"
+   },
+   {
+    "id": "who-whs-2023-p124-table-003",
+    "rank": 3,
+    "score": 0.04615,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p122-table-001",
+    "rank": 4,
+    "score": 0.04523,
+    "page": 122,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p124-table-004",
+    "rank": 5,
+    "score": 0.04346,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p123-table-001",
+    "rank": 6,
+    "score": 0.04275,
+    "page": 123,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p126-table-004",
+    "rank": 7,
+    "score": 0.04194,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p125-table-003",
+    "rank": 8,
+    "score": 0.04144,
+    "page": 125,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p120-table-004",
+    "rank": 9,
+    "score": 0.04116,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p121-table-003",
+    "rank": 10,
+    "score": 0.03987,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 50533.8
+ },
+ {
+  "query_id": "d-mh1",
+  "group": "multihop",
+  "split": "dev",
+  "question": "For Mali, what are life expectancy at birth for both sexes (2019) and the maternal mortality ratio (2020)?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Both sexes, 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 101,
+    "chunk_id": "who-whs-2023-p101-table-000",
+    "evidence": "| Mali | 440 | 67 | 97 | 33 | 0.26 | 50 | 353.6 | 4.62 | 10 144 929 |",
+    "locator": "tr. 101, bảng annex, hàng 'Mali', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 222404.4
+ },
+ {
+  "query_id": "d-mh2",
+  "group": "multihop",
+  "split": "dev",
+  "question": "How much higher was Afghanistan's maternal mortality ratio in 2020 than the global ratio that year?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 97,
+    "chunk_id": "who-whs-2023-p097-table-000",
+    "evidence": "| Afghanistan | 620 | 62 | 56 | 34 | 0.04 | 189 | 6.3 | 0.39 | 14 367 281 |",
+    "locator": "tr. 97, bảng annex, hàng 'Afghanistan', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 15,
+    "chunk_id": "who-whs-2023-p015-text-000",
+    "evidence": "223 (UI: 202–255) deaths per 100 000 live births that year",
+    "locator": "tr. 15, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 209531.2
+ },
+ {
+  "query_id": "d-mh3",
+  "group": "multihop",
+  "split": "dev",
+  "question": "How many children under 5 were affected by stunting globally in 2022, and how many countries crossed only the stunting threshold in the malnutrition diagram?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 57,
+    "chunk_id": "who-whs-2023-p057-fig2.7",
+    "evidence": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+    "locator": "tr. 57, Figure 2.7, crop fig2.7_p057.png: biểu đồ phải, đường Stunting, nhãn 2022 = 148.1"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "original_query": "How many children under 5 were affected by stunting globally in 2022, and how many countries crossed only the stunting threshold in the malnutrition diagram?",
+   "rewritten_queries": [
+    "\"stunting prevalence, children under 5 years (%), global, 2022\"",
+    "\"number of countries exceeding stunting threshold, malnutrition diagram, 2022\""
+   ],
+   "llm": "gemini-2.5-flash-lite",
+   "base": "hybrid",
+   "fusion": "RRF k=60 over original + rewrites"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p057-fig2.7",
+    "rank": 1,
+    "score": 0.0484,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022\n[Text layer in figure] Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20"
+   },
+   {
+    "id": "who-whs-2023-p058-text-001",
+    "rank": 2,
+    "score": 0.04815,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Still, in 2022, there were 49.8 million children under 5 years of age affected by stunting in the South-East Asia Region [30.1% (UI: 28.3–32.0)], 56.2 million in the African Region [31.0% (UI: 30.2–31.8)] and 22.9 million in the Eastern Mediterranean Region [25.1% (UI: 23.4–26.8)].\nGlobally, an esti"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 3,
+    "score": 0.04737,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p058-text-000",
+    "rank": 4,
+    "score": 0.04639,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Stunting\nStunting is the result of chronic and recurrent malnutrition in mothers and in children who do not grow to their maximum potential.\nThe global prevalence of stunting in children under 5 years of age fell from 33.0% (UI: 32.4–33.5) in 2000 to 22.3% (UI: 21.8–22.9) in 2022. The decline occurr"
+   },
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 5,
+    "score": 0.04523,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p061-fig2.10",
+    "rank": 6,
+    "score": 0.04472,
+    "page": 61,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022\n[Text layer in figure] Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022 17 countries crossed stunting and anaemia thresholds 6 countries crosse"
+   },
+   {
+    "id": "who-whs-2023-p124-table-001",
+    "rank": 7,
+    "score": 0.04456,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p126-table-004",
+    "rank": 8,
+    "score": 0.04375,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 9,
+    "score": 0.04248,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p122-table-000",
+    "rank": 10,
+    "score": 0.04234,
+    "page": 122,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": 1,
+  "elapsed_ms": 6976.9
+ },
+ {
+  "query_id": "d-tx1",
+  "group": "text",
+  "split": "dev",
+  "question": "How did the global age-standardized prevalence of current tobacco use change between 2000 and 2020?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 24,
+    "chunk_id": "who-whs-2023-p024-text-000",
+    "evidence": "has declined by over 30% – from 32.7% in 2000 to 22.3% in 2020",
+    "locator": "tr. 24, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Phản hồi không có nội dung: {'candidates': [{'finishReason': 'RECITATION', 'index': 0}], 'usageMetadata': {'promptTokenCount': 102, 'totalTokenCount': 102, 'promptTokensDetails': [{'modality': 'TEXT', 'tokenCount': 102}], 'serviceTier': 'standard'}, 'modelVersion': 'gemini-2.5-flash-lite', 'response"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 29350.5
+ },
+ {
+  "query_id": "d-tx2",
+  "group": "text",
+  "split": "dev",
+  "question": "How did the average implementation status of IHR core capacities change from 2021 to 2022?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 77,
+    "chunk_id": "who-whs-2023-p077-text-001",
+    "evidence": "increased from 64% in 2021 to 66% in 2022",
+    "locator": "tr. 77, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 191514.3
+ },
+ {
+  "query_id": "d-tx3",
+  "group": "text",
+  "split": "dev",
+  "question": "Was anaemia prevalence higher among pregnant or non-pregnant women aged 15-49, and what were the values?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 60,
+    "chunk_id": "who-whs-2023-p060-text-001",
+    "evidence": "Prevalence was higher among pregnant women [36.5% (UI: 34.0–39.1)] than non-pregnant women [29.6%",
+    "locator": "tr. 60, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rewrite",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 191992.2
+ }
+]

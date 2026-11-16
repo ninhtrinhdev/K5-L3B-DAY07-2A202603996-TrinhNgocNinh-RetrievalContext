@@ -1,0 +1,57 @@
+d-tb1    answered searches=1 gold_in_ctx=True 
+d-tb2    answered searches=1 gold_in_ctx=True 
+d-tb3    answered searches=1 gold_in_ctx=True 
+d-im1    answered searches=1 gold_in_ctx=True 
+d-im2    answered searches=1 gold_in_ctx=True 
+d-im3    answered searches=1 gold_in_ctx=True 
+d-ch1    answered searches=1 gold_in_ctx=True 
+d-ch2    answered searches=1 gold_in_ctx=True 
+d-ch3    answered searches=1 gold_in_ctx=True 
+d-mh1    answered searches=1 gold_in_ctx=True 
+d-mh2    answered searches=2 gold_in_ctx=True 
+d-mh3    answered searches=1 gold_in_ctx=True 
+d-tx1    answered searches=1 gold_in_ctx=True 
+d-tx2    answered searches=1 gold_in_ctx=True 
+d-tx3    answered searches=1 gold_in_ctx=True 
+d-na1    abstain  searches=1 gold_in_ctx=None 
+d-na2    abstain  searches=2 gold_in_ctx=None 
+d-na3    abstain  searches=1 gold_in_ctx=None 
+{
+ "corpus": "whs",
+ "split": "dev",
+ "config": "D-hybrid-rerank",
+ "n": 18,
+ "model": "google/gemini-3.5-flash-lite",
+ "status": {
+  "answered": 15,
+  "abstain": 3
+ },
+ "tool_use": "18/18",
+ "search_calls_distribution": {
+  "1": 16,
+  "2": 2
+ },
+ "answerable_gold_in_final_context": "15/15",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {
+  "d-im2": [
+   "202221"
+  ],
+  "d-ch3": [
+   "202092"
+  ],
+  "d-mh2": [
+   "397"
+  ]
+ },
+ "errors": [],
+ "seconds_total": 107.7,
+ "median_ms_per_question": 4266.8,
+ "prompt_tokens": 228740,
+ "output_tokens": 5834,
+ "api_calls": 65,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}
+done

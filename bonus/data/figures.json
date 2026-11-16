@@ -1,0 +1,706 @@
+[
+ {
+  "id": "who-whs-2023-p015-fig1.1",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 15,
+  "figure": "1.1",
+  "caption": "Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020",
+  "bbox": [
+   28.0,
+   339.9,
+   567.3,
+   809.9
+  ],
+  "crop": "fig1.1_p015.png",
+  "text_in_figure": "Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020 European Region Western Paciﬁc Region Region of the Americas South-East Asia Region Eastern Mediterranean Region African Region -4.0% 0.0% -2.0% 2.0% 4.0% 6.0% 8.0%  0 200 400 600 800 Average annual rate of reduction (ARR), % MMR (maternal deaths per 100 000 live births) ARR, 2000–2015 ARR 2016–2020 MMR, 2000 MMR, 2020 Note: ARR = average annual rate of reduction; MMR = maternal mortality ratio. Source: Ref. (1)."
+ },
+ {
+  "id": "who-whs-2023-p016-fig1.2",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 16,
+  "figure": "1.2",
+  "caption": "Figure 1.2 Maternal mortality ratio by country/area, 2020",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   377.7
+  ],
+  "crop": "fig1.2_p016.png",
+  "text_in_figure": "Figure 1.2 Maternal mortality ratio by country/area, 2020 Not applicable No data available <20 20–99 100–299 300–499 500–999 ۽эььь (per 100 000 live births) Maternal mortality ratio 0 2000 4000 1000 km Source: Ref. (1)."
+ },
+ {
+  "id": "who-whs-2023-p017-fig1.3",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 17,
+  "figure": "1.3",
+  "caption": "Figure 1.3 Trends in adolescent birth rates, by age group and WHO region, 2000–2022",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   697.5
+  ],
+  "crop": "fig1.3_p017.png",
+  "text_in_figure": "Figure 1.3 Trends in adolescent birth rates, by age group and WHO region, 2000–2022 Adolescent girls, 15–19 years 0 20 10 60 40 100 80 140 120 Birth rate (per 1000 adolescent girls 15–19 years) 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2022 2021 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Adolescent girls, 10–14 years 0 2 1 4 3 6 5 8 7 10 9 Birth rate (per 1000 adolescent girls 10–14 years) 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2022 2021 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Source: Ref. (3)."
+ },
+ {
+  "id": "who-whs-2023-p019-fig1.4",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 19,
+  "figure": "1.4",
+  "caption": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   410.5
+  ],
+  "crop": "fig1.4_p019.png",
+  "text_in_figure": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021  0 20 10 40 30 50 60 80 70 2000 2005 2010 2015 2021 Mortality rate (per 1000 live births) U5MR NMR ARR: 4.0% ARR: 3.2% ARR: 2.7% ARR: 2.2% Note: ARR = average annual rate of reduction; U5MR = under-five mortality rate; NMR = neonatal mortality rate. Source: Ref. (4)."
+ },
+ {
+  "id": "who-whs-2023-p019-fig1.5",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 19,
+  "figure": "1.5",
+  "caption": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021",
+  "bbox": [
+   28.0,
+   408.5,
+   567.3,
+   801.9
+  ],
+  "crop": "fig1.5_p019.png",
+  "text_in_figure": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021  0 4 3 2 1 6 5 7 8 10 9 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2021 2020 2019 Deaths (millions) Eastern Mediterranean Region Region of the Americas European Region South-East Asia Region Western Paciﬁc Region Global under-ﬁve deaths Global neonatal deaths African Region Post-neonatal under-ﬁve deaths (1–59 months) Neonatal deaths (0–28 days) Source: Ref. (4)."
+ },
+ {
+  "id": "who-whs-2023-p020-fig1.6",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 20,
+  "figure": "1.6",
+  "caption": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   377.6
+  ],
+  "crop": "fig1.6_p020.png",
+  "text_in_figure": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021 Not applicable No data available 1 12 18 29 40 Neonatal mortality rate (per 1000 live births) ۼюё юђҘёь ёэҘѓё ۻѓё Under-five mortality rate (per 1000 live births) 0 2000 4000 1000 km Source: Ref. (4)."
+ },
+ {
+  "id": "who-whs-2023-p023-fig1.7",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 23,
+  "figure": "1.7",
+  "caption": "Figure 1.7 Probability of dying from the four major NCDs* (ages 30–69 years), projection versus SDG target, WHO regions and global, 2000–2048",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   809.9
+  ],
+  "crop": "fig1.7_p023.png",
+  "text_in_figure": "Figure 1.7 Probability of dying from the four major NCDs* (ages 30–69 years), projection versus SDG target, WHO regions and global, 2000–2048 Probability of dying between ages 30 and 69 years (%) 5 20 15 10 25 30 2000 2010 2020 2030 2040 2050 African Region 2000 2010 2020 2030 2040 2050 Region of the Americas 2000 2010 2020 2030 2040 2050 Eastern Mediterranean Region 2000 2010 2020 2030 2040 2050 European Region 5 20 15 10 25 30 2000 2010 2020 2030 2040 2050 South-East Asia Region 2000 2010 2020 2030 2040 2050 Western Paciﬁc Region 2000 2010 2020 2030 2040 2050 Global Observed Projected based on observed trends 2000–2019 Required trajectory in 2019–2030 to meet the SDG3.4.1 Target * Cardiovascular disease, cancer, chronic respiratory disease and diabetes. Source: Ref. (2). Major NCD risk factors NCDs are the result of a combination of genetic, physiological, environmental and behavioural factors. Modifiable behavioural risk factors include harmful use of alcohol, tobacco use, physical inactivity and an unhealthy diet. Metabolic risk factors include raised blood pressure, overweight and obesity, hyperglycaemia (high blood glucose levels), and hyperlipidaemia (high levels of fat in the blood). The latest available data for indicators on some of these risk factors are presented below. Environmental risks are discussed in Section 2.4. Alcohol consumption Total alcohol per capita (15+ years) consumption has declined at global level since 2015, following an overall increase in 2005–2010 and a plateau in 2010–2015. Total consumption was 5.5 litres (UI: 4.8–6.2) of pure alcohol per capita (persons aged 15 years or older) in 2019 (8). The trends were not uniform across WHO regions. While the European and African regions experienced sizeable decline in per capita consumption by 17% and 18% respectively between 2000 and 2019, there has been stagnation in the Region of the Americas and substantial increases in per capita consumption in the South-East Asia and Western Pacific regions (of 112% and 40% respectively). Despite the decline, men and women in the European Region still had the highest consumption – 14.9 (UI: 13.6–16.2) litres per capita in men and 4.0 (UI: 3.6–4.4) litres per capita in women. Per capita consumption in the Region of the Americas was 11.9 (UI: 10.1–13.8) litres in men and 3.3 (UI: 2.7–3.8) litres in women, while in the Western Pacific Region it was 9.6 (UI: 6.8–12.5) litres in men and 2.5 (UI: 1.8–3.2) litres in women. The lowest per capita consumption was in the Eastern Mediterranean Region with 0.5 (UI: 0.4–0.9) litres in men and 0.1 (UI :0.0–0.1) litres in women in 2019 (Figure 1.8). Globally, men consumed nearly four times more pure alcohol per capita than women did – namely, 8.7 (UI: 7.7–9.9) litres versus 2.2 (UI: 1.9–2.5) litres in 2019. The greatest gaps between the sexes (male-to-female ratio) were observed in the Eastern Mediterranean Region (8.1) and South-East Asia Region (5.1), and the lowest ratio was in the Region of the Americas (3.7) and the European Region (3.7)."
+ },
+ {
+  "id": "who-whs-2023-p024-fig1.8",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 24,
+  "figure": "1.8",
+  "caption": "Figure 1.8 Total alcohol consumption per capita (age 15 years or older), WHO regions and global, 2000–2019",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   397.9
+  ],
+  "crop": "fig1.8_p024.png",
+  "text_in_figure": "Figure 1.8 Total alcohol consumption per capita (age 15 years or older), WHO regions and global, 2000–2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global 0 4 2 10 8 6 16 14 12 18 20 Litres Both sexes Male Female Source: Ref. (8)."
+ },
+ {
+  "id": "who-whs-2023-p025-fig1.9",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 25,
+  "figure": "1.9",
+  "caption": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   517.3
+  ],
+  "crop": "fig1.9_p025.png",
+  "text_in_figure": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020 2000 2020 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Female 0 20 10 50 40 30 60 70 Male 0 20 10 50 40 30 60 70 Both sexes 0 20 10 50 40 30 60 70 Prevalence (%) 7.1 2.8 20.6 11.3 10.2 4.2 22.6 17.4 32.5 11.3 5.0 2.8 16.2 7.8 2000 2020 2000 2020 2000 2020 2000 2020 2000 2020 2000 2020 17.9 10.3 28.0 16.3 27.2 18.6 34.6 25.3 50.4 29.0 27.9 24.6 32.7 22.3 28.7 17.8 35.5 21.3 44.1 33.0 46.5 32.9 68.2 46.6 50.8 46.4 49.3 36.7 Source: Ref. (9)."
+ },
+ {
+  "id": "who-whs-2023-p026-fig1.10",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 26,
+  "figure": "1.10",
+  "caption": "Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   383.4
+  ],
+  "crop": "fig1.10_p026.png",
+  "text_in_figure": "Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016 Both sexes Male Female 0 15 10 5 20 25 35 30 1975 1985 1995 2005 2016 African Region 1975 1985 1995 2005 2016 Region of the Americas 1975 1985 1995 2005 2016 Eastern Mediterranean Region 1975 1985 1995 2005 2016 European Region 1975 1985 1995 2005 2016 South-East Asia Region 1975 1985 1995 2005 2016 Western Paciﬁc Region 1975 1985 1995 2005 2016 Global Prevalence (%) Source: Ref. (10)."
+ },
+ {
+  "id": "who-whs-2023-p027-fig1.11",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 27,
+  "figure": "1.11",
+  "caption": "Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   383.4
+  ],
+  "crop": "fig1.11_p027.png",
+  "text_in_figure": "Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019 Prevalence (%) 0 20 15 10 5 30 25 40 35 50 45 1990 2000 2010 2019 1990 2000 2010 2019 1990 2000 2010 2019 1990 2000 2010 2019 1990 2000 2010 2019 1990 2000 2010 2019 1990 2000 2010 2019 Both sexes Male Female African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Source: Ref. (10)."
+ },
+ {
+  "id": "who-whs-2023-p029-fig1.12",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 29,
+  "figure": "1.12",
+  "caption": "Figure 1.12 Reported COVID-19 deaths by WHO region, to 11 March 2023",
+  "bbox": [
+   28.0,
+   347.8,
+   567.3,
+   627.5
+  ],
+  "crop": "fig1.12_p029.png",
+  "text_in_figure": "Figure 1.12 Reported COVID-19 deaths by WHO region, to 11 March 2023 Eastern Mediterranean Region 349 680 Western Paciﬁc Region 407 355 South-East Asia Region 803 904 European Region 2 201 892 Region of the Americas 2 936 906 African Region 175 315 1 May 2022 0 5000 10 000 15 000 20 000 25 000 Number of reported deaths 1 January 2020 1 March 2020 1 May 2020 1 July 2020 1 September 2020 1 November 2020 1 January 2021 1 March 2021 1 May 2021 1 July 2021 1 September 2021 1 November 2021 1 January 2022 1 March 2022 1 July 2022 1 September 2022 1 November 2022 1 January 2023 1 March 2023 Source: Ref. (22)."
+ },
+ {
+  "id": "who-whs-2023-p030-fig1.13",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 30,
+  "figure": "1.13",
+  "caption": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021",
+  "bbox": [
+   28.0,
+   408.5,
+   567.3,
+   710.8
+  ],
+  "crop": "fig1.13_p030.png",
+  "text_in_figure": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021 0 2 4 6 8 10 Deaths (inmillions) Reported COVID-19 Excess deaths not captured in reported COVID-19 deaths African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region 0.8 (UI 0.5–1.1) 0.2 2,4 3.2 (UI 3.2–3.3) 0.3 1.3 (UI 1.1–1.5) 1.7 3.2 (UI 3.1–3.2) 0.7 6.1 (UI 4.7–7.8) 0.2 0.2 (UI 0–0.4) Source: Ref. (25)."
+ },
+ {
+  "id": "who-whs-2023-p032-fig1.14",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 32,
+  "figure": "1.14",
+  "caption": "Figure 1.14 Crude versus age-standardized excess mortality rate per 100 000 population, WHO regions, 2020–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   520.2
+  ],
+  "crop": "fig1.14_p032.png",
+  "text_in_figure": "Figure 1.14 Crude versus age-standardized excess mortality rate per 100 000 population, WHO regions, 2020–2021 -100 0 100 200 300 400 500 -100 0 100 200 300 400 500 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Age-standardized excess death rate (per 100 000 population) Crude excess death (per 100 000 population) Source: Ref. (25)."
+ },
+ {
+  "id": "who-whs-2023-p033-fig1.15",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 33,
+  "figure": "1.15",
+  "caption": "Figure 1.15 Excess deaths and years of life lost due to the COVID-19 pandemic, by age group and WHO region, 2020–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   720.6
+  ],
+  "crop": "fig1.15_p033.png",
+  "text_in_figure": "Figure 1.15 Excess deaths and years of life lost due to the COVID-19 pandemic, by age group and WHO region, 2020–2021 Excess deaths -0.5 0 1.0 0.5 2.0 3.0 4.0 1.5 2.5 3.5 Excess death count (in millions) 0–24 25–34 35–44 45–54 55–64 >85 75–84 65–74 Age group (years) African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Year of life lost due to excess deaths -20 0 20 60 100 40 80 Years of life lost (in millions) 0–24 25–34 35–44 45–54 55–64 >85 75–84 65–74 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Age group (years) Source: Ref. (25)."
+ },
+ {
+  "id": "who-whs-2023-p038-fig1.16",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 38,
+  "figure": "1.16",
+  "caption": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+  "bbox": [
+   28.0,
+   336.5,
+   567.3,
+   635.1
+  ],
+  "crop": "fig1.16_p038.png",
+  "text_in_figure": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021 0 2000 4000 1000 km Not applicable Not a participant Unknown No Under development Yes Source: Ref. (48)."
+ },
+ {
+  "id": "who-whs-2023-p039-fig1.17",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 39,
+  "figure": "1.17",
+  "caption": "Figure 1.17 Main barriers to implementation of national health and climate change plans or strategies, 2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   412.1
+  ],
+  "crop": "fig1.17_p039.png",
+  "text_in_figure": "Figure 1.17 Main barriers to implementation of national health and climate change plans or strategies, 2021 Insuﬃcient ﬁnance/budget 70 0 10 20 30 40 50 60 70 80 Percentage of countries (%) Insuﬃcient human resource capacity 54 Constraints related to COVID-19 52 Insuﬃcient research and evidence 46 Insuﬃcient technologies, tools and methods 43 Insuﬃcient prioritization or competing priorities 39 Insuﬃcient multisectorall collaboration 35 Incomplete or lack of comprehensive plan or strategy 9 Lack of endorsement by Ministry of Health 7 Other 7 Source: Ref. (48)."
+ },
+ {
+  "id": "who-whs-2023-p040-fig1.18",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 40,
+  "figure": "1.18",
+  "caption": "Figure 1.18 Percentage of hot days (“heat stress”), Saint Lucia, 1900–2100*",
+  "bbox": [
+   28.0,
+   380.4,
+   567.3,
+   809.9
+  ],
+  "crop": "fig1.18_p040.png",
+  "text_in_figure": "Figure 1.18 Percentage of hot days (“heat stress”), Saint Lucia, 1900–2100* 1900 1950 2000 2050 2100 0 20 40 60 80 100 120 Percentage of hot days (%) Year Note: * The figure presents climate model projections for the percentage of “hot days”. A “hot day” is a day when the maximum temperature exceeds the 90th percentile threshold for the time of the year. The blue lines represent annual and smoothed observed record. The orange lines represent a high-emission scenario (Representative Concentration Pathway 8.5, RCP8.5) and the green lines represent a low-emission scenario (RCP2.6). The scenarios are presented across some 20 global climate models. The figure shows each model individually, as well as their average and the 90% model range (shaded). Source: Health and climate change: country profile 2020: Saint Lucia (Online). Geneva: World Health Organization (https://www.who.int/ publications/i/item/WHO-HEP-ECH-CCH-20.01.01, accessed 26 April 2023). Sea level is expected to rise by 0.5–0.6 metres by the end of the century in the Caribbean region. Impacts of the rise in sea level include coastal erosion, ecosystem disruption, higher storm surges, population displacement, and water contamination and disruption. In 2022, Saint Lucia developed a Health NAP which outlines its adaptation priorities. Saint Lucia also includes health considerations in its national climate policies. The NDC of Saint Lucia highlights the importance of human health as a key priority for adaptation implementation. Using the SMART hospitals toolkit, Saint Lucia has assessed 34 health facilities for their structural and operational safety and low-carbon environmental sustainability. As of 2020, three health facilities in Saint Lucia had been designated as SMART health facilities. Expansion of the project to include facilities across the island are planned and will aim to ensure that the majority of the population (including women, children and persons with disabilities) can access quality health care in both pre- and post-disaster periods. It is planned that the remaining health facilities will be upgraded to improve safety in service delivery and to ensure they can structurally, non-structurally and functionally withstand climate-related events. Saint Lucia has also identified the importance of strengthening climate-informed health surveillance and early warning systems to protect populations and to address barriers to accessing finance in order to support health adaptation and mitigation objectives."
+ },
+ {
+  "id": "who-whs-2023-p047-fig2.1",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 47,
+  "figure": "2.1",
+  "caption": "Figure 2.1 New HIV infections (per 1000 uninfected population), by WHO region and global, 2000–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   678.6
+  ],
+  "crop": "fig2.1_p047.png",
+  "text_in_figure": "Figure 2.1 New HIV infections (per 1000 uninfected population), by WHO region and global, 2000–2021 a. WHO regions (excluding Africa) and global 0 0.1 0.2 0.3 0.4 0.5 New HIV infections (per 1000 uninfected population) Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2021 b. WHO African Region, eastern and southern Africa, western and central Africa and global 0 1.0 2.0 3.0 4.0 6.0 5.0 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2021 New HIV infections (per 1000 uninfected population) African Region Eastern and southern Africa Western and central Africa Global Source: Refs. (2) and (3)."
+ },
+ {
+  "id": "who-whs-2023-p048-fig2.2",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 48,
+  "figure": "2.2",
+  "caption": "Figure 2.2 Subnational estimates of HIV incidence among adolescent girls and young women (aged 15–24 years), Zimbabwe, December 2021",
+  "bbox": [
+   28.0,
+   357.9,
+   567.3,
+   705.9
+  ],
+  "crop": "fig2.2_p048.png",
+  "text_in_figure": "Figure 2.2 Subnational estimates of HIV incidence among adolescent girls and young women (aged 15–24 years), Zimbabwe, December 2021 ZAMBIA BOTSWANA MOZAMBIQUE SOUTH AFRICA BULAWAYO HARARE MANICALAND MASHONALAND CENTRAL MASHONALAND EAST MASHONALAND WEST MASVINGO MATABELELAND NORTH MATABELELAND SOUTH MIDLANDS UMP Chitungwiza Buhera Chimanimani Chipinge Makoni Mutare Mutasa Nyanga Bindura Centenary Guruve Mazowe Mbire Mount Darwin Rushinga Shamva Chikomba Goromonzi Hwedza Marondera Mudzi Murehwa Mutoko Seke Chegutu Hurungwe Kariba Makonde Mhondoro Ngezi Sanya Zvimba Bikita Chiredzi Chivi Gutu Masvingo Mwenezi Zaka Binga Bubi Hwange Lupane Nkayi Tsholotsho Umguza Beitbridge Bulilima Gwanda Insiza Mangwe Matobo Umzingwane Chirumhanzu Gokwe North Gokwe South Gweru Kwekwe Mberengwa Shurugwi Zvishavane Not applicable Province (level 1) District (level 2) Zimbabwe administrative boundaries 0 11 (per 1000 uninfected population) New HIV infections 0 110 220 55 km ZAMBIA BOTSWANA MOZAMBIQUE SOUTH AFRICA BULAWAYO HARARE MANICALAND MASHONALAND CENTRAL MASHONALAND EAST MASHONALAND WEST MASVINGO MATABELELAND NORTH MATABELELAND SOUTH MIDLANDS UMP Chitungwiza Buhera Chimanimani Chipinge Makoni Mutare Mutasa Nyanga Bindura Centenary Guruve Mazowe Mbire Mount Darwin Rushinga Shamva Chikomba Goromonzi Hwedza Marondera Mudzi Murehwa Mutoko Seke Chegutu Hurungwe Kariba Makonde Mhondoro Ngezi Sanya Zvimba Bikita Chiredzi Chivi Gutu Masvingo Mwenezi Zaka Binga Bubi Hwange Lupane Nkayi Tsholotsho Umguza Beitbridge Bulilima Gwanda Insiza Mangwe Matobo Umzingwane Chirumhanzu Gokwe North Gokwe South Gweru Kwekwe Mberengwa Shurugwi Zvishavane Not applicable Province (level 1) District (level 2) Zimbabwe administrative boundaries 0 11 (per 1000 uninfected population) New HIV infections 0 110 220 55 km Source: Ref. (5)"
+ },
+ {
+  "id": "who-whs-2023-p049-fig2.3",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 49,
+  "figure": "2.3",
+  "caption": "Figure 2.3 Pattern of antibiotic consumption at national level (relative consumption by AWaRe classification), by country, 2020",
+  "bbox": [
+   28.0,
+   411.2,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.3_p049.png",
+  "text_in_figure": "Figure 2.3 Pattern of antibiotic consumption at national level (relative consumption by AWaRe classification), by country, 2020 Benin Côte d’Ivoire Gabon Uganda Colombia Peru Egypt Iran (Islamic Republic of) Jordan Belgium Cyprus Germany Denmark United Kingdom of Great Britain and Northern Ireland Sweden Bhutan Brunei Darussalam Lao People's Democratic Republic Mongolia 0 20 40 60 80 100 Percentage (%) Access Watch Reserve Not classiﬁed African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Note: The dotted line represents the target of at least 60% of total antibiotic consumption being Access group antibiotics (GPW 13 target 4b). Source: Ref. (10)."
+ },
+ {
+  "id": "who-whs-2023-p051-fig2.4",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 51,
+  "figure": "2.4",
+  "caption": "Figure 2.4 Trends in TB incidence rates by WHO region, 2000–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   683.5
+  ],
+  "crop": "fig2.4_p051.png",
+  "text_in_figure": "Figure 2.4 Trends in TB incidence rates by WHO region, 2000–2021 Incidence rate per 100 000 population per year (log scale) Incidence 2020 milestone New and relapse case notiﬁcations 10 40 20 80 160 640 320 2000 2005 2010 2015 2021 African Region Incidence rate per 100 000 population per year (log scale) Incidence rate per 100 000 population per year (log scale) Incidence rate per 100 000 population per year (log scale) Incidence rate per 100 000 population per year (log scale) Incidence rate per 100 000 population per year (log scale) 10 40 80 160 640 320 2000 2005 2010 2015 2021 Region of the Americas 10 40 80 160 640 320 2000 2005 2010 2015 2021 Eastern Mediterranean Region 10 40 80 160 640 320 2000 2005 2010 2015 2021 European Region 10 40 80 160 640 320 2000 2005 2010 2015 2021 South-East Asia Region 10 40 20 20 20 20 20 80 160 640 320 2000 2005 2010 2015 2021 Western Paciﬁc Region Note: Shaded areas represent 95% uncertainty intervals. Source: Ref. (12)."
+ },
+ {
+  "id": "who-whs-2023-p053-fig2.5",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 53,
+  "figure": "2.5",
+  "caption": "Figure 2.5 Distribution of (a) malaria cases and (b) deaths, by country, 2021",
+  "bbox": [
+   28.0,
+   374.7,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.5_p053.png",
+  "text_in_figure": "Figure 2.5 Distribution of (a) malaria cases and (b) deaths, by country, 2021 a. Cases Others, 4.4% Nigeria, 26.6% Democratic Republic of the Congo, 12.3% Uganda, 5.1% Mozambique, 4.1% Angola, 3.4% Burkina Faso, 3.3% Niger, 3.2% United Republic of Tanzania, 3.1% Mali, 3.1% Côte d'Ivoire, 3.0% Cameroon, 2.7% Ghana, 2.2% Benin, 2.0% Guinea, 1.8% Malawi, 1.7% Ethiopia, 1.7% India, 1.7% Madagascar, 1.6% Burundi, 1.5% Zambia, 1.4% Chad, 1.4% Kenya, 1.3% Sudan, 1.3% South Sudan, 1.2% Rwanda, 1.2% Sierra Leone, 1.1% Togo, 0.8% Liberia, 0.8% Central African Republic, 0.7%"
+ },
+ {
+  "id": "who-whs-2023-p055-fig2.6",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 55,
+  "figure": "2.6",
+  "caption": "Figure 2.6 Hepatitis B incidence and mortality trends from new actions implemented under global health sector strategies versus no new actions, 2020–2030",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   397.2
+  ],
+  "crop": "fig2.6_p055.png",
+  "text_in_figure": "Figure 2.6 Hepatitis B incidence and mortality trends from new actions implemented under global health sector strategies versus no new actions, 2020–2030 0 200 400 600 800 1000 1200 1400 1800 1600 2015 2019 2020 2021 2022 2023 2024 2025 2026 2028 2029 2027 2030 Number of new infections or deaths (thousands) Number of new infections under the strategy Number of new of infections without new actions Number of deaths under the strategy Number of deaths without new actions Progress in 2020 1.5 million infections Progress in 2020 820 000 deaths Target in 2025 850 000 infections Target in 2025 530 000 deaths Target in 2030 170 000 infections Target in 2030 310 000 deaths Source: Ref. (19)."
+ },
+ {
+  "id": "who-whs-2023-p057-fig2.7",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 57,
+  "figure": "2.7",
+  "caption": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+  "bbox": [
+   28.0,
+   353.2,
+   567.3,
+   632.6
+  ],
+  "crop": "fig2.7_p057.png",
+  "text_in_figure": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20 15 10 5 25 30 40 35 2000 2005 2010 2015 2022 Number (millions) 0 50 100 150 250 200 2000 2005 2010 2015 2022 Stunting Overweight Wasting Prevalence of children under 5 years aﬀected by stunting, wasting and overweight, global, 2000–2022 Number (millions) of children under 5 years aﬀected by stunting, wasting and overweight, global, 2000–2022 95% conﬁdence interval 33.0 22.3 5.6 6.8 5.3 204.2 148.1 37.0 45.0 33.0 197.1 35.5 184.8 36.2 169.1 38.0 Source: Ref. (27)."
+ },
+ {
+  "id": "who-whs-2023-p058-fig2.8",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 58,
+  "figure": "2.8",
+  "caption": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022",
+  "bbox": [
+   28.0,
+   321.5,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.8_p058.png",
+  "text_in_figure": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 10 40 30 60 50 Prevalence (%) 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2022 2021 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global"
+ },
+ {
+  "id": "who-whs-2023-p060-fig2.9",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 60,
+  "figure": "2.9",
+  "caption": "Figure 2.9 Global prevalence of anaemia by severity levels* in women aged 15–49 years, 2000–2019",
+  "bbox": [
+   28.0,
+   380.4,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.9_p060.png",
+  "text_in_figure": "Figure 2.9 Global prevalence of anaemia by severity levels* in women aged 15–49 years, 2000–2019 0 20 15 10 5 30 25 35 40 50 45 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 Anaemia prevalence (%) Severe anaemia Mild anaemia Moderate anaemia 1.7 1.1 14.1 12.2 12.7 1.0 15.5 15.5 16.2 Note: *Mild anaemia is defined as haemoglobin concentrations of 110–119 g/L in non-pregnant women, and concentrations of 100–109 g/L in pregnant women; moderate anaemia is defined as haemoglobin concentrations of 80–109 g/L in non-pregnant women and 70–99 g/L in pregnant women; and severe anaemia is defined as haemoglobin concentration below 80 g/L in non-pregnant women and below 70 g/L in pregnant women. Source: Ref. (28)."
+ },
+ {
+  "id": "who-whs-2023-p061-fig2.10",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 61,
+  "figure": "2.10",
+  "caption": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+  "bbox": [
+   28.0,
+   210.9,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.10_p061.png",
+  "text_in_figure": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022 17 countries crossed stunting and anaemia thresholds 6 countries crossed stunting, wasting and anaemia thresholds 1 countries crossed stunting, overweight and anaemia thresholds 3 countries crossed stunting and overweight thresholds 2 countries crossed stunting, overweight and wasting thresholds 1 countries crossed stunting and wasting threshold 16 countries only crossed overweight threshold 3 countries only crossed wasting threshold 17 1 6 21 2 1 3 7 3 16 7 countries only crossed anaemia threshold Anaemia Overweight 21 countries only crossed stunting threshold Stunting Wasting Note: *For wasting, only countries with data from 2012 onwards were considered. The thresholds used were ≥ 10% for wasting, ≥ 20% for stunting, ≥ 10% for overweight in children under 5 years of age and ≥ 40% for anaemia in women aged 15– 49 years. Source: Refs. (27) and (28)."
+ },
+ {
+  "id": "who-whs-2023-p063-fig2.11",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 63,
+  "figure": "2.11",
+  "caption": "Figure 2.11 Mortality rates due to suicide, homicide and road traffic injury, by WHO region and globally, 2000–2019",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   491.1
+  ],
+  "crop": "fig2.11_p063.png",
+  "text_in_figure": "Figure 2.11 Mortality rates due to suicide, homicide and road traffic injury, by WHO region and globally, 2000–2019 African Region Region of the Americas* Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Suicide Homicide Road traﬃc injury 0 15 10 5 20 25 30 35 0% 30% 20% 10% 40% 50% 60% 70% Mortality rate (per 100 000 population) Percentage decline Mortality rate, 2000 Mortality rate, 2019 Percentage decline, 2000–2019 Note: *The percentage decline is not shown because it is negative (meaning the death rate increased during the period). Source: Ref: (29)."
+ },
+ {
+  "id": "who-whs-2023-p063-fig2.12",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 63,
+  "figure": "2.12",
+  "caption": "Figure 2.12 Rank of deaths due to road traffic injury, suicide and homicide, by age group and sex*, 2019",
+  "bbox": [
+   28.0,
+   519.5,
+   567.3,
+   809.9
+  ],
+  "crop": "fig2.12_p063.png",
+  "text_in_figure": "Figure 2.12 Rank of deaths due to road traffic injury, suicide and homicide, by age group and sex*, 2019 Road traffic Suicide Homicide Age group (years) Male Female Male Female Male Female 0–15 7 9 >30 >30 22 25 15–29 1 5 4 3 2 7 30–49 2 8 7 10 8 17 50–59 5 13 13 19 21 >30 60–69 12 18 20 27 >30 >30 70+ 22 28 27 >30 >30 >30 Crude death rate (per 100 000 population) - range of 0.4 to 51.1 Note: * The colour gradient shows the range of the crude death rate per 100 000 population from low (light) to high (dark). The number in the cell shows the rank of the cause of death in the given age group and sex. Source: Ref. (29)."
+ },
+ {
+  "id": "who-whs-2023-p066-fig2.13",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 66,
+  "figure": "2.13",
+  "caption": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   421.1
+  ],
+  "crop": "fig2.13_p066.png",
+  "text_in_figure": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020 0 20 40 60 80 100 Proportion of the population (%) Safely-managed drinking-water services Safely-managed sanitation services Hand-washing facility with soap and water 81 52 92 70 65 32 23 28 56 81 46 71 74 54 71 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Global Note: Absence of bar means no aggregate statistics are available for the region. Source: Ref. (37)."
+ },
+ {
+  "id": "who-whs-2023-p066-fig2.14",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 66,
+  "figure": "2.14",
+  "caption": "Figure 2.14 Mortality rate and cumulative share of deaths attributed to exposure to unsafe WASH services, by WHO region, 2019",
+  "bbox": [
+   28.0,
+   419.1,
+   567.3,
+   724.2
+  ],
+  "crop": "fig2.14_p066.png",
+  "text_in_figure": "Figure 2.14 Mortality rate and cumulative share of deaths attributed to exposure to unsafe WASH services, by WHO region, 2019 0 10 20 30 40 50 Mortality rate (per 100 000 population) 0 20 40 60 80 100 Cumulative share of number of deaths (%) Mortality rate Cumulative share of number of deaths African Region South-East Asia Region Eastern Mediterranean Region Region of the Americas Western Paciﬁc Region European Region Source: Ref. (43)."
+ },
+ {
+  "id": "who-whs-2023-p069-fig2.15",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 69,
+  "figure": "2.15",
+  "caption": "Figure 2.15 Annual mean concentrations of fine particulate matter (PM2.5) at national level, and in rural areas as compared to towns and cities, by country/territory, 2019",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   384.7
+  ],
+  "crop": "fig2.15_p069.png",
+  "text_in_figure": "Figure 2.15 Annual mean concentrations of fine particulate matter (PM2.5) at national level, and in rural areas as compared to towns and cities, by country/territory, 2019 \u0001ۼё 6–10 ээҘэё эђҘюё юђҘяё ۻяё Annual mean concentration of fine particulate matter (PMю҂ё) Higher than cities Higher than towns Annual mean concentration of fine particulate matter (PMю҂ё) in rural areas Not applicable No data available 0 2000 4000 1000 km \u0001ۼё 6–10 ээҘэё эђҘюё юђҘяё ۻяё Annual mean concentration of fine particulate matter (PMю҂ё) Higher than cities Higher than towns Annual mean concentration of fine particulate matter (PMю҂ё) in rural areas Not applicable No data available 0 2000 4000 1000 km Source: Ref. (43)."
+ },
+ {
+  "id": "who-whs-2023-p069-fig2.16",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 69,
+  "figure": "2.16",
+  "caption": "Figure 2.16 Global crude mortality rate attributed to the joint effects of ambient and household air pollution, by disease and age group, 2019",
+  "bbox": [
+   28.0,
+   413.1,
+   567.3,
+   755.6
+  ],
+  "crop": "fig2.16_p069.png",
+  "text_in_figure": "Figure 2.16 Global crude mortality rate attributed to the joint effects of ambient and household air pollution, by disease and age group, 2019 0.01 0.1 1 10 100 Mortality rate (per 100 000 population), log scale Chronic obstructive pulmonary disease Ischaemic heart disease Lower respiratory infections Stroke Trachea, bronchus, lung cancers Age group (year) 0–4 5–9 10–14 15–19 20–24 25–29 30–34 35–39 40–44 45–49 50–54 55–59 60–64 65–69 70–74 75–79 80+ Source: Ref. (43)."
+ },
+ {
+  "id": "who-whs-2023-p070-fig2.17",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 70,
+  "figure": "2.17",
+  "caption": "Figure 2.17 Global trends in mortality rates due to unintentional poisoning, by sex, 2000–2019",
+  "bbox": [
+   28.0,
+   210.9,
+   567.3,
+   504.4
+  ],
+  "crop": "fig2.17_p070.png",
+  "text_in_figure": "Figure 2.17 Global trends in mortality rates due to unintentional poisoning, by sex, 2000–2019 0 0.5 1.0 1.5 2.0 2.5 Mortality rate (per 100 000 population) 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 Male Female Source: Ref. (29)."
+ },
+ {
+  "id": "who-whs-2023-p072-fig2.18",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 72,
+  "figure": "2.18",
+  "caption": "Figure 2.18 Global immunization rates against diphtheria, tetanus toxoid and pertussis (DTP3), measles (MCV2), pneumococcal infections (PCV3) and human papillomavirus (HPV), 2000–2021",
+  "bbox": [
+   28.0,
+   390.3,
+   567.3,
+   709.0
+  ],
+  "crop": "fig2.18_p072.png",
+  "text_in_figure": "Figure 2.18 Global immunization rates against diphtheria, tetanus toxoid and pertussis (DTP3), measles (MCV2), pneumococcal infections (PCV3) and human papillomavirus (HPV), 2000–2021 0 20 40 60 80 100 Percentage (%) 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2019 2020 2018 2021 DTP3 HPV MCV2 PCV3 Note: DTP = diphtheria, tetanus toxoid and pertussis vaccine; HPV = human papillomavirus vaccine; MCV = measles vaccine; PCV = pneumococcal conjugate vaccine. Source: Ref. (54)."
+ },
+ {
+  "id": "who-whs-2023-p074-fig2.19",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 74,
+  "figure": "2.19",
+  "caption": "Figure 2.19 RMNCH service coverage at subnational level in Rwanda",
+  "bbox": [
+   28.0,
+   145.2,
+   567.3,
+   373.5
+  ],
+  "crop": "fig2.19_p074.png",
+  "text_in_figure": "Figure 2.19 RMNCH service coverage at subnational level in Rwanda a. Service coverage index for RMNCH, Rwanda, 2019–2020 BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO E S T M V K N O R O U E S U D Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango 58 70 RMNCH SCI Index Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO E S T M V K N O R O U E S U D Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango 58 70 RMNCH SCI Index Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km a. ANC coverage (four or more visits) during last pregnancy, Rwanda, 2019–2020 BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango E S T M V K N O R O U E S U D 34% 66% Antenatal care at least four visits (%) Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango E S T M V K N O R O U E S U D 34% 66% Antenatal care at least four visits (%) Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango E S T M V K N O R O U E S U D 34% 66% Antenatal care at least four visits (%) Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km BURUNDI UNITED REPUBLIC OF TANZANIA UGANDA DEMOCRATIC REPUBLIC OF THE CONGO Bugesera Gatsibo Kayonza Kirehe Ngoma Nyagatare Rwamagana Gasabo Kicukiro Nyarugenge Burera Gakenke Gicumbi Musanze Rulindo Karongi Ngororero Nyabihu Nyamasheke Rubavu Rusizi Rutsiro Gisagara Huye Kamonyi Muhanga Nyamagabe Nyanza Nyaruguru Ruhango E S T M V K N O R O U E S U D 34% 66% Antenatal care at least four visits (%) Not applicable District (administrative level 2) Province (administrative level 1) Rwanda administrative areas 0 25 50 13 km Source: Ref. (58)."
+ },
+ {
+  "id": "who-whs-2023-p075-fig2.20",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 75,
+  "figure": "2.20",
+  "caption": "Figure 2.20 HIV testing and treatment cascade",
+  "bbox": [
+   28.0,
+   145.2,
+   567.3,
+   786.6
+  ],
+  "crop": "fig2.20_p075.png",
+  "text_in_figure": "Figure 2.20 HIV testing and treatment cascade a. Global, 2015 and 2021  0 20 40 60 80 100 Percentage (%) People living with HIV who know their status People living with HIV who are on treatment People living with HIV who are virally suppressed 2015 2021 69 50 40 85 75 68 b. By WHO region, 2021 0 20 40 60 80 100 Percentage (%) People living with HIV who know their status People living with HIV who are on treatment People living with HIV who are virally suppressed African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region 88 78 72 85 74 66 41 27 24 73 63 60 74 63 55 88 79 76 Source: Ref. (2) and (3)."
+ },
+ {
+  "id": "who-whs-2023-p077-fig2.21",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 77,
+  "figure": "2.21",
+  "caption": "Figure 2.21 Density of select health professionals per 10 000 population, 2014–2021",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   441.7
+  ],
+  "crop": "fig2.21_p077.png",
+  "text_in_figure": "Figure 2.21 Density of select health professionals per 10 000 population, 2014–2021 Per 10 000 population 0 50 60 70 90 80 Medical doctors African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Nursing and midwifery personnel African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Per 10 000 population 0 2 1 3 4 5 7 6 Dentists African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region Pharmacists 40 30 20 10 African Region Region of the Americas Eastern Mediterranean Region European Region South-East Asia Region Western Paciﬁc Region 12.9 20.4 16.5 40.0 82.1 83.4 0.8 6.6 3.3 4.4 5.1 6.5 2.9 7.7 11.2 20.9 24.5 36.6 0.3 1.5 2.6 4.5 5.9 6.2 Source: Ref. (74)."
+ },
+ {
+  "id": "who-whs-2023-p085-fig3.1",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 85,
+  "figure": "3.1",
+  "caption": "Figure 3.1 Life expectancy at birth, WHO regions and global, 1950–2048",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   430.1
+  ],
+  "crop": "fig3.1_p085.png",
+  "text_in_figure": "Figure 3.1 Life expectancy at birth, WHO regions and global, 1950–2048 Life expectancy at birth (years) 20 60 50 40 30 70 90 80 1950 2000 2019 2020 2048 African Region 1950 2000 2019 2020 2048 Region of the Americas 1950 2000 2019 2020 2048 Eastern Mediterranean Region 1950 2000 2019 2020 2048 European Region 20 60 50 40 30 70 90 80 1950 2000 2019 2020 2048 South-East Asia Region 1950 2000 2019 2020 2048 Western Paciﬁc 1950 2000 2019 2020 2048 Global 37.6 52.7 64.5 60.9 67.0 56.0 74.1 77.2 74.9 81.3 36.4 65.0 69.7 69.1 74.4 61.3 72.5 78.2 76.9 82.3 39.4 63.4 71.4 70.5 77.3 44.6 72.4 77.7 78.2 82.4 46.5 66.8 73.3 72.0 77.0 Sources: Ref. (1) and (2)"
+ },
+ {
+  "id": "who-whs-2023-p085-fig3.2",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 85,
+  "figure": "3.2",
+  "caption": "Figure 3.2 Probability of survival to 60 years of age, WHO regions and global, 1950–2048",
+  "bbox": [
+   28.0,
+   447.1,
+   567.3,
+   798.0
+  ],
+  "crop": "fig3.2_p085.png",
+  "text_in_figure": "Figure 3.2 Probability of survival to 60 years of age, WHO regions and global, 1950–2048 Probability of survival to 60 years (%) 0 60 40 20 80 100 1950 2000 2019 2020 2048 African Region 1950 2000 2019 2020 2048 Americas 1950 2000 2019 2020 2048 Eastern Mediterranean Region 1950 2000 2019 2020 2048 European Region 0 80 60 40 20 100 1950 2000 2019 2020 2048 South-East Asia Region 1950 2000 2019 2020 2048 Western Paciﬁc 1950 2000 2019 2020 2048 Global 34.1 51.0 70.4 65.0 74.1 59.9 84.0 87.0 84.4 91.4 33.9 72.5 79.6 80.0 85.4 68.4 81.7 88.8 87.8 92.9 35.9 70.8 81.3 80.0 88.3 40.6 83.7 89.7 90.2 93.6 46.0 74.8 83.1 81.4 86.2 Sources: Ref. (1) and (2)"
+ },
+ {
+  "id": "who-whs-2023-p088-fig3.3",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 88,
+  "figure": "3.3",
+  "caption": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   747.0
+  ],
+  "crop": "fig3.3_p088.png",
+  "text_in_figure": "Figure 3.3 Seventy-five years of improving public health, 1948–2023 1948 WHO Constituion comes into force 1974 WHO founds the Expanded Programme on Immunization to bring life-saving vaccines to all the world's children 1978 WHO launches the global diarrhoeal diseases programme with oral rehydration salts at its heart • The International Conference on Primary Health Care, in Alma-Ata, Kazakhstan, sets the aspirational goal, \"Health for All\", laying the groundwork for WHO's call for UHC 1988 The Global Polio Eradication Initiative (GPEI), is launched 1980 Following an ambitious 12-year global vaccination campaign led by WHO, smallpox is eradicated 1999 The ﬁrst global strategy for the prevention and control of NCDs 2000 The WHO Global Outbreak Alert and Response Network (GOARN) is established to detect and combat the international spread of outbreaks 2003 The World Health Assembly unanimously adopts WHO's ﬁrst global public health treaty, the WHO Framework Convention on Tobacco Control • WHO launches the \"3 by 5\" initiative, which aims to bring treatment to 3 million people living with HIV by 2005 and lays the groundwork for reaching 13 million people infected with HIV with ART by 2013 2005 The International Health Regulations are revised 2004 WHO co-established the UN Road Safety Collaboration to prevent road traﬃc injuries 2006 WHO Child Growth Standards are launched to help every child grow in an equitable way 2012 The World Health Assembly adopts WHO's implementation plan on maternal, infant, and young child nutrition 2014 The Every Newborn Action Plan is endorsed by the World Health Assembly 2015 All United Nations Member States adopt the 2030 Agenda for Sustainable Development 2019 UN Declaration on UHC 2020 Access to COVID-19 Tools Accelerator 2022 Agreement for cooperation on the health of humans, animals, plants and the environment 2021 More than 74 million lives had been saved through tuberculosis (TB) prevention, diagnosis and treatment since 2000 • HIV treatment coverage expanded rapidly with well over 17 million people living with HIV on ART by the end of 2015 2023 WHO's 75th anniversary Source: Ref. (5)"
+ },
+ {
+  "id": "who-whs-2023-p091-fig3.4",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 91,
+  "figure": "3.4",
+  "caption": "Figure 3.4 Composition of causes of death, WHO regions and global, 2000–2048",
+  "bbox": [
+   28.0,
+   79.2,
+   567.3,
+   423.3
+  ],
+  "crop": "fig3.4_p091.png",
+  "text_in_figure": "Figure 3.4 Composition of causes of death, WHO regions and global, 2000–2048 Percentage (%) 0 60 40 20 80 100 African Region Region of the Americas Eastern Mediterranean Region European Region 0 80 60 40 20 100 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 South-East Asia Region Western Paciﬁc Global Communicable, maternal, perinatal and nutritional conditions Injuries NCDs Source: Ref. (3)"
+ },
+ {
+  "id": "who-whs-2023-p091-fig3.5",
+  "source_id": "who-whs-2023",
+  "source": "9789240074323-eng.pdf",
+  "page": 91,
+  "figure": "3.5",
+  "caption": "Figure 3.5 Composition of causes of DALYs, WHO regions and global, 2000–2048",
+  "bbox": [
+   28.0,
+   451.6,
+   567.3,
+   809.4
+  ],
+  "crop": "fig3.5_p091.png",
+  "text_in_figure": "Figure 3.5 Composition of causes of DALYs, WHO regions and global, 2000–2048 Percentage (%) 0 60 40 20 80 100 African Region Region of the Americas Eastern Mediterranean Region European Region 0 80 60 40 20 100 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 2000 2010 2020 2030 2040 2048 South-East Asia Region Western Paciﬁc Global Communicable, maternal, perinatal and nutritional conditions Injuries NCDs Source: Ref. (14)"
+ }
+]

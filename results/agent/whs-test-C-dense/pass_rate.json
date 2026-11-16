@@ -1,0 +1,256 @@
+{
+ "run": "whs-test-C-dense",
+ "pass": "26/30",
+ "rate_percent": 86.7,
+ "needs_27_of_30": false,
+ "by_group": {
+  "chart": "5/5",
+  "image": "4/5",
+  "multihop": "2/4",
+  "table": "5/6",
+  "text": "4/4",
+  "unanswerable": "6/6"
+ },
+ "per_question": [
+  {
+   "query_id": "t-tb1",
+   "group": "table",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tb2",
+   "group": "table",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tb3",
+   "group": "table",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tb4",
+   "group": "table",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tb5",
+   "group": "table",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tb6",
+   "group": "table",
+   "answerable": true,
+   "status": "abstain",
+   "pass": false,
+   "reason": "Từ chối câu có đáp án: không đưa được bảng tr. 102 (hàng Viet Nam) vào context. Chấm 0 theo luật script."
+  },
+  {
+   "query_id": "t-im1",
+   "group": "image",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-im2",
+   "group": "image",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-im3",
+   "group": "image",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-im4",
+   "group": "image",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-im5",
+   "group": "image",
+   "answerable": true,
+   "status": "answered",
+   "pass": false,
+   "reason": "Chưa đúng/đủ: đáp án là 'Yes' nhưng agent liệt kê Trung Quốc vào cả 'Yes', 'No', 'Not a participant' và 'Not applicable' (tự mâu thuẫn, dựa trên mô tả hình liệt kê sai); citation không xác định được trạng thái."
+  },
+  {
+   "query_id": "t-ch1",
+   "group": "chart",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-ch2",
+   "group": "chart",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-ch3",
+   "group": "chart",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-ch4",
+   "group": "chart",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-ch5",
+   "group": "chart",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-mh1",
+   "group": "multihop",
+   "answerable": true,
+   "status": "abstain",
+   "pass": false,
+   "reason": "Từ chối câu có đáp án: không lấy được bảng tr. 100-101 (hàng Mexico) vào context. Chấm 0 theo luật script."
+  },
+  {
+   "query_id": "t-mh2",
+   "group": "multihop",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-mh3",
+   "group": "multihop",
+   "answerable": true,
+   "status": "error",
+   "pass": false,
+   "reason": "lỗi hệ thống: ApiError: controller trả JSON không hợp lệ: {\"action\": \"search\", \"query\": \"global under-fi"
+  },
+  {
+   "query_id": "t-mh4",
+   "group": "multihop",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tx1",
+   "group": "text",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tx2",
+   "group": "text",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tx3",
+   "group": "text",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-tx4",
+   "group": "text",
+   "answerable": true,
+   "status": "answered",
+   "pass": true,
+   "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+  },
+  {
+   "query_id": "t-na1",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t-na2",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t-na3",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t-na4",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t-na5",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  },
+  {
+   "query_id": "t-na6",
+   "group": "unanswerable",
+   "answerable": false,
+   "status": "abstain",
+   "pass": true,
+   "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+  }
+ ]
+}

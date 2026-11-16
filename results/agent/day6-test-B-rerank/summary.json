@@ -1,0 +1,38 @@
+{
+ "corpus": "day6",
+ "split": "test",
+ "config": "B-rerank",
+ "n": 7,
+ "model": "google/gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "day6",
+  "method": "rerank",
+  "top_k": 5,
+  "budget_chars": 6000,
+  "max_searches": 4,
+  "controller_model": "google/gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768",
+  "llm_provider": "openrouter"
+ },
+ "status": {
+  "answered": 5,
+  "abstain": 2
+ },
+ "tool_use": "7/7",
+ "search_calls_distribution": {
+  "1": 5,
+  "2": 2
+ },
+ "answerable_gold_in_final_context": "5/5",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {},
+ "errors": [],
+ "seconds_total": 38.7,
+ "median_ms_per_question": 4454.1,
+ "prompt_tokens": 38847,
+ "output_tokens": 2619,
+ "api_calls": 30,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

@@ -1,0 +1,49 @@
+{
+ "corpus": "whs",
+ "split": "dev",
+ "config": "C-dense",
+ "n": 18,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "whs",
+  "method": "dense",
+  "top_k": 5,
+  "budget_chars": 12000,
+  "max_searches": 4,
+  "controller_model": "gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768"
+ },
+ "status": {
+  "answered": 15,
+  "abstain": 3
+ },
+ "tool_use": "18/18",
+ "search_calls_distribution": {
+  "1": 14,
+  "2": 2,
+  "3": 1,
+  "4": 1
+ },
+ "answerable_gold_in_final_context": "15/15",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [],
+ "numbers_not_in_cited_text": {
+  "d-im2": [
+   "202221"
+  ],
+  "d-ch3": [
+   "202092"
+  ],
+  "d-mh2": [
+   "397"
+  ]
+ },
+ "errors": [],
+ "seconds_total": 290.6,
+ "median_ms_per_question": 6435.8,
+ "prompt_tokens": 110966,
+ "output_tokens": 5960,
+ "api_calls": 77,
+ "api_retries": 10,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

@@ -1,0 +1,935 @@
+[
+ {
+  "id": "d-tb1",
+  "split": "dev",
+  "group": "table",
+  "question": "What was life expectancy at birth for males and for females in Mali in 2019?",
+  "expected_answer": "Male 62.2 years, female 63.4 years (2019).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Male/Female, 2019'"
+   }
+  ]
+ },
+ {
+  "id": "d-tb2",
+  "split": "dev",
+  "group": "table",
+  "question": "What was the suicide mortality rate in Afghanistan in 2019?",
+  "expected_answer": "4.1 per 100 000 population (2019).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 104,
+    "chunk_id": "who-whs-2023-p104-table-000",
+    "evidence": "| Afghanistan | 35.3 | 4.1 | <0.1 | 15.9 | 42.1 am | 62.1 |",
+    "locator": "tr. 104, bảng annex, hàng 'Afghanistan', cột 'Suicide mortality rate (per 100 000 population), 2019'"
+   }
+  ]
+ },
+ {
+  "id": "d-tb3",
+  "split": "dev",
+  "group": "table",
+  "question": "What was the prevalence of stunting in children under 5 in Viet Nam in 2022?",
+  "expected_answer": "19.3% (2022).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 126,
+    "chunk_id": "who-whs-2023-p126-table-003",
+    "evidence": "| Viet Nam | 19.3 | 4.7 | 8.1 | 20.6 | 10 | 25 | - | - |",
+    "locator": "tr. 126, bảng annex, hàng 'Viet Nam', cột 'Prevalence of stunting in children under 5 (%), 2022'"
+   }
+  ]
+ },
+ {
+  "id": "d-im1",
+  "split": "dev",
+  "group": "image",
+  "question": "According to the timeline of 75 years of public health, in which year did WHO found the Expanded Programme on Immunization?",
+  "expected_answer": "1974.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 88,
+    "chunk_id": "who-whs-2023-p088-fig3.3",
+    "evidence": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+    "locator": "tr. 88, Figure 3.3, crop fig3.3_p088.png: mốc 1974: 'WHO founds the Expanded Programme on Immunization'"
+   }
+  ]
+ },
+ {
+  "id": "d-im2",
+  "split": "dev",
+  "group": "image",
+  "question": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed only the stunting threshold?",
+  "expected_answer": "21 countries.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21 countries only crossed stunting threshold"
+   }
+  ]
+ },
+ {
+  "id": "d-im3",
+  "split": "dev",
+  "group": "image",
+  "question": "On the map of national health and climate change plans or strategies in 2021, what status is shown for Canada?",
+  "expected_answer": "No (no national health and climate change plan or strategy in place).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 38,
+    "chunk_id": "who-whs-2023-p038-fig1.16",
+    "evidence": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+    "locator": "tr. 38, Figure 1.16, crop fig1.16_p038.png: Canada tô màu xanh đậm = 'No' theo chú giải"
+   }
+  ]
+ },
+ {
+  "id": "d-ch1",
+  "split": "dev",
+  "group": "chart",
+  "question": "Globally, what percentage of people living with HIV knew their status in 2015 and in 2021?",
+  "expected_answer": "69% in 2015 and 85% in 2021.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 75,
+    "chunk_id": "who-whs-2023-p075-fig2.20",
+    "evidence": "Figure 2.20 HIV testing and treatment cascade",
+    "locator": "tr. 75, Figure 2.20, crop fig2.20_p075.png: panel a, cột xanh nhạt: 2015 = 69, 2021 = 85"
+   }
+  ]
+ },
+ {
+  "id": "d-ch2",
+  "split": "dev",
+  "group": "chart",
+  "question": "What was the average annual rate of reduction (ARR) of the global under-five mortality rate in 2000-2010 and in 2010-2021?",
+  "expected_answer": "4.0% in 2000-2010 and 2.7% in 2010-2021.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 19,
+    "chunk_id": "who-whs-2023-p019-fig1.4",
+    "evidence": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+    "locator": "tr. 19, Figure 1.4, crop fig1.4_p019.png: nhãn ARR trên đường U5MR: 4.0% (2000-2010), 2.7% (2010-2021)"
+   }
+  ]
+ },
+ {
+  "id": "d-ch3",
+  "split": "dev",
+  "group": "chart",
+  "question": "In the European Region in 2020, what proportion of the population used safely-managed drinking-water services and safely-managed sanitation services?",
+  "expected_answer": "92% drinking-water and 70% sanitation.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 66,
+    "chunk_id": "who-whs-2023-p066-fig2.13",
+    "evidence": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+    "locator": "tr. 66, Figure 2.13, crop fig2.13_p066.png: European Region: cột xanh dương 92, cột xanh lá 70"
+   }
+  ]
+ },
+ {
+  "id": "d-mh1",
+  "split": "dev",
+  "group": "multihop",
+  "question": "For Mali, what are life expectancy at birth for both sexes (2019) and the maternal mortality ratio (2020)?",
+  "expected_answer": "Life expectancy 62.8 years (2019); maternal mortality ratio 440 per 100 000 live births (2020).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Both sexes, 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 101,
+    "chunk_id": "who-whs-2023-p101-table-000",
+    "evidence": "| Mali | 440 | 67 | 97 | 33 | 0.26 | 50 | 353.6 | 4.62 | 10 144 929 |",
+    "locator": "tr. 101, bảng annex, hàng 'Mali', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   }
+  ]
+ },
+ {
+  "id": "d-mh2",
+  "split": "dev",
+  "group": "multihop",
+  "question": "How much higher was Afghanistan's maternal mortality ratio in 2020 than the global ratio that year?",
+  "expected_answer": "Afghanistan 620 vs global 223 per 100 000 live births: 397 higher (about 2.8 times).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 97,
+    "chunk_id": "who-whs-2023-p097-table-000",
+    "evidence": "| Afghanistan | 620 | 62 | 56 | 34 | 0.04 | 189 | 6.3 | 0.39 | 14 367 281 |",
+    "locator": "tr. 97, bảng annex, hàng 'Afghanistan', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 15,
+    "chunk_id": "who-whs-2023-p015-text-000",
+    "evidence": "223 (UI: 202–255) deaths per 100 000 live births that year",
+    "locator": "tr. 15, đoạn văn"
+   }
+  ],
+  "calc": "620 - 223 = 397; 620 / 223 = 2.78"
+ },
+ {
+  "id": "d-mh3",
+  "split": "dev",
+  "group": "multihop",
+  "question": "How many children under 5 were affected by stunting globally in 2022, and how many countries crossed only the stunting threshold in the malnutrition diagram?",
+  "expected_answer": "148.1 million children; 21 countries.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 57,
+    "chunk_id": "who-whs-2023-p057-fig2.7",
+    "evidence": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+    "locator": "tr. 57, Figure 2.7, crop fig2.7_p057.png: biểu đồ phải, đường Stunting, nhãn 2022 = 148.1"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21"
+   }
+  ]
+ },
+ {
+  "id": "d-tx1",
+  "split": "dev",
+  "group": "text",
+  "question": "How did the global age-standardized prevalence of current tobacco use change between 2000 and 2020?",
+  "expected_answer": "It fell by over 30%, from 32.7% in 2000 to 22.3% in 2020.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 24,
+    "chunk_id": "who-whs-2023-p024-text-000",
+    "evidence": "has declined by over 30% – from 32.7% in 2000 to 22.3% in 2020",
+    "locator": "tr. 24, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "d-tx2",
+  "split": "dev",
+  "group": "text",
+  "question": "How did the average implementation status of IHR core capacities change from 2021 to 2022?",
+  "expected_answer": "It increased from 64% in 2021 to 66% in 2022.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 77,
+    "chunk_id": "who-whs-2023-p077-text-001",
+    "evidence": "increased from 64% in 2021 to 66% in 2022",
+    "locator": "tr. 77, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "d-tx3",
+  "split": "dev",
+  "group": "text",
+  "question": "Was anaemia prevalence higher among pregnant or non-pregnant women aged 15-49, and what were the values?",
+  "expected_answer": "Higher among pregnant women: 36.5% versus 29.6% in non-pregnant women.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 60,
+    "chunk_id": "who-whs-2023-p060-text-001",
+    "evidence": "Prevalence was higher among pregnant women [36.5% (UI: 34.0–39.1)] than non-pregnant women [29.6%",
+    "locator": "tr. 60, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "d-na1",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "How many mpox (monkeypox) cases were reported globally in 2022?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Không có 'mpox'/'monkeypox' trong bất kỳ chunk nào (text, bảng, hình) của 136 trang.",
+  "absence_check": {
+   "keywords": {
+    "mpox": [],
+    "monkeypox": []
+   }
+  }
+ },
+ {
+  "id": "d-na2",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "What is the density of hospital beds per 10 000 population in Brazil?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Bảng annex (tr. 113-119) chỉ có mật độ bác sĩ, điều dưỡng/hộ sinh, nha sĩ, dược sĩ; không có giường bệnh.",
+  "absence_check": {
+   "keywords": {
+    "hospital bed": [],
+    "beds per": []
+   }
+  }
+ },
+ {
+  "id": "d-na3",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "What is the prevalence of e-cigarette use among adolescents?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Phần thuốc lá (tr. 24-25, Fig 1.9, annex 3.a) chỉ nói 'current tobacco use' ở người từ 15 tuổi; không có thuốc lá điện tử.",
+  "absence_check": {
+   "keywords": {
+    "e-cigarette": [],
+    "vaping": [],
+    "electronic cigarette": []
+   }
+  }
+ },
+ {
+  "id": "t-tb1",
+  "split": "test",
+  "group": "table",
+  "question": "In Mongolia, how many years longer was female than male life expectancy at birth in 2019?",
+  "expected_answer": "9.0 years (female 72.8, male 63.8).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mongolia | 1 661 | 1 686 | 3 348 | 63.8 | 72.8 | 68.1 | 57.1 | 63.8 | 60.3 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mongolia', cột 'Life expectancy at birth, Male/Female, 2019'"
+   }
+  ],
+  "calc": "72.8 - 63.8 = 9.0"
+ },
+ {
+  "id": "t-tb2",
+  "split": "test",
+  "group": "table",
+  "question": "What proportion of births in Brazil were attended by skilled health personnel?",
+  "expected_answer": "98% (primary data, 2013-2022).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 97,
+    "chunk_id": "who-whs-2023-p097-table-001",
+    "evidence": "| Brazil | 72 | 98 | 14 | 8 | 0.24 | 48 | 3.7 | 0.03 | 9 710 068 |",
+    "locator": "tr. 97, bảng annex, hàng 'Brazil', cột 'Proportion of births attended by skilled health personnel (%), 2013-2022'"
+   }
+  ]
+ },
+ {
+  "id": "t-tb3",
+  "split": "test",
+  "group": "table",
+  "question": "For Afghanistan, what were the age-standardized prevalence of tobacco use (2020) and DTP3 immunization coverage among 1-year-olds (2021)?",
+  "expected_answer": "Tobacco use 23.3% (2020); DTP3 coverage 66% (2021).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 112,
+    "chunk_id": "who-whs-2023-p112-table-000",
+    "evidence": "| Afghanistan | 23.3 | 66 | 44 | 65 | - | 3.50 | - |",
+    "locator": "tr. 112, bảng annex, hàng 'Afghanistan', cột 'Tobacco use prevalence 2020; DTP3 coverage 2021'"
+   }
+  ]
+ },
+ {
+  "id": "t-tb4",
+  "split": "test",
+  "group": "table",
+  "question": "What was the total population (both sexes) of Thailand in 2021?",
+  "expected_answer": "71 601 thousand (about 71.6 million) in 2021.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 102,
+    "chunk_id": "who-whs-2023-p102-table-001",
+    "evidence": "| Thailand | 34 794 | 36 807 | 71 601 | 74.4 | 81.0 | 77.7 | 65.9 | 70.6 | 68.3 |",
+    "locator": "tr. 102, bảng annex, hàng 'Thailand', cột 'Total population (000s), Both sexes, 2021'"
+   }
+  ]
+ },
+ {
+  "id": "t-tb5",
+  "split": "test",
+  "group": "table",
+  "question": "By how many percentage points was the prevalence of anaemia in women of reproductive age higher in Afghanistan than in Brazil in 2019?",
+  "expected_answer": "26.5 percentage points (Afghanistan 42.6%, Brazil 16.1%).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 120,
+    "chunk_id": "who-whs-2023-p120-table-000",
+    "evidence": "| Afghanistan | 33.1 | 5.1 aq, ar | 3.7 | 42.6 | 35 | 46 | 28 | - |",
+    "locator": "tr. 120, bảng annex, hàng 'Afghanistan', cột 'Prevalence of anaemia in women of reproductive age (%), 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 120,
+    "chunk_id": "who-whs-2023-p120-table-001",
+    "evidence": "| Brazil | 7.2 | 3.1 ar | 10.3 | 16.1 | 6 | 23 | 86 | 49 |",
+    "locator": "tr. 120, bảng annex, hàng 'Brazil', cột 'Prevalence of anaemia in women of reproductive age (%), 2019'"
+   }
+  ],
+  "calc": "42.6 - 16.1 = 26.5"
+ },
+ {
+  "id": "t-tb6",
+  "split": "test",
+  "group": "table",
+  "question": "What was healthy life expectancy at birth for both sexes in Viet Nam in 2019?",
+  "expected_answer": "65.3 years (2019).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 102,
+    "chunk_id": "who-whs-2023-p102-table-002",
+    "evidence": "| Viet Nam | 48 136 | 49 332 | 97 468 | 69.6 | 78.1 | 73.7 | 62.4 | 68.3 | 65.3 |",
+    "locator": "tr. 102, bảng annex, hàng 'Viet Nam', cột 'Healthy life expectancy at birth, Both sexes, 2019'"
+   }
+  ]
+ },
+ {
+  "id": "t-im1",
+  "split": "test",
+  "group": "image",
+  "question": "According to the timeline of 75 years of public health, what did the World Health Assembly adopt in 2003?",
+  "expected_answer": "The WHO Framework Convention on Tobacco Control, WHO's first global public health treaty.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 88,
+    "chunk_id": "who-whs-2023-p088-fig3.3",
+    "evidence": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+    "locator": "tr. 88, Figure 3.3, crop fig3.3_p088.png: mốc 2003: WHA adopts the WHO Framework Convention on Tobacco Control"
+   }
+  ]
+ },
+ {
+  "id": "t-im2",
+  "split": "test",
+  "group": "image",
+  "question": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed both the stunting and anaemia thresholds (and no other)?",
+  "expected_answer": "17 countries.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng giao Stunting-Anaemia: 17 countries crossed stunting and anaemia thresholds"
+   }
+  ]
+ },
+ {
+  "id": "t-im3",
+  "split": "test",
+  "group": "image",
+  "question": "On the world map of maternal mortality ratio by country in 2020, what are the highest and the lowest legend classes?",
+  "expected_answer": "Highest class: 1000 or more per 100 000 live births; lowest class: below 20.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 16,
+    "chunk_id": "who-whs-2023-p016-fig1.2",
+    "evidence": "Figure 1.2 Maternal mortality ratio by country/area, 2020",
+    "locator": "tr. 16, Figure 1.2, crop fig1.2_p016.png: chú giải: lớp cao nhất '≥1000', thấp nhất '<20' (per 100 000 live births)"
+   }
+  ]
+ },
+ {
+  "id": "t-im4",
+  "split": "test",
+  "group": "image",
+  "question": "On the map of under-five and neonatal mortality by country in 2021, what do the circles represent and what value does the largest legend circle stand for?",
+  "expected_answer": "The circles show the neonatal mortality rate (per 1000 live births); the largest legend circle is 40.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 20,
+    "chunk_id": "who-whs-2023-p020-fig1.6",
+    "evidence": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021",
+    "locator": "tr. 20, Figure 1.6, crop fig1.6_p020.png: chú giải: vòng tròn = Neonatal mortality rate (per 1000 live births), vòng lớn nhất = 40"
+   }
+  ]
+ },
+ {
+  "id": "t-im5",
+  "split": "test",
+  "group": "image",
+  "question": "On the map of national health and climate change plans or strategies in 2021, what status is shown for China?",
+  "expected_answer": "Yes (a national health and climate change plan or strategy is in place).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 38,
+    "chunk_id": "who-whs-2023-p038-fig1.16",
+    "evidence": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+    "locator": "tr. 38, Figure 1.16, crop fig1.16_p038.png: China tô màu đỏ sẫm = 'Yes' theo chú giải"
+   }
+  ]
+ },
+ {
+  "id": "t-ch1",
+  "split": "test",
+  "group": "chart",
+  "question": "In the Eastern Mediterranean Region in 2021, what percentages of people living with HIV knew their status, were on treatment and were virally suppressed?",
+  "expected_answer": "41% knew their status, 27% were on treatment and 24% were virally suppressed.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 75,
+    "chunk_id": "who-whs-2023-p075-fig2.20",
+    "evidence": "Figure 2.20 HIV testing and treatment cascade",
+    "locator": "tr. 75, Figure 2.20, crop fig2.20_p075.png: panel b, Eastern Mediterranean Region: 41 / 27 / 24"
+   }
+  ]
+ },
+ {
+  "id": "t-ch2",
+  "split": "test",
+  "group": "chart",
+  "question": "How did the global prevalence of stunting in children under 5 change between 2000 and 2022?",
+  "expected_answer": "It fell from 33.0% in 2000 to 22.3% in 2022.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 57,
+    "chunk_id": "who-whs-2023-p057-fig2.7",
+    "evidence": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+    "locator": "tr. 57, Figure 2.7, crop fig2.7_p057.png: biểu đồ trái, đường Stunting: 33.0 (2000) -> 22.3 (2022)"
+   }
+  ]
+ },
+ {
+  "id": "t-ch3",
+  "split": "test",
+  "group": "chart",
+  "question": "In the Region of the Americas, how many of the total excess deaths in 2020-2021 were reported COVID-19 deaths?",
+  "expected_answer": "2.4 million reported COVID-19 deaths out of 3.2 million total excess deaths.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 30,
+    "chunk_id": "who-whs-2023-p030-fig1.13",
+    "evidence": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021",
+    "locator": "tr. 30, Figure 1.13, crop fig1.13_p030.png: Region of the Americas: tổng 3.2, phần xanh 'Reported COVID-19' = 2.4 (nhãn in trong hình là '2,4')"
+   }
+  ]
+ },
+ {
+  "id": "t-ch4",
+  "split": "test",
+  "group": "chart",
+  "question": "What was the prevalence of current tobacco use among males in the South-East Asia Region in 2000 and in 2020?",
+  "expected_answer": "68.2% in 2000 and 46.6% in 2020.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-fig1.9",
+    "evidence": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020",
+    "locator": "tr. 25, Figure 1.9, crop fig1.9_p025.png: hàng Male, South-East Asia Region: 68.2 (2000), 46.6 (2020)"
+   }
+  ]
+ },
+ {
+  "id": "t-ch5",
+  "split": "test",
+  "group": "chart",
+  "question": "In the African Region in 2020, what proportion of the population used safely-managed drinking-water, safely-managed sanitation and a hand-washing facility with soap and water?",
+  "expected_answer": "32% drinking-water, 23% sanitation and 28% hand-washing facility.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 66,
+    "chunk_id": "who-whs-2023-p066-fig2.13",
+    "evidence": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+    "locator": "tr. 66, Figure 2.13, crop fig2.13_p066.png: African Region: 32 / 23 / 28"
+   }
+  ]
+ },
+ {
+  "id": "t-mh1",
+  "split": "test",
+  "group": "multihop",
+  "question": "For Mexico, what are life expectancy at birth for both sexes (2019) and the under-five mortality rate (2021)?",
+  "expected_answer": "Life expectancy 76.0 years (2019); under-five mortality rate 13 per 1000 live births (2021).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mexico | 61 856 | 64 849 | 126 705 | 73.1 | 78.9 | 76.0 | 64.3 | 67.2 | 65.8 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mexico', cột 'Life expectancy at birth, Both sexes, 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 101,
+    "chunk_id": "who-whs-2023-p101-table-000",
+    "evidence": "| Mexico | 59 | 97 | 13 | 8 | 0.13 | 25 | 0.1 | 0.03 | 19 825 655 |",
+    "locator": "tr. 101, bảng annex, hàng 'Mexico', cột 'Under-five mortality rate (per 1000 live births), 2021'"
+   }
+  ]
+ },
+ {
+  "id": "t-mh2",
+  "split": "test",
+  "group": "multihop",
+  "question": "In the Region of the Americas, what were the prevalence of adult obesity in 2016 and the prevalence of adult hypertension in 2019?",
+  "expected_answer": "Obesity 28.6% (2016); hypertension 35.4% (2019).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-text-000",
+    "evidence": "was in the Americas where 28.6% (UI: 26.6–30.5%) of adults were obese",
+    "locator": "tr. 25, đoạn văn"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 26,
+    "chunk_id": "who-whs-2023-p026-text-000",
+    "evidence": "the Americas at 35.4% (UI: 33.3–37.6%)",
+    "locator": "tr. 26, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-mh3",
+  "split": "test",
+  "group": "multihop",
+  "question": "What was the average annual rate of reduction of the global under-five mortality rate in 2010-2021, and how many countries will miss the SDG under-five mortality target if that trend continues?",
+  "expected_answer": "ARR 2.7% in 2010-2021; 54 countries will not meet the SDG target for under-five mortality.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 19,
+    "chunk_id": "who-whs-2023-p019-fig1.4",
+    "evidence": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+    "locator": "tr. 19, Figure 1.4, crop fig1.4_p019.png: nhãn ARR trên đường U5MR giai đoạn 2010-2021 = 2.7%"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 20,
+    "chunk_id": "who-whs-2023-p020-text-000",
+    "evidence": "54 countries will not meet the SDG target for U5MR",
+    "locator": "tr. 20, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-mh4",
+  "split": "test",
+  "group": "multihop",
+  "question": "For Brazil, what are the density of medical doctors and the UHC service coverage index?",
+  "expected_answer": "21.4 medical doctors per 10 000 population (2013-2021); UHC service coverage index 80 (2021).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 113,
+    "chunk_id": "who-whs-2023-p113-table-001",
+    "evidence": "| Brazil | 21.4 | 55.1 | 6.7 | 3.4 | 69 | - | - | 10.8 |",
+    "locator": "tr. 113, bảng annex, hàng 'Brazil', cột 'Density of medical doctors (per 10 000 population), 2013-2021'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 105,
+    "chunk_id": "who-whs-2023-p105-table-001",
+    "evidence": "| Brazil | 2.3 | 80 | 11.8 | 1.9 | 28.9 | 6.6 | 0.1 |",
+    "locator": "tr. 105, bảng annex, hàng 'Brazil', cột 'UHC: Service coverage index, 2021'"
+   }
+  ]
+ },
+ {
+  "id": "t-tx1",
+  "split": "test",
+  "group": "text",
+  "question": "What share of adults globally were obese in 2016, and how did that compare with 2000?",
+  "expected_answer": "13.1% in 2016, up from 8.7% in 2000.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-text-000",
+    "evidence": "In 2016, 13.1% (UI: 12.4–13.9%) of adults globally were obese, up from 8.7% (UI: 8.4–9.0) in 2000",
+    "locator": "tr. 25, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-tx2",
+  "split": "test",
+  "group": "text",
+  "question": "How many excess deaths globally could be attributed to the COVID-19 pandemic by the end of 2021?",
+  "expected_answer": "14.9 million (95% UI: 13.3-16.6 million).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 30,
+    "chunk_id": "who-whs-2023-p030-text-001",
+    "evidence": "14.9 million (95% UI: 13.3–16.6 million) excess deaths could be attributed to the COVID-19 pandemic by the end of 2021",
+    "locator": "tr. 30, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-tx3",
+  "split": "test",
+  "group": "text",
+  "question": "Since 2016, for how many countries has the availability and affordability of a core set of essential medicines been estimated, and what was the median value?",
+  "expected_answer": "17 countries (in the African, Americas and European regions), with a median of 15% (IQR: 0-28%).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 77,
+    "chunk_id": "who-whs-2023-p077-text-000",
+    "evidence": "has been estimated for 17 countries across WHO’s African, Americas and European regions, with a median value across all 17 countries of 15% (IQR: 0–28%)",
+    "locator": "tr. 77, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-tx4",
+  "split": "test",
+  "group": "text",
+  "question": "What was the global male-to-female ratio of tobacco use prevalence in 2020, and how had it changed since 2000?",
+  "expected_answer": "4.7 in 2020, up from 3.0 in 2000.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 24,
+    "chunk_id": "who-whs-2023-p024-text-002",
+    "evidence": "The male-to-female ratio at global level was 4.7 in 2020, rising from 3.0 in 2000",
+    "locator": "tr. 24, đoạn văn"
+   }
+  ]
+ },
+ {
+  "id": "t-na1",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "How many cholera cases were reported worldwide in 2022?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "'cholera' không xuất hiện trong tài liệu; phần bệnh truyền nhiễm chỉ bàn HIV, lao, sốt rét, viêm gan, NTD.",
+  "absence_check": {
+   "keywords": {
+    "cholera": []
+   }
+  }
+ },
+ {
+  "id": "t-na2",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What was life expectancy at birth in Viet Nam in 2022?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Bảng annex (tr. 102) chỉ có tuổi thọ của Viet Nam năm 2019 (73.7); không có số liệu 2022. Trả lời đạt khi nêu rõ không có số 2022 (có thể nhắc số 2019 kèm năm).",
+  "absence_check": {
+   "keywords": {
+    "life expectancy in 2022": [],
+    "2022 life expectancy": []
+   }
+  }
+ },
+ {
+  "id": "t-na3",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What is the global yellow fever vaccination coverage?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "'yellow fever' không xuất hiện; phần tiêm chủng (Fig 2.18, annex 3.b) chỉ có DTP3, MCV2, PCV3, HPV.",
+  "absence_check": {
+   "keywords": {
+    "yellow fever": []
+   }
+  }
+ },
+ {
+  "id": "t-na4",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "How many people died from drowning worldwide in 2019?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "'drowning' không xuất hiện; phần thương tích (tr. 62-63, Fig 2.11-2.12, 2.17) chỉ có tai nạn giao thông, tự tử, giết người, ngộ độc không chủ ý.",
+  "absence_check": {
+   "keywords": {
+    "drowning": []
+   }
+  }
+ },
+ {
+  "id": "t-na5",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What is the current health expenditure per capita in Brazil?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Bảng annex (tr. 105, 113) chỉ có tỷ lệ dân có chi tiêu y tế hộ gia đình >10%/>25% và chi tiêu y tế công trong tổng chi chính phủ; không có chi tiêu y tế bình quân đầu người.",
+  "absence_check": {
+   "keywords": {
+    "expenditure per capita": [],
+    "health expenditure per capita": []
+   }
+  }
+ },
+ {
+  "id": "t-na6",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What is the global prevalence of chronic hepatitis C infection?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "'hepatitis C' không xuất hiện; tài liệu chỉ báo cáo viêm gan B (tr. 54-55, Fig 2.6, annex HBsAg).",
+  "absence_check": {
+   "keywords": {
+    "hepatitis C": [],
+    "HCV": []
+   }
+  }
+ }
+]

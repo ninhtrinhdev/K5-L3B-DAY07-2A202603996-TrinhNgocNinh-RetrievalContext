@@ -1,0 +1,81 @@
+t-tb1    answered searches=1 gold_in_ctx=True 
+t-tb2    answered searches=1 gold_in_ctx=True 
+t-tb3    answered searches=1 gold_in_ctx=True 
+t-tb4    answered searches=1 gold_in_ctx=True 
+t-tb5    answered searches=2 gold_in_ctx=True 
+t-tb6    abstain  searches=3 gold_in_ctx=False 
+t-im1    answered searches=1 gold_in_ctx=True 
+t-im2    answered searches=1 gold_in_ctx=True 
+t-im3    answered searches=1 gold_in_ctx=True 
+t-im4    answered searches=1 gold_in_ctx=True 
+t-im5    answered searches=1 gold_in_ctx=True 
+t-ch1    answered searches=1 gold_in_ctx=True 
+t-ch2    answered searches=1 gold_in_ctx=True 
+t-ch3    answered searches=1 gold_in_ctx=True 
+t-ch4    answered searches=1 gold_in_ctx=True 
+t-ch5    answered searches=1 gold_in_ctx=True 
+t-mh1    abstain  searches=3 gold_in_ctx=True 
+t-mh2    answered searches=2 gold_in_ctx=True 
+t-mh3    error    searches=0 gold_in_ctx=False ApiError: controller trả JSON không hợp lệ: {"action": "search", "query": "globa
+t-mh4    answered searches=2 gold_in_ctx=True 
+t-tx1    answered searches=1 gold_in_ctx=True 
+t-tx2    answered searches=1 gold_in_ctx=False 
+t-tx3    answered searches=1 gold_in_ctx=True 
+t-tx4    answered searches=1 gold_in_ctx=True 
+t-na1    abstain  searches=2 gold_in_ctx=None 
+t-na2    abstain  searches=1 gold_in_ctx=None 
+t-na3    abstain  searches=1 gold_in_ctx=None 
+t-na4    abstain  searches=3 gold_in_ctx=None 
+t-na5    abstain  searches=3 gold_in_ctx=None 
+t-na6    abstain  searches=3 gold_in_ctx=None 
+{
+ "corpus": "whs",
+ "split": "test",
+ "config": "C-dense",
+ "n": 30,
+ "model": "google/gemini-3.5-flash-lite",
+ "status": {
+  "answered": 21,
+  "abstain": 8,
+  "error": 1
+ },
+ "tool_use": "29/29",
+ "search_calls_distribution": {
+  "1": 20,
+  "2": 4,
+  "3": 5
+ },
+ "answerable_gold_in_final_context": "21/23",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [
+  "t-tb6",
+  "t-mh1"
+ ],
+ "numbers_not_in_cited_text": {
+  "t-tb1": [
+   "9.0"
+  ],
+  "t-tb5": [
+   "26.5"
+  ],
+  "t-ch1": [
+   "202141"
+  ],
+  "t-ch3": [
+   "20212.4"
+  ]
+ },
+ "errors": [
+  {
+   "id": "t-mh3",
+   "error": "ApiError: controller trả JSON không hợp lệ: {\"action\": \"search\", \"query\": \"global under-five mortality rate average annual rate of reduction 2010-2021 SDG target\"-removed-}"
+  }
+ ],
+ "seconds_total": 137.8,
+ "median_ms_per_question": 3611.9,
+ "prompt_tokens": 186417,
+ "output_tokens": 12417,
+ "api_calls": 113,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

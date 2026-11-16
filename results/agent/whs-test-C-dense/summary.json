@@ -1,0 +1,61 @@
+{
+ "corpus": "whs",
+ "split": "test",
+ "config": "C-dense",
+ "n": 30,
+ "model": "google/gemini-3.5-flash-lite",
+ "settings": {
+  "corpus": "whs",
+  "method": "dense",
+  "top_k": 5,
+  "budget_chars": 12000,
+  "max_searches": 4,
+  "controller_model": "google/gemini-3.5-flash-lite",
+  "embedding": "gemini-embedding-001/768",
+  "llm_provider": "openrouter"
+ },
+ "status": {
+  "answered": 21,
+  "abstain": 8,
+  "error": 1
+ },
+ "tool_use": "29/29",
+ "search_calls_distribution": {
+  "1": 20,
+  "2": 4,
+  "3": 5
+ },
+ "answerable_gold_in_final_context": "21/23",
+ "answered_unanswerable_auto": [],
+ "abstained_answerable_auto": [
+  "t-tb6",
+  "t-mh1"
+ ],
+ "numbers_not_in_cited_text": {
+  "t-tb1": [
+   "9.0"
+  ],
+  "t-tb5": [
+   "26.5"
+  ],
+  "t-ch1": [
+   "202141"
+  ],
+  "t-ch3": [
+   "20212.4"
+  ]
+ },
+ "errors": [
+  {
+   "id": "t-mh3",
+   "error": "ApiError: controller trả JSON không hợp lệ: {\"action\": \"search\", \"query\": \"global under-five mortality rate average annual rate of reduction 2010-2021 SDG target\"-removed-}"
+  }
+ ],
+ "seconds_total": 137.8,
+ "median_ms_per_question": 3611.9,
+ "prompt_tokens": 186417,
+ "output_tokens": 12417,
+ "api_calls": 113,
+ "api_retries": 0,
+ "note": "automatic counts only; answer grade, citation support and abstention correctness need a human review (reviews.json)"
+}

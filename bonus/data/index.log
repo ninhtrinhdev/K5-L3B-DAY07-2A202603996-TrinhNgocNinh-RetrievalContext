@@ -1,0 +1,11 @@
+50/536
+100/536
+150/536
+200/536
+250/536
+300/536
+350/536
+400/536
+450/536
+500/536
+{"chunks": 536, "inserted": 536, "updated": 0, "unchanged": 0, "deleted": 0, "cache_hits": 22, "api_embedded": 514, "db_rows": 536, "by_kind": {"figure": 44, "text": 336, "table": 156}, "seconds": 1294.4, "embedding_model": "gemini-embedding-001", "dimensions": 768, "chars_embedded": 512636, "api_calls": 523, "retries": 9}

@@ -1,0 +1,1761 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "group": null,
+  "question": "Does WHO recommend restricting dietary salt intake during pregnancy to prevent pre-eclampsia, and how strong is the recommendation?",
+  "status": "answered",
+  "answer": "WHO does not recommend restricting dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications [who-preeclampsia-2011-p018-002] [who-preeclampsia-2011-p011-000]. This is a weak recommendation based on moderate-quality evidence [who-preeclampsia-2011-p018-002] [who-preeclampsia-2011-p011-000].",
+  "citations": [
+   "who-preeclampsia-2011-p018-002",
+   "who-preeclampsia-2011-p011-000"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "WHO recommend restricting dietary salt intake pregnancy pre-eclampsia",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p018-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 18,
+      "text": "###### **Recommendation**\n\n3. Restriction in dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications is not recommended.\n\n- (Moderate-quality evidence. Weak recommendation.)",
+      "metadata": {
+       "section": "Dietary salt restriction for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7870573039966021,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p018-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 18,
+      "text": "#### **Dietary salt restriction for prevention of pre-eclampsia**\n\nEvidence on the differential effects of altered dietary salt intake on the development of preeclampsia and its complications came from a Cochrane systematic review of two RCTs involving 603 women in the Netherlands ( _11_ ). Participants in both trials were nulliparous women with normal blood pressure at trial entry. The two trials compared restricted dietary salt intake (20 mmol/day or 50 mmol/day) with advice to continue with normal diet. There were no statistically significant differences for the critical (and proxy) outcomes addressed in the trials: preeclampsia (two trials, 603 women; RR 1.11 95% CI 0.49–1.94), perinatal death (two trials, 409 women; RR 1.92, 95% CI 0.18–21.03), admission to intensive care unit (one trial, 361 women; RR 0.98, 95% CI 0.69–1.40) and Apgar score less than seven at 5 minutes (one trial, 361 women; RR 1.37, 95% CI 0.53–3.53) (EB Table 5).",
+      "metadata": {
+       "section": "Dietary salt restriction for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7768384681247765,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p018-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 18,
+      "text": "###### **Remarks**\n\n- a. The guideline development group agreed that healthy dietary practices should be promoted in the general population, including among pregnant women.\n\n- b. The group considered the avoidance of excessive dietary salt intake as a healthy dietary practice.",
+      "metadata": {
+       "section": "Dietary salt restriction for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7491099834442139,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p011-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 11,
+      "text": "###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the primary prevention of pre-eclampsia<br>and hypertensive disorders of pregnancy in women<br>considered to be at risk of developing those conditions.|Low|Weak|\n|Strict bedrest is not recommended for improving<br>pregnancy outcomes in women with hypertension (with<br>or without proteinuria)<br>in pregnancy.|Low|Weak|\n|Restriction in dietary salt intake during pregnancy with<br>the aim of preventing the development of pre-eclampsia<br>and its complications is not recommended.|Moderate|Weak|\n|Vitamin D supplementation during pregnancy is not<br>recommended to prevent the development of pre-<br>eclampsia and its complications.|Very low|Strong|",
+      "metadata": {
+       "section": "Recommendations",
+       "has_table": true
+      },
+      "score": 0.7373649477958679,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p010-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 10,
+      "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|",
+      "metadata": {
+       "section": "Recommendations",
+       "has_table": true
+      },
+      "score": 0.7219223976135254,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p018-002 | content.pdf | page 18]\n###### **Recommendation**\n\n3. Restriction in dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications is not recommended.\n\n- (Moderate-quality evidence. Weak recommendation.)\n\n[who-preeclampsia-2011-p018-000 | content.pdf | page 18]\n#### **Dietary salt restriction for prevention of pre-eclampsia**\n\nEvidence on the differential effects of altered dietary salt intake on the development of preeclampsia and its complications came from a Cochrane systematic review of two RCTs involving 603 women in the Netherlands ( _11_ ). Participants in both trials were nulliparous women with normal blood pressure at trial entry. The two trials compared restricted dietary salt intake (20 mmol/day or 50 mmol/day) with advice to continue with normal diet. There were no statistically significant differences for the critical (and proxy) outcomes addressed in the trials: preeclampsia (two trials, 603 women; RR 1.11 95% CI 0.49–1.94), perinatal death (two trials, 409 women; RR 1.92, 95% CI 0.18–21.03), admission to intensive care unit (one trial, 361 women; RR 0.98, 95% CI 0.69–1.40) and Apgar score less than seven at 5 minutes (one trial, 361 women; RR 1.37, 95% CI 0.53–3.53) (EB Table 5).\n\n[who-preeclampsia-2011-p018-003 | content.pdf | page 18]\n###### **Remarks**\n\n- a. The guideline development group agreed that healthy dietary practices should be promoted in the general population, including among pregnant women.\n\n- b. The group considered the avoidance of excessive dietary salt intake as a healthy dietary practice.\n\n[who-preeclampsia-2011-p011-000 | content.pdf | page 11]\n###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the primary prevention of pre-eclampsia<br>and hypertensive disorders of pregnancy in women<br>considered to be at risk of developing those conditions.|Low|Weak|\n|Strict bedrest is not recommended for improving<br>pregnancy outcomes in women with hypertension (with<br>or without proteinuria)<br>in pregnancy.|Low|Weak|\n|Restriction in dietary salt intake during pregnancy with<br>the aim of preventing the development of pre-eclampsia<br>and its complications is not recommended.|Moderate|Weak|\n|Vitamin D supplementation during pregnancy is not<br>recommended to prevent the development of pre-<br>eclampsia and its complications.|Very low|Strong|\n\n[who-preeclampsia-2011-p010-000 | content.pdf | page 10]\n###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|",
+    "context_ids": [
+     "who-preeclampsia-2011-p018-002",
+     "who-preeclampsia-2011-p018-000",
+     "who-preeclampsia-2011-p018-003",
+     "who-preeclampsia-2011-p011-000",
+     "who-preeclampsia-2011-p010-000"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "self_check": {
+   "applicable": true,
+   "citations_in_final_context": true,
+   "numbers_not_in_cited_text": []
+  },
+  "search_calls": 1,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "WHO recommend restricting dietary salt intake pregnancy pre-eclampsia",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p018-002",
+      "page": 18,
+      "score": 0.78706
+     },
+     {
+      "id": "who-preeclampsia-2011-p018-000",
+      "page": 18,
+      "score": 0.77684
+     },
+     {
+      "id": "who-preeclampsia-2011-p018-003",
+      "page": 18,
+      "score": 0.74911
+     },
+     {
+      "id": "who-preeclampsia-2011-p011-000",
+      "page": 11,
+      "score": 0.73736
+     },
+     {
+      "id": "who-preeclampsia-2011-p010-000",
+      "page": 10,
+      "score": 0.72192
+     }
+    ],
+    "elapsed_ms": 1261.1
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"WHO recommend restricting dietary salt intake pregnancy pre-eclampsia\"}",
+    "elapsed_ms": 709.3,
+    "prompt_tokens": 416,
+    "output_tokens": 21
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"answer\",\n  \"answer\": \"WHO does not recommend restricting dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications [who-preeclampsia-2011-p018-002] [who-preeclampsia-2011-p011-000]. This is a weak recommendation based on moderate-quality evidence [who-preeclampsia-2011-p018-002] [who-preeclampsia-2011-p011-000].\",\n  \"citations\": [\n    \"who-preeclampsia-2011-p018-002\",\n    \"who-preeclampsia-2011-p011-000\"\n  ]\n}",
+    "elapsed_ms": 2305.5,
+    "prompt_tokens": 1449,
+    "output_tokens": 192
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p018-002 | content.pdf | page 18]\n###### **Recommendation**\n\n3. Restriction in dietary salt intake during pregnancy with the aim of preventing the development of pre-eclampsia and its complications is not recommended.\n\n- (Moderate-quality evidence. Weak recommendation.)\n\n[who-preeclampsia-2011-p018-000 | content.pdf | page 18]\n#### **Dietary salt restriction for prevention of pre-eclampsia**\n\nEvidence on the differential effects of altered dietary salt intake on the development of preeclampsia and its complications came from a Cochrane systematic review of two RCTs involving 603 women in the Netherlands ( _11_ ). Participants in both trials were nulliparous women with normal blood pressure at trial entry. The two trials compared restricted dietary salt intake (20 mmol/day or 50 mmol/day) with advice to continue with normal diet. There were no statistically significant differences for the critical (and proxy) outcomes addressed in the trials: preeclampsia (two trials, 603 women; RR 1.11 95% CI 0.49–1.94), perinatal death (two trials, 409 women; RR 1.92, 95% CI 0.18–21.03), admission to intensive care unit (one trial, 361 women; RR 0.98, 95% CI 0.69–1.40) and Apgar score less than seven at 5 minutes (one trial, 361 women; RR 1.37, 95% CI 0.53–3.53) (EB Table 5).\n\n[who-preeclampsia-2011-p018-003 | content.pdf | page 18]\n###### **Remarks**\n\n- a. The guideline development group agreed that healthy dietary practices should be promoted in the general population, including among pregnant women.\n\n- b. The group considered the avoidance of excessive dietary salt intake as a healthy dietary practice.\n\n[who-preeclampsia-2011-p011-000 | content.pdf | page 11]\n###### **Box 2: Interventions that are** **_not_ recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Advice to rest at home is not recommended as an<br>intervention for the primary prevention of pre-eclampsia<br>and hypertensive disorders of pregnancy in women<br>considered to be at risk of developing those conditions.|Low|Weak|\n|Strict bedrest is not recommended for improving<br>pregnancy outcomes in women with hypertension (with<br>or without proteinuria)<br>in pregnancy.|Low|Weak|\n|Restriction in dietary salt intake during pregnancy with<br>the aim of preventing the development of pre-eclampsia<br>and its complications is not recommended.|Moderate|Weak|\n|Vitamin D supplementation during pregnancy is not<br>recommended to prevent the development of pre-<br>eclampsia and its complications.|Very low|Strong|\n\n[who-preeclampsia-2011-p010-000 | content.pdf | page 10]\n###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p018-002",
+   "who-preeclampsia-2011-p018-000",
+   "who-preeclampsia-2011-p018-003",
+   "who-preeclampsia-2011-p011-000",
+   "who-preeclampsia-2011-p010-000"
+  ],
+  "elapsed_ms": 4277.5,
+  "prompt_tokens": 1865,
+  "output_tokens": 213,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": true
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "group": null,
+  "question": "How many randomized trials and how many women were in the Cochrane review of antihypertensive drug treatment for mild to moderate hypertension in pregnancy?",
+  "status": "answered",
+  "answer": "The Cochrane systematic review of antihypertensive drug treatment for mild to moderate hypertension in pregnancy involved 46 RCTs and a total of 4282 women [who-preeclampsia-2011-p023-002].",
+  "citations": [
+   "who-preeclampsia-2011-p023-002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "antihypertensive drug treatment for mild to moderate hypertension in pregnancy Cochrane review randomized trials women",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p023-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 23,
+      "text": "A Cochrane systematic review of 46 RCTs involving a total of 4282 women evaluated the potential benefits, risks and side-effects of antihypertensive drug treatment for women with mild to moderate hypertension in pregnancy ( _16_ ). The trials compared antihypertensive drugs with placebo (28 trials, 3200 women) or another antihypertensive drug (19 trials, 1282 women). Thirty four of these trials (3480 women) were conducted in high-income countries and the others in lowand middle-income countries. The trials were generally small, with the largest recruiting 300 women. The class of antihypertensive drugs evaluated included alpha agonists, beta blockers, calcium channel blockers, vasodilators, ketanserin and glyceryl trinitrate. All but glyceryl trinitrate were administered orally in the trials. In most trials, mild to moderate hypertension was defined as a diastolic blood pressure of 90 mm Hg or more, but not exceeding 110 mm Hg.",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7899859076746771,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 23,
+      "text": "_Any antihypertensive drug versus placebo or no antihypertensive_\n\nComparison of any antihypertensive drug with placebo or no antihypertensive drug showed no statistically significant differences in the overall risk ratio for critical (and proxy) outcomes of pre-eclampsia (22 trials, 2702 women; RR 0.97,",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7615500688552856,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7604634165763855,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-006",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 23,
+      "text": "###### _Any antihypertensive drug versus methyldopa_\n\nWhen any antihypertensive drug (essentially beta blockers, calcium channel blockers and/or ketanserin) was compared with methyldopa, no statistically significant differences were observed for the critical (or proxy) outcomes addressed: pre-eclampsia (nine trials, 804 women; RR 0.81, 95% CI 0.57–1.16); total fetal or neonatal death (17 trials, 1130 women; RR 0.67, 95% CI 0.37–1.21); admission to special care baby",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7552838325500488,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 23,
+      "text": "For critical outcomes of pre-eclampsia, the lack of benefits with the use of antihypertensive drug over placebo was consistent across types of hypertensive disorders (hypertension alone, hypertension plus proteinuria or chronic hypertension). Four small trials involving 725 women given calcium channel blockers showed an increase in the risk ratio for pre-eclampsia (RR 1.40, 95% CI 1.06–1.86) while eight trials involving 883 women treated with beta blockers showed statistically significant decrease in the risk ratio for pre-eclampsia (RR 0.73, 95% CI 0.57–0.94). For the proxy outcome of total fetal or neonatal death (including miscarriage), the similarity between the two comparison groups was consistent across the types of hypertensive disorders and gestational age at trial entry (EB Table 15).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7503713369369507,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p023-002 | content.pdf | page 23]\nA Cochrane systematic review of 46 RCTs involving a total of 4282 women evaluated the potential benefits, risks and side-effects of antihypertensive drug treatment for women with mild to moderate hypertension in pregnancy ( _16_ ). The trials compared antihypertensive drugs with placebo (28 trials, 3200 women) or another antihypertensive drug (19 trials, 1282 women). Thirty four of these trials (3480 women) were conducted in high-income countries and the others in lowand middle-income countries. The trials were generally small, with the largest recruiting 300 women. The class of antihypertensive drugs evaluated included alpha agonists, beta blockers, calcium channel blockers, vasodilators, ketanserin and glyceryl trinitrate. All but glyceryl trinitrate were administered orally in the trials. In most trials, mild to moderate hypertension was defined as a diastolic blood pressure of 90 mm Hg or more, but not exceeding 110 mm Hg.\n\n[who-preeclampsia-2011-p023-003 | content.pdf | page 23]\n_Any antihypertensive drug versus placebo or no antihypertensive_\n\nComparison of any antihypertensive drug with placebo or no antihypertensive drug showed no statistically significant differences in the overall risk ratio for critical (and proxy) outcomes of pre-eclampsia (22 trials, 2702 women; RR 0.97,\n\n[who-preeclampsia-2011-p024-002 | content.pdf | page 24]\n###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.\n\n[who-preeclampsia-2011-p023-006 | content.pdf | page 23]\n###### _Any antihypertensive drug versus methyldopa_\n\nWhen any antihypertensive drug (essentially beta blockers, calcium channel blockers and/or ketanserin) was compared with methyldopa, no statistically significant differences were observed for the critical (or proxy) outcomes addressed: pre-eclampsia (nine trials, 804 women; RR 0.81, 95% CI 0.57–1.16); total fetal or neonatal death (17 trials, 1130 women; RR 0.67, 95% CI 0.37–1.21); admission to special care baby\n\n[who-preeclampsia-2011-p023-005 | content.pdf | page 23]\nFor critical outcomes of pre-eclampsia, the lack of benefits with the use of antihypertensive drug over placebo was consistent across types of hypertensive disorders (hypertension alone, hypertension plus proteinuria or chronic hypertension). Four small trials involving 725 women given calcium channel blockers showed an increase in the risk ratio for pre-eclampsia (RR 1.40, 95% CI 1.06–1.86) while eight trials involving 883 women treated with beta blockers showed statistically significant decrease in the risk ratio for pre-eclampsia (RR 0.73, 95% CI 0.57–0.94). For the proxy outcome of total fetal or neonatal death (including miscarriage), the similarity between the two comparison groups was consistent across the types of hypertensive disorders and gestational age at trial entry (EB Table 15).",
+    "context_ids": [
+     "who-preeclampsia-2011-p023-002",
+     "who-preeclampsia-2011-p023-003",
+     "who-preeclampsia-2011-p024-002",
+     "who-preeclampsia-2011-p023-006",
+     "who-preeclampsia-2011-p023-005"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "self_check": {
+   "applicable": true,
+   "citations_in_final_context": true,
+   "numbers_not_in_cited_text": []
+  },
+  "search_calls": 1,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "antihypertensive drug treatment for mild to moderate hypertension in pregnancy Cochrane review randomized trials women",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p023-002",
+      "page": 23,
+      "score": 0.78999
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-003",
+      "page": 23,
+      "score": 0.76155
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-002",
+      "page": 24,
+      "score": 0.76046
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-006",
+      "page": 23,
+      "score": 0.75528
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-005",
+      "page": 23,
+      "score": 0.75037
+     }
+    ],
+    "elapsed_ms": 1191.9
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"antihypertensive drug treatment for mild to moderate hypertension in pregnancy Cochrane review randomized trials women\"}",
+    "elapsed_ms": 973.4,
+    "prompt_tokens": 420,
+    "output_tokens": 29
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"answer\",\n  \"answer\": \"The Cochrane systematic review of antihypertensive drug treatment for mild to moderate hypertension in pregnancy involved 46 RCTs and a total of 4282 women [who-preeclampsia-2011-p023-002].\",\n  \"citations\": [\n    \"who-preeclampsia-2011-p023-002\"\n  ]\n}",
+    "elapsed_ms": 2033.9,
+    "prompt_tokens": 1427,
+    "output_tokens": 103
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p023-002 | content.pdf | page 23]\nA Cochrane systematic review of 46 RCTs involving a total of 4282 women evaluated the potential benefits, risks and side-effects of antihypertensive drug treatment for women with mild to moderate hypertension in pregnancy ( _16_ ). The trials compared antihypertensive drugs with placebo (28 trials, 3200 women) or another antihypertensive drug (19 trials, 1282 women). Thirty four of these trials (3480 women) were conducted in high-income countries and the others in lowand middle-income countries. The trials were generally small, with the largest recruiting 300 women. The class of antihypertensive drugs evaluated included alpha agonists, beta blockers, calcium channel blockers, vasodilators, ketanserin and glyceryl trinitrate. All but glyceryl trinitrate were administered orally in the trials. In most trials, mild to moderate hypertension was defined as a diastolic blood pressure of 90 mm Hg or more, but not exceeding 110 mm Hg.\n\n[who-preeclampsia-2011-p023-003 | content.pdf | page 23]\n_Any antihypertensive drug versus placebo or no antihypertensive_\n\nComparison of any antihypertensive drug with placebo or no antihypertensive drug showed no statistically significant differences in the overall risk ratio for critical (and proxy) outcomes of pre-eclampsia (22 trials, 2702 women; RR 0.97,\n\n[who-preeclampsia-2011-p024-002 | content.pdf | page 24]\n###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.\n\n[who-preeclampsia-2011-p023-006 | content.pdf | page 23]\n###### _Any antihypertensive drug versus methyldopa_\n\nWhen any antihypertensive drug (essentially beta blockers, calcium channel blockers and/or ketanserin) was compared with methyldopa, no statistically significant differences were observed for the critical (or proxy) outcomes addressed: pre-eclampsia (nine trials, 804 women; RR 0.81, 95% CI 0.57–1.16); total fetal or neonatal death (17 trials, 1130 women; RR 0.67, 95% CI 0.37–1.21); admission to special care baby\n\n[who-preeclampsia-2011-p023-005 | content.pdf | page 23]\nFor critical outcomes of pre-eclampsia, the lack of benefits with the use of antihypertensive drug over placebo was consistent across types of hypertensive disorders (hypertension alone, hypertension plus proteinuria or chronic hypertension). Four small trials involving 725 women given calcium channel blockers showed an increase in the risk ratio for pre-eclampsia (RR 1.40, 95% CI 1.06–1.86) while eight trials involving 883 women treated with beta blockers showed statistically significant decrease in the risk ratio for pre-eclampsia (RR 0.73, 95% CI 0.57–0.94). For the proxy outcome of total fetal or neonatal death (including miscarriage), the similarity between the two comparison groups was consistent across the types of hypertensive disorders and gestational age at trial entry (EB Table 15).",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p023-002",
+   "who-preeclampsia-2011-p023-003",
+   "who-preeclampsia-2011-p024-002",
+   "who-preeclampsia-2011-p023-006",
+   "who-preeclampsia-2011-p023-005"
+  ],
+  "elapsed_ms": 4201.1,
+  "prompt_tokens": 1847,
+  "output_tokens": 132,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": true
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "group": null,
+  "question": "In the review on severe hypertension, which drug class outperformed hydralazine for persistent high blood pressure, and what were the number of trials, women and the risk ratio?",
+  "status": "answered",
+  "answer": "Compared with hydralazine, calcium channel blockers (nifedipine and isradipine) outperformed it for persistent high blood pressure, with 5 trials, 263 women, and a risk ratio (RR) of 0.33 (95% CI 0.15–0.70) [who-preeclampsia-2011-p024-005].",
+  "citations": [
+   "who-preeclampsia-2011-p024-005"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "severe hypertension hydralazine persistent high blood pressure review risk ratio trials women",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p024-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7627349354466771,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "###### Calcium channel blockers versus hydralazine\n\nCompared with hydralazine, calcium channel blockers (nifedipine and isradipine) showed a statistically significant reduction in the risk of persistent high blood pressure (five trials, 263 women; RR 0.33, 95% CI 0.15–0.70). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: further episode(s) of very high blood pressure (two trials, 163 women; RR 0.85, 95% CI 0.65–1.11); fetal or neonatal death (four trials, 161women; RR 1.36, 95% CI 0.42–4.41); low blood pressure for the woman (three trials, 199 women; RR 2.83, 95% CI 0.12–64.89); and sideeffects for the woman (four trials, 236 women; RR 0.79, 95% CI 0.50–1.24). Most of the trials providing these critical outcomes were small and at moderate or high risk of bias, thus generating very-low-quality evidence for the outcomes (EB Table 19).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7544237824931028,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p026-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 26,
+      "text": "###### Nifedipine versus prasozin\n\nOne trial (150 women) comparing nifedipine with prasozin showed no statistically significant differences for any of the critical (or proxy) outcomes addressed: HELLP syndrome (one trial, 145 women; RR 1.15, 95% CI 0.37–3.60); renal failure\n\nIn summary, the analysis of the evidence related to the multiple comparisons of antihypertensive drugs for very high hypertension during pregnancy is complicated by its low quality which is due primarily to the small samples used in the trials, rare events as outcomes and variations in the adminsterred drug regimens. Hydralazine is the most studied drug, though in the comparison with calcium channel blockers (nifedipine and isradipine) the latter have been associated with a greater reduction in the risk of persistent high blood pressure.",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7537812893129932,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "###### Labetalol versus hydralazine\n\nWhen labetalol was compared with hydralazine in women with very high blood pressure, no statistically significant differences were observed for any of the critical (or proxy) outcomes addressed in the trials: persistent high blood pressure (two trials, 217 women; RR 1.58, 95% CI 0.66–3.77); maternal pulmonary oedema (one trial, 197 women; RR 3.03, 95% CI 0.12–73.49); HELLP syndrome (one trial, 197 women; RR 1.01, 95% CI 0.15–7.03); oliguria (one trial, 197 women; RR 0.51, 95% CI 0.09–2.69); fetal or neonatal death (four trials, 274 women; RR 0.75, 95% CI 0.17– 3.21); Apgar score <7 at 5 minutes (two trials, 224 women; RR 0.81, 95% CI 0.25–2.61); and hypotension (three trials, 247 women; RR 0.20, 95% CI 0.10–4.15). No events were recorded in both arms of the studies that reported eclampsia, maternal death and disseminated intravascular coagulation.",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7507429421833685,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p025-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 25,
+      "text": "###### Prostacyclin versus hydralazine\n\nOne trial (47 women) comparing prostacyclin with hydralazine showed no statistically significant differences between the comparison groups for the critical outcomes addressed: persistent high blood pressure (RR 0.23, 95% CI 0.01–4.47); neonatal death (RR 1.14, 95% CI 0.08–17.11); and side-effects for the woman (RR 1.14, 95% CI 0.08–17.11). This trial had moderate risk of bias and yielded generally imprecise estimates due to the very small sample size and few events (EB Table 20).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7506174520210137,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p024-002 | content.pdf | page 24]\n###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.\n\n[who-preeclampsia-2011-p024-005 | content.pdf | page 24]\n###### Calcium channel blockers versus hydralazine\n\nCompared with hydralazine, calcium channel blockers (nifedipine and isradipine) showed a statistically significant reduction in the risk of persistent high blood pressure (five trials, 263 women; RR 0.33, 95% CI 0.15–0.70). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: further episode(s) of very high blood pressure (two trials, 163 women; RR 0.85, 95% CI 0.65–1.11); fetal or neonatal death (four trials, 161women; RR 1.36, 95% CI 0.42–4.41); low blood pressure for the woman (three trials, 199 women; RR 2.83, 95% CI 0.12–64.89); and sideeffects for the woman (four trials, 236 women; RR 0.79, 95% CI 0.50–1.24). Most of the trials providing these critical outcomes were small and at moderate or high risk of bias, thus generating very-low-quality evidence for the outcomes (EB Table 19).\n\n[who-preeclampsia-2011-p026-005 | content.pdf | page 26]\n###### Nifedipine versus prasozin\n\nOne trial (150 women) comparing nifedipine with prasozin showed no statistically significant differences for any of the critical (or proxy) outcomes addressed: HELLP syndrome (one trial, 145 women; RR 1.15, 95% CI 0.37–3.60); renal failure\n\nIn summary, the analysis of the evidence related to the multiple comparisons of antihypertensive drugs for very high hypertension during pregnancy is complicated by its low quality which is due primarily to the small samples used in the trials, rare events as outcomes and variations in the adminsterred drug regimens. Hydralazine is the most studied drug, though in the comparison with calcium channel blockers (nifedipine and isradipine) the latter have been associated with a greater reduction in the risk of persistent high blood pressure.\n\n[who-preeclampsia-2011-p024-003 | content.pdf | page 24]\n###### Labetalol versus hydralazine\n\nWhen labetalol was compared with hydralazine in women with very high blood pressure, no statistically significant differences were observed for any of the critical (or proxy) outcomes addressed in the trials: persistent high blood pressure (two trials, 217 women; RR 1.58, 95% CI 0.66–3.77); maternal pulmonary oedema (one trial, 197 women; RR 3.03, 95% CI 0.12–73.49); HELLP syndrome (one trial, 197 women; RR 1.01, 95% CI 0.15–7.03); oliguria (one trial, 197 women; RR 0.51, 95% CI 0.09–2.69); fetal or neonatal death (four trials, 274 women; RR 0.75, 95% CI 0.17– 3.21); Apgar score <7 at 5 minutes (two trials, 224 women; RR 0.81, 95% CI 0.25–2.61); and hypotension (three trials, 247 women; RR 0.20, 95% CI 0.10–4.15). No events were recorded in both arms of the studies that reported eclampsia, maternal death and disseminated intravascular coagulation.\n\n[who-preeclampsia-2011-p025-000 | content.pdf | page 25]\n###### Prostacyclin versus hydralazine\n\nOne trial (47 women) comparing prostacyclin with hydralazine showed no statistically significant differences between the comparison groups for the critical outcomes addressed: persistent high blood pressure (RR 0.23, 95% CI 0.01–4.47); neonatal death (RR 1.14, 95% CI 0.08–17.11); and side-effects for the woman (RR 1.14, 95% CI 0.08–17.11). This trial had moderate risk of bias and yielded generally imprecise estimates due to the very small sample size and few events (EB Table 20).",
+    "context_ids": [
+     "who-preeclampsia-2011-p024-002",
+     "who-preeclampsia-2011-p024-005",
+     "who-preeclampsia-2011-p026-005",
+     "who-preeclampsia-2011-p024-003",
+     "who-preeclampsia-2011-p025-000"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "self_check": {
+   "applicable": true,
+   "citations_in_final_context": true,
+   "numbers_not_in_cited_text": []
+  },
+  "search_calls": 1,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "severe hypertension hydralazine persistent high blood pressure review risk ratio trials women",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p024-002",
+      "page": 24,
+      "score": 0.76273
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-005",
+      "page": 24,
+      "score": 0.75442
+     },
+     {
+      "id": "who-preeclampsia-2011-p026-005",
+      "page": 26,
+      "score": 0.75378
+     },
+     {
+      "id": "who-preeclampsia-2011-p024-003",
+      "page": 24,
+      "score": 0.75074
+     },
+     {
+      "id": "who-preeclampsia-2011-p025-000",
+      "page": 25,
+      "score": 0.75062
+     }
+    ],
+    "elapsed_ms": 1146.8
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"severe hypertension hydralazine persistent high blood pressure review risk ratio trials women\"}",
+    "elapsed_ms": 1309.6,
+    "prompt_tokens": 428,
+    "output_tokens": 25
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"answer\",\n  \"answer\": \"Compared with hydralazine, calcium channel blockers (nifedipine and isradipine) outperformed it for persistent high blood pressure, with 5 trials, 263 women, and a risk ratio (RR) of 0.33 (95% CI 0.15–0.70) [who-preeclampsia-2011-p024-005].\",\n  \"citations\": [\n    \"who-preeclampsia-2011-p024-005\"\n  ]\n}",
+    "elapsed_ms": 2003.3,
+    "prompt_tokens": 1793,
+    "output_tokens": 137
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p024-002 | content.pdf | page 24]\n###### _Antihypertensive drug treatment for severe hypertension during pregnancy_\n\nEvidence related to the differential effects of various antihypertensive drugs when used for the treatment of very high blood pressure in pregnancy came from an updated Cochrane systematic review of 29 RCTs involving 3351 women ( _17_ ). Most of the trials were relatively small and only five of them recruited more than 100 women. Most of the trials participants recruited had diastolic blood pressure of 100 mmHg or higher at trial entry. The antihypertensive drugs investigated in these trials were hydralazine, calcium channel blockers (nifedipine, nimodipine, nicardipine and isradopine), labetalol, methyldopa, diazoxide, prostacyclin, ketanserin, urapidil, magnesium sulfate, prazosin and isosorbide. Hydralazine was compared with another drug in 5 out of the 13 comparisons in the review. There were considerable variations between the studies regarding antihypertensive drug dosages.\n\n[who-preeclampsia-2011-p024-005 | content.pdf | page 24]\n###### Calcium channel blockers versus hydralazine\n\nCompared with hydralazine, calcium channel blockers (nifedipine and isradipine) showed a statistically significant reduction in the risk of persistent high blood pressure (five trials, 263 women; RR 0.33, 95% CI 0.15–0.70). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: further episode(s) of very high blood pressure (two trials, 163 women; RR 0.85, 95% CI 0.65–1.11); fetal or neonatal death (four trials, 161women; RR 1.36, 95% CI 0.42–4.41); low blood pressure for the woman (three trials, 199 women; RR 2.83, 95% CI 0.12–64.89); and sideeffects for the woman (four trials, 236 women; RR 0.79, 95% CI 0.50–1.24). Most of the trials providing these critical outcomes were small and at moderate or high risk of bias, thus generating very-low-quality evidence for the outcomes (EB Table 19).\n\n[who-preeclampsia-2011-p026-005 | content.pdf | page 26]\n###### Nifedipine versus prasozin\n\nOne trial (150 women) comparing nifedipine with prasozin showed no statistically significant differences for any of the critical (or proxy) outcomes addressed: HELLP syndrome (one trial, 145 women; RR 1.15, 95% CI 0.37–3.60); renal failure\n\nIn summary, the analysis of the evidence related to the multiple comparisons of antihypertensive drugs for very high hypertension during pregnancy is complicated by its low quality which is due primarily to the small samples used in the trials, rare events as outcomes and variations in the adminsterred drug regimens. Hydralazine is the most studied drug, though in the comparison with calcium channel blockers (nifedipine and isradipine) the latter have been associated with a greater reduction in the risk of persistent high blood pressure.\n\n[who-preeclampsia-2011-p024-003 | content.pdf | page 24]\n###### Labetalol versus hydralazine\n\nWhen labetalol was compared with hydralazine in women with very high blood pressure, no statistically significant differences were observed for any of the critical (or proxy) outcomes addressed in the trials: persistent high blood pressure (two trials, 217 women; RR 1.58, 95% CI 0.66–3.77); maternal pulmonary oedema (one trial, 197 women; RR 3.03, 95% CI 0.12–73.49); HELLP syndrome (one trial, 197 women; RR 1.01, 95% CI 0.15–7.03); oliguria (one trial, 197 women; RR 0.51, 95% CI 0.09–2.69); fetal or neonatal death (four trials, 274 women; RR 0.75, 95% CI 0.17– 3.21); Apgar score <7 at 5 minutes (two trials, 224 women; RR 0.81, 95% CI 0.25–2.61); and hypotension (three trials, 247 women; RR 0.20, 95% CI 0.10–4.15). No events were recorded in both arms of the studies that reported eclampsia, maternal death and disseminated intravascular coagulation.\n\n[who-preeclampsia-2011-p025-000 | content.pdf | page 25]\n###### Prostacyclin versus hydralazine\n\nOne trial (47 women) comparing prostacyclin with hydralazine showed no statistically significant differences between the comparison groups for the critical outcomes addressed: persistent high blood pressure (RR 0.23, 95% CI 0.01–4.47); neonatal death (RR 1.14, 95% CI 0.08–17.11); and side-effects for the woman (RR 1.14, 95% CI 0.08–17.11). This trial had moderate risk of bias and yielded generally imprecise estimates due to the very small sample size and few events (EB Table 20).",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p024-002",
+   "who-preeclampsia-2011-p024-005",
+   "who-preeclampsia-2011-p026-005",
+   "who-preeclampsia-2011-p024-003",
+   "who-preeclampsia-2011-p025-000"
+  ],
+  "elapsed_ms": 4461.3,
+  "prompt_tokens": 2221,
+  "output_tokens": 162,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": true
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "group": null,
+  "question": "When will this guideline be updated?",
+  "status": "answered",
+  "answer": "This guideline will be updated after five years, or following the identification of new evidence showing a need to change the recommendations [who-preeclampsia-2011-p039-001].",
+  "citations": [
+   "who-preeclampsia-2011-p039-001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "guideline be updated",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p039-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 39,
+      "text": "## 8. Updating of the guidelines\n\nThis guideline will be updated after five years, or following the identification of new evidence showing a need to change the recommendations. WHO welcomes suggestions regarding additional questions for inclusion in the guidelines when they come up for updating. Please e-mail your suggestions to reproductivehealth@who.int and mncah@who.int.",
+      "metadata": {
+       "section": "8. Updating of the guidelines",
+       "has_table": false
+      },
+      "score": 0.7197501564472647,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p016-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 16,
+      "text": "further expansion of the guideline scoping) of the guidelines. The comments and feedback received during the preliminary online consultation were discussed during the meeting and incorporated into the document as appropriate. During the meeting, the draft guidelines were modified in line with the participants’ deliberations and considering the input of received during the online preliminary consultation. After the meeting, members of the guideline steering group worked on the preliminary version to ensure that a revised version reflected accurately the deliberations and decisions of the participants. The revised version was sent electronically back to the participants in the Technical Consultation for their approval.",
+      "metadata": {
+       "section": "Document preparation and peer review",
+       "has_table": false
+      },
+      "score": 0.7004493862256619,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p032-006",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 32,
+      "text": "###### **Remarks**\n\n- a. The guideline development group noted that, in addition to the existing evidence, three small trials addressing this research question had been registered in the WHO International",
+      "metadata": {
+       "section": "Corticosteroids for HELLP syndrome",
+       "has_table": false
+      },
+      "score": 0.6756617024146507,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p036-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 36,
+      "text": "## 5. Research implications\n\nThe guideline development group identified important knowledge gaps that need to be addressed through primary research. In general, in these guidelines, the weak recommendations are based on evidence that has been labelled ‘very low quality’ or ‘low quality’, indicating that further research is needed. Conversely, strong recommendations are based on ‘moderatequality’ or ‘high-quality’ evidence, suggesting that further research is not a priority.",
+      "metadata": {
+       "section": "5. Research implications",
+       "has_table": false
+      },
+      "score": 0.671087225014734,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p020-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 20,
+      "text": "###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.",
+      "metadata": {
+       "section": "Vitamin D supplementation",
+       "has_table": false
+      },
+      "score": 0.669986307621007,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p039-001 | content.pdf | page 39]\n## 8. Updating of the guidelines\n\nThis guideline will be updated after five years, or following the identification of new evidence showing a need to change the recommendations. WHO welcomes suggestions regarding additional questions for inclusion in the guidelines when they come up for updating. Please e-mail your suggestions to reproductivehealth@who.int and mncah@who.int.\n\n[who-preeclampsia-2011-p016-001 | content.pdf | page 16]\nfurther expansion of the guideline scoping) of the guidelines. The comments and feedback received during the preliminary online consultation were discussed during the meeting and incorporated into the document as appropriate. During the meeting, the draft guidelines were modified in line with the participants’ deliberations and considering the input of received during the online preliminary consultation. After the meeting, members of the guideline steering group worked on the preliminary version to ensure that a revised version reflected accurately the deliberations and decisions of the participants. The revised version was sent electronically back to the participants in the Technical Consultation for their approval.\n\n[who-preeclampsia-2011-p032-006 | content.pdf | page 32]\n###### **Remarks**\n\n- a. The guideline development group noted that, in addition to the existing evidence, three small trials addressing this research question had been registered in the WHO International\n\n[who-preeclampsia-2011-p036-003 | content.pdf | page 36]\n## 5. Research implications\n\nThe guideline development group identified important knowledge gaps that need to be addressed through primary research. In general, in these guidelines, the weak recommendations are based on evidence that has been labelled ‘very low quality’ or ‘low quality’, indicating that further research is needed. Conversely, strong recommendations are based on ‘moderatequality’ or ‘high-quality’ evidence, suggesting that further research is not a priority.\n\n[who-preeclampsia-2011-p020-004 | content.pdf | page 20]\n###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.",
+    "context_ids": [
+     "who-preeclampsia-2011-p039-001",
+     "who-preeclampsia-2011-p016-001",
+     "who-preeclampsia-2011-p032-006",
+     "who-preeclampsia-2011-p036-003",
+     "who-preeclampsia-2011-p020-004"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "self_check": {
+   "applicable": true,
+   "citations_in_final_context": true,
+   "numbers_not_in_cited_text": []
+  },
+  "search_calls": 1,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "guideline be updated",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p039-001",
+      "page": 39,
+      "score": 0.71975
+     },
+     {
+      "id": "who-preeclampsia-2011-p016-001",
+      "page": 16,
+      "score": 0.70045
+     },
+     {
+      "id": "who-preeclampsia-2011-p032-006",
+      "page": 32,
+      "score": 0.67566
+     },
+     {
+      "id": "who-preeclampsia-2011-p036-003",
+      "page": 36,
+      "score": 0.67109
+     },
+     {
+      "id": "who-preeclampsia-2011-p020-004",
+      "page": 20,
+      "score": 0.66999
+     }
+    ],
+    "elapsed_ms": 1228.3
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"search\",\n  \"query\": \"guideline be updated\"\n}",
+    "elapsed_ms": 1305.9,
+    "prompt_tokens": 401,
+    "output_tokens": 22
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"answer\",\n  \"answer\": \"This guideline will be updated after five years, or following the identification of new evidence showing a need to change the recommendations [who-preeclampsia-2011-p039-001].\",\n  \"citations\": [\n    \"who-preeclampsia-2011-p039-001\"\n  ]\n}",
+    "elapsed_ms": 1984.8,
+    "prompt_tokens": 967,
+    "output_tokens": 94
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p039-001 | content.pdf | page 39]\n## 8. Updating of the guidelines\n\nThis guideline will be updated after five years, or following the identification of new evidence showing a need to change the recommendations. WHO welcomes suggestions regarding additional questions for inclusion in the guidelines when they come up for updating. Please e-mail your suggestions to reproductivehealth@who.int and mncah@who.int.\n\n[who-preeclampsia-2011-p016-001 | content.pdf | page 16]\nfurther expansion of the guideline scoping) of the guidelines. The comments and feedback received during the preliminary online consultation were discussed during the meeting and incorporated into the document as appropriate. During the meeting, the draft guidelines were modified in line with the participants’ deliberations and considering the input of received during the online preliminary consultation. After the meeting, members of the guideline steering group worked on the preliminary version to ensure that a revised version reflected accurately the deliberations and decisions of the participants. The revised version was sent electronically back to the participants in the Technical Consultation for their approval.\n\n[who-preeclampsia-2011-p032-006 | content.pdf | page 32]\n###### **Remarks**\n\n- a. The guideline development group noted that, in addition to the existing evidence, three small trials addressing this research question had been registered in the WHO International\n\n[who-preeclampsia-2011-p036-003 | content.pdf | page 36]\n## 5. Research implications\n\nThe guideline development group identified important knowledge gaps that need to be addressed through primary research. In general, in these guidelines, the weak recommendations are based on evidence that has been labelled ‘very low quality’ or ‘low quality’, indicating that further research is needed. Conversely, strong recommendations are based on ‘moderatequality’ or ‘high-quality’ evidence, suggesting that further research is not a priority.\n\n[who-preeclampsia-2011-p020-004 | content.pdf | page 20]\n###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p039-001",
+   "who-preeclampsia-2011-p016-001",
+   "who-preeclampsia-2011-p032-006",
+   "who-preeclampsia-2011-p036-003",
+   "who-preeclampsia-2011-p020-004"
+  ],
+  "elapsed_ms": 4520.4,
+  "prompt_tokens": 1368,
+  "output_tokens": 116,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": true
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "group": null,
+  "question": "What must facilities using magnesium sulfate have available in case of toxicity?",
+  "status": "answered",
+  "answer": "Health-care facilities using magnesium sulfate must have calcium gluconate available in case of magnesium sulfate toxicity [who-preeclampsia-2011-p038-004].",
+  "citations": [
+   "who-preeclampsia-2011-p038-004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "magnesium sulfate toxicity facilities available antidote",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p028-006",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 28,
+      "text": "No statistically significant differences were observed between magnesium sulfate and placebo regarding the risks of maternal death (two trials, 10 795 women; RR 0.54, 95% CI 0.26–1.10), any serious maternal morbidity (two trials 10 332 women; RR 1.08, 95% CI 0.89–1.32), respiratory arrest (one trial, 10 110 women; RR 2.50, 95% CI 0.49–12.88) and toxicity as shown by respiratory depression and absent tendon",
+      "metadata": {
+       "section": "Magnesium sulfate for prevention and treatment of eclampsia",
+       "has_table": false
+      },
+      "score": 0.6831369400024414,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p031-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 31,
+      "text": "###### **Remarks**\n\n- a. Magnesium sulfate is a lifesaving drug and should be available in all health-care facilities throughout the health system. The guideline development group believed that capacity for clinical surveillance of women and administration of calcium gluconate were essential components of the package of services for the delivery of magnesium sulfate.\n\n- b. Clinical evidence supports the use of magnesium sulfate in all pre-eclampsia patients. In settings where there are resource constraints to manage the administration of magnesium sulfate safely in all women with pre-eclampsia, there may be a need to accord greater priority to the more severe cases. Magnesium sulfate is effective in preventing seizures in both mild and severe pre-eclampsia. However, the guideline development group noted that a higher number of women need to be treated to prevent one seizure. The group agreed on the need to treat women with severe pre-",
+      "metadata": {
+       "section": "Magnesium sulfate for prevention and treatment of eclampsia",
+       "has_table": false
+      },
+      "score": 0.6799365282058716,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p039-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 39,
+      "text": "This indicator provides an overall assessment of the use of magnesium sulfate as the first option therapy for eclampsia. The use of other locally agreed process indicators is recommended, particularly for the assessment of the preventive use of magnesium sulfate and local protocol compliance during loading and maintenance phases. WHO has developed specific guidance for evaluating the quality of care for severe maternal complications (including pre-eclampsia and eclampsia) based on the near-miss and criterion-based clinical audit concepts (available at http://www.who.int/reproductivehealth/ publications/monitoring/9789241502221/en",
+      "metadata": {
+       "section": "8. Updating of the guidelines",
+       "has_table": false
+      },
+      "score": 0.6698751449584961,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 38,
+      "text": "## 7. Applicability issues\n\nAnticipated impact on the organization of care and resources\n\nEvidence-based management of pre-eclampsia and eclampsia can be achieved with the use of relatively inexpensive drugs. However, the guideline development group noted that the following issues should be considered before applying the recommendations made in the present guidelines:\n\n1. Women receiving magnesium sulfate should never be left alone and resources to monitor the well-being of both the woman and her fetus should be made available.\n\n2. When IV magnesium sulfate is used for the treatment or prevention of eclampsia, the infusion rate of magnesium sulfate should be closely monitored.\n\n3. Health-care facilities using magnesium sulfate should have calcium gluconate available in case of magnesium sulfate toxicity.",
+      "metadata": {
+       "section": "7. Applicability issues",
+       "has_table": false
+      },
+      "score": 0.6687796711921692,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p028-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 28,
+      "text": "#### **Magnesium sulfate for prevention and treatment of eclampsia**",
+      "metadata": {
+       "section": "Magnesium sulfate for prevention and treatment of eclampsia",
+       "has_table": false
+      },
+      "score": 0.6645519733428955,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p028-006 | content.pdf | page 28]\nNo statistically significant differences were observed between magnesium sulfate and placebo regarding the risks of maternal death (two trials, 10 795 women; RR 0.54, 95% CI 0.26–1.10), any serious maternal morbidity (two trials 10 332 women; RR 1.08, 95% CI 0.89–1.32), respiratory arrest (one trial, 10 110 women; RR 2.50, 95% CI 0.49–12.88) and toxicity as shown by respiratory depression and absent tendon\n\n[who-preeclampsia-2011-p031-004 | content.pdf | page 31]\n###### **Remarks**\n\n- a. Magnesium sulfate is a lifesaving drug and should be available in all health-care facilities throughout the health system. The guideline development group believed that capacity for clinical surveillance of women and administration of calcium gluconate were essential components of the package of services for the delivery of magnesium sulfate.\n\n- b. Clinical evidence supports the use of magnesium sulfate in all pre-eclampsia patients. In settings where there are resource constraints to manage the administration of magnesium sulfate safely in all women with pre-eclampsia, there may be a need to accord greater priority to the more severe cases. Magnesium sulfate is effective in preventing seizures in both mild and severe pre-eclampsia. However, the guideline development group noted that a higher number of women need to be treated to prevent one seizure. The group agreed on the need to treat women with severe pre-\n\n[who-preeclampsia-2011-p039-002 | content.pdf | page 39]\nThis indicator provides an overall assessment of the use of magnesium sulfate as the first option therapy for eclampsia. The use of other locally agreed process indicators is recommended, particularly for the assessment of the preventive use of magnesium sulfate and local protocol compliance during loading and maintenance phases. WHO has developed specific guidance for evaluating the quality of care for severe maternal complications (including pre-eclampsia and eclampsia) based on the near-miss and criterion-based clinical audit concepts (available at http://www.who.int/reproductivehealth/ publications/monitoring/9789241502221/en\n\n[who-preeclampsia-2011-p038-004 | content.pdf | page 38]\n## 7. Applicability issues\n\nAnticipated impact on the organization of care and resources\n\nEvidence-based management of pre-eclampsia and eclampsia can be achieved with the use of relatively inexpensive drugs. However, the guideline development group noted that the following issues should be considered before applying the recommendations made in the present guidelines:\n\n1. Women receiving magnesium sulfate should never be left alone and resources to monitor the well-being of both the woman and her fetus should be made available.\n\n2. When IV magnesium sulfate is used for the treatment or prevention of eclampsia, the infusion rate of magnesium sulfate should be closely monitored.\n\n3. Health-care facilities using magnesium sulfate should have calcium gluconate available in case of magnesium sulfate toxicity.\n\n[who-preeclampsia-2011-p028-002 | content.pdf | page 28]\n#### **Magnesium sulfate for prevention and treatment of eclampsia**",
+    "context_ids": [
+     "who-preeclampsia-2011-p028-006",
+     "who-preeclampsia-2011-p031-004",
+     "who-preeclampsia-2011-p039-002",
+     "who-preeclampsia-2011-p038-004",
+     "who-preeclampsia-2011-p028-002"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "self_check": {
+   "applicable": true,
+   "citations_in_final_context": true,
+   "numbers_not_in_cited_text": []
+  },
+  "search_calls": 1,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "magnesium sulfate toxicity facilities available antidote",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p028-006",
+      "page": 28,
+      "score": 0.68314
+     },
+     {
+      "id": "who-preeclampsia-2011-p031-004",
+      "page": 31,
+      "score": 0.67994
+     },
+     {
+      "id": "who-preeclampsia-2011-p039-002",
+      "page": 39,
+      "score": 0.66988
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-004",
+      "page": 38,
+      "score": 0.66878
+     },
+     {
+      "id": "who-preeclampsia-2011-p028-002",
+      "page": 28,
+      "score": 0.66455
+     }
+    ],
+    "elapsed_ms": 1208.7
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"magnesium sulfate toxicity facilities available antidote\"}",
+    "elapsed_ms": 1247.9,
+    "prompt_tokens": 407,
+    "output_tokens": 18
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"answer\",\n  \"answer\": \"Health-care facilities using magnesium sulfate must have calcium gluconate available in case of magnesium sulfate toxicity [who-preeclampsia-2011-p038-004].\",\n  \"citations\": [\n    \"who-preeclampsia-2011-p038-004\"\n  ]\n}",
+    "elapsed_ms": 2036.0,
+    "prompt_tokens": 1198,
+    "output_tokens": 91
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p028-006 | content.pdf | page 28]\nNo statistically significant differences were observed between magnesium sulfate and placebo regarding the risks of maternal death (two trials, 10 795 women; RR 0.54, 95% CI 0.26–1.10), any serious maternal morbidity (two trials 10 332 women; RR 1.08, 95% CI 0.89–1.32), respiratory arrest (one trial, 10 110 women; RR 2.50, 95% CI 0.49–12.88) and toxicity as shown by respiratory depression and absent tendon\n\n[who-preeclampsia-2011-p031-004 | content.pdf | page 31]\n###### **Remarks**\n\n- a. Magnesium sulfate is a lifesaving drug and should be available in all health-care facilities throughout the health system. The guideline development group believed that capacity for clinical surveillance of women and administration of calcium gluconate were essential components of the package of services for the delivery of magnesium sulfate.\n\n- b. Clinical evidence supports the use of magnesium sulfate in all pre-eclampsia patients. In settings where there are resource constraints to manage the administration of magnesium sulfate safely in all women with pre-eclampsia, there may be a need to accord greater priority to the more severe cases. Magnesium sulfate is effective in preventing seizures in both mild and severe pre-eclampsia. However, the guideline development group noted that a higher number of women need to be treated to prevent one seizure. The group agreed on the need to treat women with severe pre-\n\n[who-preeclampsia-2011-p039-002 | content.pdf | page 39]\nThis indicator provides an overall assessment of the use of magnesium sulfate as the first option therapy for eclampsia. The use of other locally agreed process indicators is recommended, particularly for the assessment of the preventive use of magnesium sulfate and local protocol compliance during loading and maintenance phases. WHO has developed specific guidance for evaluating the quality of care for severe maternal complications (including pre-eclampsia and eclampsia) based on the near-miss and criterion-based clinical audit concepts (available at http://www.who.int/reproductivehealth/ publications/monitoring/9789241502221/en\n\n[who-preeclampsia-2011-p038-004 | content.pdf | page 38]\n## 7. Applicability issues\n\nAnticipated impact on the organization of care and resources\n\nEvidence-based management of pre-eclampsia and eclampsia can be achieved with the use of relatively inexpensive drugs. However, the guideline development group noted that the following issues should be considered before applying the recommendations made in the present guidelines:\n\n1. Women receiving magnesium sulfate should never be left alone and resources to monitor the well-being of both the woman and her fetus should be made available.\n\n2. When IV magnesium sulfate is used for the treatment or prevention of eclampsia, the infusion rate of magnesium sulfate should be closely monitored.\n\n3. Health-care facilities using magnesium sulfate should have calcium gluconate available in case of magnesium sulfate toxicity.\n\n[who-preeclampsia-2011-p028-002 | content.pdf | page 28]\n#### **Magnesium sulfate for prevention and treatment of eclampsia**",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p028-006",
+   "who-preeclampsia-2011-p031-004",
+   "who-preeclampsia-2011-p039-002",
+   "who-preeclampsia-2011-p038-004",
+   "who-preeclampsia-2011-p028-002"
+  ],
+  "elapsed_ms": 4493.7,
+  "prompt_tokens": 1605,
+  "output_tokens": 109,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": true
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "group": null,
+  "question": "Does the guideline recommend uterine artery Doppler screening to predict pre-eclampsia?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "uterine artery Doppler screening pre-eclampsia guideline",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p019-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 19,
+      "text": "- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.",
+      "metadata": {
+       "section": "Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.7123562097549438,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 38,
+      "text": "##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.",
+      "metadata": {
+       "section": "6. Dissemination and implementation of the guidelines",
+       "has_table": false
+      },
+      "score": 0.7085472345352173,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p027-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 27,
+      "text": "b. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7068460162373784,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 23,
+      "text": "- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.",
+      "metadata": {
+       "section": "Antiplatelets for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7047592401504517,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 19,
+      "text": "###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.",
+      "metadata": {
+       "section": "Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.7033785581588745,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p019-003 | content.pdf | page 19]\n- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.\n\n[who-preeclampsia-2011-p038-002 | content.pdf | page 38]\n##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.\n\n[who-preeclampsia-2011-p027-005 | content.pdf | page 27]\nb. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p023-000 | content.pdf | page 23]\n- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.\n\n[who-preeclampsia-2011-p019-005 | content.pdf | page 19]\n###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.",
+    "context_ids": [
+     "who-preeclampsia-2011-p019-003",
+     "who-preeclampsia-2011-p038-002",
+     "who-preeclampsia-2011-p027-005",
+     "who-preeclampsia-2011-p023-000",
+     "who-preeclampsia-2011-p019-005"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "uterine artery Doppler",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p024-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "unit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.6746764779090881,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 12,
+      "text": "Pre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.",
+      "metadata": {
+       "section": "1. Background",
+       "has_table": false
+      },
+      "score": 0.6612434387207031,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 22,
+      "text": "at trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).",
+      "metadata": {
+       "section": "Antiplatelets for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.6522276401519775,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 19,
+      "text": "###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.",
+      "metadata": {
+       "section": "Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.6518257856369019,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 9,
+      "text": "#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+      "metadata": {
+       "section": "Introduction",
+       "has_table": false
+      },
+      "score": 0.6478147506713867,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p019-003 | content.pdf | page 19]\n- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.\n\n[who-preeclampsia-2011-p038-002 | content.pdf | page 38]\n##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.\n\n[who-preeclampsia-2011-p027-005 | content.pdf | page 27]\nb. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p023-000 | content.pdf | page 23]\n- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.\n\n[who-preeclampsia-2011-p019-005 | content.pdf | page 19]\n###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.\n\n[who-preeclampsia-2011-p024-000 | content.pdf | page 24]\nunit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).\n\n[who-preeclampsia-2011-p012-001 | content.pdf | page 12]\nPre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p009-001 | content.pdf | page 9]\n#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+    "context_ids": [
+     "who-preeclampsia-2011-p019-003",
+     "who-preeclampsia-2011-p038-002",
+     "who-preeclampsia-2011-p027-005",
+     "who-preeclampsia-2011-p023-000",
+     "who-preeclampsia-2011-p019-005",
+     "who-preeclampsia-2011-p024-000",
+     "who-preeclampsia-2011-p012-001",
+     "who-preeclampsia-2011-p022-003",
+     "who-preeclampsia-2011-p009-001"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Doppler",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 19,
+      "text": "###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.",
+      "metadata": {
+       "section": "Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.6148430109024048,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 12,
+      "text": "## 1. Background\n\nHypertensive disorders of pregnancy affect about 10% of all pregnant women around the world ( _1, 2_ ). This group of diseases and conditions includes pre-eclampsia and eclampsia, gestational hypertension and chronic hypertension ( _2_ ). Hypertensive disorders of pregnancy are an important cause of severe acute morbidity, longterm disability and death among mothers and babies ( _1–3_ ). In Asia and Africa, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of all maternal deaths in Latin America have been associated with those complications ( _3_ ). The majority of deaths related to hypertensive disorders can be avoided by providing timely and effective care to women presenting with such complications ( _4_ ). Thus, optimization of health care for women during pregnancy to prevent and treat hypertensive disorders of pregnancy is a necessary step towards achievement of the Millennium Development Goals.",
+      "metadata": {
+       "section": "1. Background",
+       "has_table": false
+      },
+      "score": 0.6092871427536011,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p033-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 33,
+      "text": "###### **Remarks**\n\n- a. A policy of expectant management usually includes intra-hospital care with steroids for fetal lung maturation, magnesium sulfate (as necessary), antihypertensive drugs (as necessary), and close maternal and fetal monitoring to identify indications for delivery (e.g. uncontrolled hypertension, deterioration in the condition of the mother and the fetus, including organ dysfunction and fetal distress). As part",
+      "metadata": {
+       "section": "Interventionist versus expectant care for severe pre-eclampsia before term",
+       "has_table": false
+      },
+      "score": 0.6085902685767263,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 9,
+      "text": "#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+      "metadata": {
+       "section": "Introduction",
+       "has_table": false
+      },
+      "score": 0.6062162518501282,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 38,
+      "text": "#### **Monitoring and evaluating the guideline implementation**\n\nIdeally, implementation of the recommendations should be monitored at the health-service level. Interrupted time series clinical audits or criterionbased clinical audits could be used to obtain",
+      "metadata": {
+       "section": "Monitoring and evaluating the guideline implementation",
+       "has_table": false
+      },
+      "score": 0.5993899464243629,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p019-003 | content.pdf | page 19]\n- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.\n\n[who-preeclampsia-2011-p038-002 | content.pdf | page 38]\n##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.\n\n[who-preeclampsia-2011-p027-005 | content.pdf | page 27]\nb. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p023-000 | content.pdf | page 23]\n- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.\n\n[who-preeclampsia-2011-p019-005 | content.pdf | page 19]\n###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.\n\n[who-preeclampsia-2011-p024-000 | content.pdf | page 24]\nunit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).\n\n[who-preeclampsia-2011-p012-001 | content.pdf | page 12]\nPre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p009-001 | content.pdf | page 9]\n#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+    "context_ids": [
+     "who-preeclampsia-2011-p019-003",
+     "who-preeclampsia-2011-p038-002",
+     "who-preeclampsia-2011-p027-005",
+     "who-preeclampsia-2011-p023-000",
+     "who-preeclampsia-2011-p019-005",
+     "who-preeclampsia-2011-p024-000",
+     "who-preeclampsia-2011-p012-001",
+     "who-preeclampsia-2011-p022-003",
+     "who-preeclampsia-2011-p009-001"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "uterine artery",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p024-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 24,
+      "text": "unit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.6338359902452231,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 19,
+      "text": "###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.",
+      "metadata": {
+       "section": "Calcium supplementation during pregnancy to prevent pre-eclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.6134938184468098,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 12,
+      "text": "Pre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.",
+      "metadata": {
+       "section": "1. Background",
+       "has_table": false
+      },
+      "score": 0.610910970297783,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 12,
+      "text": "## 1. Background\n\nHypertensive disorders of pregnancy affect about 10% of all pregnant women around the world ( _1, 2_ ). This group of diseases and conditions includes pre-eclampsia and eclampsia, gestational hypertension and chronic hypertension ( _2_ ). Hypertensive disorders of pregnancy are an important cause of severe acute morbidity, longterm disability and death among mothers and babies ( _1–3_ ). In Asia and Africa, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of all maternal deaths in Latin America have been associated with those complications ( _3_ ). The majority of deaths related to hypertensive disorders can be avoided by providing timely and effective care to women presenting with such complications ( _4_ ). Thus, optimization of health care for women during pregnancy to prevent and treat hypertensive disorders of pregnancy is a necessary step towards achievement of the Millennium Development Goals.",
+      "metadata": {
+       "section": "1. Background",
+       "has_table": false
+      },
+      "score": 0.6075985612749627,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 9,
+      "text": "#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+      "metadata": {
+       "section": "Introduction",
+       "has_table": false
+      },
+      "score": 0.6049465121312892,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p019-003 | content.pdf | page 19]\n- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.\n\n[who-preeclampsia-2011-p038-002 | content.pdf | page 38]\n##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.\n\n[who-preeclampsia-2011-p027-005 | content.pdf | page 27]\nb. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p023-000 | content.pdf | page 23]\n- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.\n\n[who-preeclampsia-2011-p019-005 | content.pdf | page 19]\n###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.\n\n[who-preeclampsia-2011-p024-000 | content.pdf | page 24]\nunit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).\n\n[who-preeclampsia-2011-p012-001 | content.pdf | page 12]\nPre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p009-001 | content.pdf | page 9]\n#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+    "context_ids": [
+     "who-preeclampsia-2011-p019-003",
+     "who-preeclampsia-2011-p038-002",
+     "who-preeclampsia-2011-p027-005",
+     "who-preeclampsia-2011-p023-000",
+     "who-preeclampsia-2011-p019-005",
+     "who-preeclampsia-2011-p024-000",
+     "who-preeclampsia-2011-p012-001",
+     "who-preeclampsia-2011-p022-003",
+     "who-preeclampsia-2011-p009-001"
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided passages do not contain information about whether the guideline recommends uterine artery Doppler screening to predict pre-eclampsia."
+   }
+  ],
+  "self_check": {
+   "applicable": false
+  },
+  "search_calls": 4,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "uterine artery Doppler screening pre-eclampsia guideline",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p019-003",
+      "page": 19,
+      "score": 0.71236
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-002",
+      "page": 38,
+      "score": 0.70855
+     },
+     {
+      "id": "who-preeclampsia-2011-p027-005",
+      "page": 27,
+      "score": 0.70685
+     },
+     {
+      "id": "who-preeclampsia-2011-p023-000",
+      "page": 23,
+      "score": 0.70476
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "page": 19,
+      "score": 0.70338
+     }
+    ],
+    "elapsed_ms": 1275.1
+   },
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "uterine artery Doppler",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p024-000",
+      "page": 24,
+      "score": 0.67468
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-001",
+      "page": 12,
+      "score": 0.66124
+     },
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "page": 22,
+      "score": 0.65223
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "page": 19,
+      "score": 0.65183
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "page": 9,
+      "score": 0.64781
+     }
+    ],
+    "elapsed_ms": 398.2
+   },
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "Doppler",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "page": 19,
+      "score": 0.61484
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-000",
+      "page": 12,
+      "score": 0.60929
+     },
+     {
+      "id": "who-preeclampsia-2011-p033-004",
+      "page": 33,
+      "score": 0.60859
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "page": 9,
+      "score": 0.60622
+     },
+     {
+      "id": "who-preeclampsia-2011-p038-005",
+      "page": 38,
+      "score": 0.59939
+     }
+    ],
+    "elapsed_ms": 503.4
+   },
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "uterine artery",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p024-000",
+      "page": 24,
+      "score": 0.63384
+     },
+     {
+      "id": "who-preeclampsia-2011-p019-005",
+      "page": 19,
+      "score": 0.61349
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-001",
+      "page": 12,
+      "score": 0.61091
+     },
+     {
+      "id": "who-preeclampsia-2011-p012-000",
+      "page": 12,
+      "score": 0.6076
+     },
+     {
+      "id": "who-preeclampsia-2011-p009-001",
+      "page": 9,
+      "score": 0.60495
+     }
+    ],
+    "elapsed_ms": 506.3
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"uterine artery Doppler screening pre-eclampsia guideline\"}",
+    "elapsed_ms": 6388.7,
+    "prompt_tokens": 408,
+    "output_tokens": 19
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"uterine artery Doppler\"}",
+    "elapsed_ms": 3113.6,
+    "prompt_tokens": 1061,
+    "output_tokens": 305
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"search\",\n  \"query\": \"Doppler\"\n}",
+    "elapsed_ms": 6907.4,
+    "prompt_tokens": 1867,
+    "output_tokens": 174
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"uterine artery\"}",
+    "elapsed_ms": 6849.4,
+    "prompt_tokens": 1871,
+    "output_tokens": 201
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"abstain\",\n  \"reason\": \"The provided passages do not contain information about whether the guideline recommends uterine artery Doppler screening to predict pre-eclampsia.\"\n}",
+    "elapsed_ms": 15166.4,
+    "prompt_tokens": 1875,
+    "output_tokens": 327
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p019-003 | content.pdf | page 19]\n- c. Women are regarded as being at high risk of developing pre-eclampsia if they have one or more of the following risk factors: previous pre-eclampsia; diabetes; chronic hypertension; renal disease; autoimmune disease; and multiple pregnancies. This is not an exhaustive list, but can be adapted/complemented based on the local epidemiology of pre-eclampsia.\n\n- d. The guideline development group considered that in populations with adequate calcium intake, additional calcium supplementation does not improve outcomes related to preeclampsia and hypertensive disorders of pregnancy.\n\n[who-preeclampsia-2011-p038-002 | content.pdf | page 38]\n##### Guideline implementation\n\nThe successful introduction into national programmes and health-care services of evidence-based policies related to the prevention and management of pre-eclampsia and eclampsia depends on well-planned and participatory consensus-driven processes of adaptation and implementation. The adaptation and implementation processes may include the development or revision of existing national guidelines or protocols based on this document.\n\nThe recommendations contained in the present guidelines should be adapted into a locally appropriate document that can meet the specific needs of each country and health service. In this context, modifications to the recommendations may be limited to weak recommendations and justification for any changes should be made in an explicit and transparent manner.\n\n[who-preeclampsia-2011-p027-005 | content.pdf | page 27]\nb. With regard to the treatment of mild/moderate hypertension in pre-eclampsia, a formal evidence review was conducted. The guideline development group considered the available evidence controversial, as there are potential harms and benefits associated with both lines of action. The group was aware of ongoing trials that might provide more robust data in the near future for guidance. Hence, they decided not to issue a recommendation on the treatment of mild/moderate hypertension until further evidence becomes available.\n\n- (Very-low-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p023-000 | content.pdf | page 23]\n- c. While low-dose aspirin has been shown to be beneficial in women at high risk of preeclampsia, there is a paucity of evidence to suggest that any subset of women within the high-risk group would benefit from aspirin therapy.\n\n- d. The guideline development group noted that it may be appropriate to initiate antiplatelet agents before 20 weeks of gestation, and, if possible, as early as 12 weeks of gestation.\n\n[who-preeclampsia-2011-p019-005 | content.pdf | page 19]\n###### **Note**\n\nOne participant in the guideline development group (Dr Peter von Dadelszen) wished to record his dissent with the above recommendation.\n\n[who-preeclampsia-2011-p024-000 | content.pdf | page 24]\nunit (three trials, 379 women; RR 0.94, 95% CI 0.68–1.29); and maternal adverse events (four trials, 272 women; RR 2.80, 95% CI 0.12–67.91) (EB Table 16).\n\n[who-preeclampsia-2011-p012-001 | content.pdf | page 12]\nPre-eclampsia stands out among the hypertensive disorders for its impact on maternal and neonatal health. It is one of the leading causes of maternal and perinatal mortality and morbidity worldwide. However, the pathogenesis of pre-eclampsia is only partially understood and it is related to disturbances in placentation at the beginning of pregnancy, followed by generalized inflammation and progressive endothelial damage. There are other uncertainties too: the diagnosis, screening and management of pre-eclampsia remain controversial, as does the classification of its severity. However, it is generally accepted that the onset of a new episode of hypertension during pregnancy (with persistent diastolic blood pressure >90 mm Hg) with the occurrence of substantial proteinuria (>0.3 g/24 h) can be used as criteria for identifying pre-eclampsia. Although pathophysiological changes (e.g.\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p009-001 | content.pdf | page 9]\n#### **Introduction**\n\nHypertensive disorders of pregnancy are an important cause of severe morbidity, longterm disability and death among both mothers and their babies. In Africa and Asia, nearly one tenth of all maternal deaths are associated with hypertensive disorders of pregnancy, whereas one quarter of maternal deaths in Latin America have been associated with those complications. Among the hypertensive disorders that complicate pregnancy, pre-eclampsia and eclampsia stand out as major causes of maternal and perinatal mortality and morbidity. The majority of deaths due to pre-eclampsia and eclampsia are avoidable through the provision of timely and effective care to the women presenting with these complications. Optimizing health care to prevent and treat women with hypertensive disorders is a necessary step towards achieving the Millennium Development Goals.",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p019-003",
+   "who-preeclampsia-2011-p038-002",
+   "who-preeclampsia-2011-p027-005",
+   "who-preeclampsia-2011-p023-000",
+   "who-preeclampsia-2011-p019-005",
+   "who-preeclampsia-2011-p024-000",
+   "who-preeclampsia-2011-p012-001",
+   "who-preeclampsia-2011-p022-003",
+   "who-preeclampsia-2011-p009-001"
+  ],
+  "elapsed_ms": 41110.0,
+  "prompt_tokens": 7082,
+  "output_tokens": 1026,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": null
+ },
+ {
+  "query_id": "t07",
+  "split": "test",
+  "group": null,
+  "question": "Does the guideline recommend fish oil (omega-3) supplementation to prevent pre-eclampsia?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "fish oil omega-3 supplementation pre-eclampsia guideline",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p020-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 20,
+      "text": "###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.",
+      "metadata": {
+       "section": "Vitamin D supplementation",
+       "has_table": false
+      },
+      "score": 0.7434586729680714,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 21,
+      "text": "###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)",
+      "metadata": {
+       "section": "Antioxidants for prevention of preeclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.7428831458091736,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p010-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 10,
+      "text": "###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|",
+      "metadata": {
+       "section": "Recommendations",
+       "has_table": true
+      },
+      "score": 0.7417480945587158,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 22,
+      "text": "at trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).",
+      "metadata": {
+       "section": "Antiplatelets for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7356603145599365,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p011-001",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 11,
+      "text": "|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuretics, particularly thiazides, are not recom-<br>mended for the prevention of pre-eclampsia and its<br>complications.|Low|Strong|\n|The use of corticosteroids for the specific purpose<br>of treating women with HELLP syndrome is not<br>recommended.|Very low|Weak|",
+      "metadata": {
+       "section": "Recommendations",
+       "has_table": true
+      },
+      "score": 0.7343329628904453,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p020-004 | content.pdf | page 20]\n###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.\n\n[who-preeclampsia-2011-p021-001 | content.pdf | page 21]\n###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p010-000 | content.pdf | page 10]\n###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p011-001 | content.pdf | page 11]\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuretics, particularly thiazides, are not recom-<br>mended for the prevention of pre-eclampsia and its<br>complications.|Low|Strong|\n|The use of corticosteroids for the specific purpose<br>of treating women with HELLP syndrome is not<br>recommended.|Very low|Weak|",
+    "context_ids": [
+     "who-preeclampsia-2011-p020-004",
+     "who-preeclampsia-2011-p021-001",
+     "who-preeclampsia-2011-p010-000",
+     "who-preeclampsia-2011-p022-003",
+     "who-preeclampsia-2011-p011-001"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "fish oil omega-3 pre-eclampsia",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 22,
+      "text": "at trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).",
+      "metadata": {
+       "section": "Antiplatelets for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7404955184164348,
+      "rank": 1
+     },
+     {
+      "id": "who-preeclampsia-2011-p020-005",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 20,
+      "text": "#### **Antioxidants for prevention of preeclampsia and its complications**\n\nEvidence related to the differential effects of antioxidants in the prevention of pre-eclampsia and its complications was extracted from a Cochrane systematic review of 15 RCTs involving a total of 22 359 women ( _14_ ). Most of the trials had compared one or more vitamins, particularly combined vitamins C and E regimens, with placebo. When antioxidants were compared with placebo, there were no statistically significant differences in the critical (and proxy) maternal outcomes of pre-eclampsia (15 trials, 20 748 women; RR 0.94, 95% CI 0.82–1.07), severe pre-eclampsia (six trials, 16 341 women; RR 1.01, 95% CI 0.85–1.19), maternal death (eight trials, 19 586 women; RR 0.60, 95% CI 0.14– 2.51), serious maternal morbidity (three",
+      "metadata": {
+       "section": "Antioxidants for prevention of preeclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.7243601844096087,
+      "rank": 2
+     },
+     {
+      "id": "who-preeclampsia-2011-p026-002",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 26,
+      "text": "(one trial, 145 women; RR 0.48, 95% 0.04–5.17); pulmonary oedema (one trial, 145 women; RR 0.19, 95% CI 0.02–1.60); admission to intensive care (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); maternal death (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); stillbirth (one trial, 149 women; RR 0.46, 95% CI 0.18–1.13); and admission to special care baby unit (one trial, 130 women; RR 0.78, 95% CI 0.49–1.23). No case of eclampsia was recorded in either arms of the trial. This trial had moderate risk of bias, few events in addition to its small sample size and thus yielded generally very-low-quality evidence for the critical (and proxy) outcomes (EB Table 29).",
+      "metadata": {
+       "section": "Antihypertensive drugs and diuretics",
+       "has_table": false
+      },
+      "score": 0.7217491269111684,
+      "rank": 3
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-004",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 21,
+      "text": "This risk reduction remains consistent across risk groups for preeclampsia although it was more marked among high-risk women (moderate risk: 26 trials, 28 629 women; RR 0.86, 95% CI 0.78–0.94; high risk: 18 trials, 4121 women; RR 0.75, 95% CI 0.66–0.85).\n\nNo statistically significant differences were observed between the two comparison groups for any other critical (or proxy) outcomes addressed in the trials: eclampsia (nine trials, 22 584 women; RR 0.94, 95% CI 0.59–1.48); maternal death (three trials, 12 709 women; RR 2.57, 95% CI 0.39–17.06); placental abruption (16 trials, 24 982 women; RR 1.10, 95% CI 0.89–1.37); perinatal death (15 trials, 16 550 women; RR 0.89, 95% CI 0.74–1.08); and admission to special care baby unit (15 trials, 28 298 women; RR 0.95, 95% CI 0.90–1.01) (EB Table 10).",
+      "metadata": {
+       "section": "Antiplatelets for prevention of pre-eclampsia",
+       "has_table": false
+      },
+      "score": 0.7186273504121703,
+      "rank": 4
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-000",
+      "source_id": "who-preeclampsia-2011",
+      "source": "content.pdf",
+      "page": 21,
+      "text": "trials, 4523 women; RR 1.22, 95% CI 0.39–3.81), gestational hypertension (10 trials, 1028 women; RR 1.02, 95% CI 0.85–1.23), and severe hypertension (four trials, 7990 women; RR 1.02, 95% CI 0.80–1.31). There was an increase in the risk ratio for use of intravenous antihypertensive medication among women allocated antioxidants compared with placebo (one trial, 2395 women; RR 1.94, 95% CI 1.07–3.53). No statistical differences were observed for any of the infantrelated critical (and proxy) outcomes addressed in the trials: any baby death (eight trials, 19 782 women; RR 0.97, 95% CI 0.82–1.13); admission to special care nursery (four trials, 14 926 women; RR 1.02, 95% CI 0.95–1.10); and 5-minute Apgar score lower than seven (two trials, 3492 women; RR 1.25, 95% CI 0.79–2.00). Consideration of various risk levels of developing pre-eclampsia and gestational age at entry to the studies for these outcomes did not demonstrate any beneficial effects of antioxidants over placebo (EB Table 9).",
+      "metadata": {
+       "section": "Antioxidants for prevention of preeclampsia and its complications",
+       "has_table": false
+      },
+      "score": 0.7185216378284591,
+      "rank": 5
+     }
+    ],
+    "context": "[who-preeclampsia-2011-p020-004 | content.pdf | page 20]\n###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.\n\n[who-preeclampsia-2011-p021-001 | content.pdf | page 21]\n###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p010-000 | content.pdf | page 10]\n###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p011-001 | content.pdf | page 11]\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuretics, particularly thiazides, are not recom-<br>mended for the prevention of pre-eclampsia and its<br>complications.|Low|Strong|\n|The use of corticosteroids for the specific purpose<br>of treating women with HELLP syndrome is not<br>recommended.|Very low|Weak|\n\n[who-preeclampsia-2011-p020-005 | content.pdf | page 20]\n#### **Antioxidants for prevention of preeclampsia and its complications**\n\nEvidence related to the differential effects of antioxidants in the prevention of pre-eclampsia and its complications was extracted from a Cochrane systematic review of 15 RCTs involving a total of 22 359 women ( _14_ ). Most of the trials had compared one or more vitamins, particularly combined vitamins C and E regimens, with placebo. When antioxidants were compared with placebo, there were no statistically significant differences in the critical (and proxy) maternal outcomes of pre-eclampsia (15 trials, 20 748 women; RR 0.94, 95% CI 0.82–1.07), severe pre-eclampsia (six trials, 16 341 women; RR 1.01, 95% CI 0.85–1.19), maternal death (eight trials, 19 586 women; RR 0.60, 95% CI 0.14– 2.51), serious maternal morbidity (three\n\n[who-preeclampsia-2011-p026-002 | content.pdf | page 26]\n(one trial, 145 women; RR 0.48, 95% 0.04–5.17); pulmonary oedema (one trial, 145 women; RR 0.19, 95% CI 0.02–1.60); admission to intensive care (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); maternal death (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); stillbirth (one trial, 149 women; RR 0.46, 95% CI 0.18–1.13); and admission to special care baby unit (one trial, 130 women; RR 0.78, 95% CI 0.49–1.23). No case of eclampsia was recorded in either arms of the trial. This trial had moderate risk of bias, few events in addition to its small sample size and thus yielded generally very-low-quality evidence for the critical (and proxy) outcomes (EB Table 29).\n\n[who-preeclampsia-2011-p021-004 | content.pdf | page 21]\nThis risk reduction remains consistent across risk groups for preeclampsia although it was more marked among high-risk women (moderate risk: 26 trials, 28 629 women; RR 0.86, 95% CI 0.78–0.94; high risk: 18 trials, 4121 women; RR 0.75, 95% CI 0.66–0.85).\n\nNo statistically significant differences were observed between the two comparison groups for any other critical (or proxy) outcomes addressed in the trials: eclampsia (nine trials, 22 584 women; RR 0.94, 95% CI 0.59–1.48); maternal death (three trials, 12 709 women; RR 2.57, 95% CI 0.39–17.06); placental abruption (16 trials, 24 982 women; RR 1.10, 95% CI 0.89–1.37); perinatal death (15 trials, 16 550 women; RR 0.89, 95% CI 0.74–1.08); and admission to special care baby unit (15 trials, 28 298 women; RR 0.95, 95% CI 0.90–1.01) (EB Table 10).",
+    "context_ids": [
+     "who-preeclampsia-2011-p020-004",
+     "who-preeclampsia-2011-p021-001",
+     "who-preeclampsia-2011-p010-000",
+     "who-preeclampsia-2011-p022-003",
+     "who-preeclampsia-2011-p011-001",
+     "who-preeclampsia-2011-p020-005",
+     "who-preeclampsia-2011-p026-002",
+     "who-preeclampsia-2011-p021-004"
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided passages do not contain information about whether fish oil or omega-3 supplementation is recommended to prevent pre-eclampsia."
+   }
+  ],
+  "self_check": {
+   "applicable": false
+  },
+  "search_calls": 2,
+  "tool_calls": [
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "fish oil omega-3 supplementation pre-eclampsia guideline",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p020-004",
+      "page": 20,
+      "score": 0.74346
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-001",
+      "page": 21,
+      "score": 0.74288
+     },
+     {
+      "id": "who-preeclampsia-2011-p010-000",
+      "page": 10,
+      "score": 0.74175
+     },
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "page": 22,
+      "score": 0.73566
+     },
+     {
+      "id": "who-preeclampsia-2011-p011-001",
+      "page": 11,
+      "score": 0.73433
+     }
+    ],
+    "elapsed_ms": 1316.1
+   },
+   {
+    "tool": "search",
+    "method": "dense",
+    "corpus": "day6",
+    "query": "fish oil omega-3 pre-eclampsia",
+    "filters": null,
+    "top_k": 5,
+    "query_embedding_cache_hit": false,
+    "returned": [
+     {
+      "id": "who-preeclampsia-2011-p022-003",
+      "page": 22,
+      "score": 0.7405
+     },
+     {
+      "id": "who-preeclampsia-2011-p020-005",
+      "page": 20,
+      "score": 0.72436
+     },
+     {
+      "id": "who-preeclampsia-2011-p026-002",
+      "page": 26,
+      "score": 0.72175
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-004",
+      "page": 21,
+      "score": 0.71863
+     },
+     {
+      "id": "who-preeclampsia-2011-p021-000",
+      "page": 21,
+      "score": 0.71852
+     }
+    ],
+    "elapsed_ms": 461.3
+   }
+  ],
+  "model_calls": [
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"search\", \"query\": \"fish oil omega-3 supplementation pre-eclampsia guideline\"}",
+    "elapsed_ms": 755.0,
+    "prompt_tokens": 412,
+    "output_tokens": 21
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\n  \"action\": \"search\",\n  \"query\": \"fish oil omega-3 pre-eclampsia\"\n}",
+    "elapsed_ms": 2520.1,
+    "prompt_tokens": 1398,
+    "output_tokens": 192
+   },
+   {
+    "model": "gemini-3.5-flash-lite",
+    "raw": "{\"action\": \"abstain\", \"reason\": \"The provided passages do not contain information about whether fish oil or omega-3 supplementation is recommended to prevent pre-eclampsia.\"}",
+    "elapsed_ms": 3141.6,
+    "prompt_tokens": 2341,
+    "output_tokens": 414
+   }
+  ],
+  "final_context": "[who-preeclampsia-2011-p020-004 | content.pdf | page 20]\n###### **Remark**\n\n- a. The guideline development group noted that several studies were still in progress on this topic which may change the evidence base in the future. The group was concerned about the limited evidence on safety of vitamin D supplementation during pregnancy and therefore made a strong recommendation against the use of vitamin D supplementation for prevention of pre-eclampsia during pregnancy.\n\n[who-preeclampsia-2011-p021-001 | content.pdf | page 21]\n###### **Recommendation**\n\n6. Individual or combined vitamin C and vitamin E supplementation during pregnancy is not recommended to prevent the development of pre-eclampsia and its complications.\n\n- (High-quality evidence. Strong recommendation.)\n\n[who-preeclampsia-2011-p010-000 | content.pdf | page 10]\n###### **Box 1: Interventions that are recommended for prevention or treatment of pre-eclampsia and eclampsia**\n\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|In areas where dietary calcium intake is low, calcium supplementation<br>during pregnancy (at doses of 1.5–2.0 g elemental calcium/day) is<br>recommended for the prevention of pre-eclampsia in all women, but<br>especially those at high risk of developing pre-eclampsia.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) is recommended for the<br>prevention of pre-eclampsia in women at high risk of developing the<br>condition.|Moderate|Strong|\n|Low-dose acetylsalicylic acid (aspirin, 75 mg) for the prevention of pre-<br>eclampsia and its related complications should be initiated before<br>20 weeks of pregnancy.|Low|Weak|\n|Women with severe hypertension during pregnancy should receive<br>treatment with antihypertensive drugs.|Very low|Strong|\n\n[who-preeclampsia-2011-p022-003 | content.pdf | page 22]\nat trial entry showed a statistically significant reduction in the risks of pre-eclampsia (five trials, 1643 women; RR 0.60, 95% CI 0.45–0.78) and severe pre-eclampsia (one trial, 94 women; RR 0.33, 95% CI 0.14–0.75). No statistically significant differences were observed for any other critical (or proxy) outcomes addressed: eclampsia (three trials, 354 women; RR 0.25, 95% CI 0.03– 2.24); placenta abruption (one trial, 94 women; RR 0.35, 95% CI 0.01–8.32); fetal, neonatal or infant death (four trials, 1728 women; RR 1.02, 95% CI 0.72–1.45); and admission to special care baby unit (one trial, 94 women; RR 0.52, 95% CI 0.05– 5.56). Most of the trials providing these outcomes were small and at moderate risk of bias, thereby generating very-low- to low-quality evidence (EB Table 13).\n\n[who-preeclampsia-2011-p011-001 | content.pdf | page 11]\n|**Recommendation**|**Quality of**<br>**evidence**|**Strength of**<br>**recommendation**|\n|---|---|---|\n|Individual or combined vitamin C and vitamin E<br>supplementation during pregnancy is not recommended<br>to prevent the development of pre-eclampsia and its<br>complications.|High|Strong|\n|Diuretics, particularly thiazides, are not recom-<br>mended for the prevention of pre-eclampsia and its<br>complications.|Low|Strong|\n|The use of corticosteroids for the specific purpose<br>of treating women with HELLP syndrome is not<br>recommended.|Very low|Weak|\n\n[who-preeclampsia-2011-p020-005 | content.pdf | page 20]\n#### **Antioxidants for prevention of preeclampsia and its complications**\n\nEvidence related to the differential effects of antioxidants in the prevention of pre-eclampsia and its complications was extracted from a Cochrane systematic review of 15 RCTs involving a total of 22 359 women ( _14_ ). Most of the trials had compared one or more vitamins, particularly combined vitamins C and E regimens, with placebo. When antioxidants were compared with placebo, there were no statistically significant differences in the critical (and proxy) maternal outcomes of pre-eclampsia (15 trials, 20 748 women; RR 0.94, 95% CI 0.82–1.07), severe pre-eclampsia (six trials, 16 341 women; RR 1.01, 95% CI 0.85–1.19), maternal death (eight trials, 19 586 women; RR 0.60, 95% CI 0.14– 2.51), serious maternal morbidity (three\n\n[who-preeclampsia-2011-p026-002 | content.pdf | page 26]\n(one trial, 145 women; RR 0.48, 95% 0.04–5.17); pulmonary oedema (one trial, 145 women; RR 0.19, 95% CI 0.02–1.60); admission to intensive care (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); maternal death (one trial, 145 women; RR 0.32, 95% CI 0.01–7.73); stillbirth (one trial, 149 women; RR 0.46, 95% CI 0.18–1.13); and admission to special care baby unit (one trial, 130 women; RR 0.78, 95% CI 0.49–1.23). No case of eclampsia was recorded in either arms of the trial. This trial had moderate risk of bias, few events in addition to its small sample size and thus yielded generally very-low-quality evidence for the critical (and proxy) outcomes (EB Table 29).\n\n[who-preeclampsia-2011-p021-004 | content.pdf | page 21]\nThis risk reduction remains consistent across risk groups for preeclampsia although it was more marked among high-risk women (moderate risk: 26 trials, 28 629 women; RR 0.86, 95% CI 0.78–0.94; high risk: 18 trials, 4121 women; RR 0.75, 95% CI 0.66–0.85).\n\nNo statistically significant differences were observed between the two comparison groups for any other critical (or proxy) outcomes addressed in the trials: eclampsia (nine trials, 22 584 women; RR 0.94, 95% CI 0.59–1.48); maternal death (three trials, 12 709 women; RR 2.57, 95% CI 0.39–17.06); placental abruption (16 trials, 24 982 women; RR 1.10, 95% CI 0.89–1.37); perinatal death (15 trials, 16 550 women; RR 0.89, 95% CI 0.74–1.08); and admission to special care baby unit (15 trials, 28 298 women; RR 0.95, 95% CI 0.90–1.01) (EB Table 10).",
+  "final_context_ids": [
+   "who-preeclampsia-2011-p020-004",
+   "who-preeclampsia-2011-p021-001",
+   "who-preeclampsia-2011-p010-000",
+   "who-preeclampsia-2011-p022-003",
+   "who-preeclampsia-2011-p011-001",
+   "who-preeclampsia-2011-p020-005",
+   "who-preeclampsia-2011-p026-002",
+   "who-preeclampsia-2011-p021-004"
+  ],
+  "elapsed_ms": 8195.9,
+  "prompt_tokens": 4151,
+  "output_tokens": 627,
+  "config": {
+   "corpus": "day6",
+   "method": "dense",
+   "top_k": 5,
+   "budget_chars": 6000,
+   "max_searches": 4,
+   "controller_model": "gemini-3.5-flash-lite",
+   "embedding": "gemini-embedding-001/768"
+  },
+  "gold_in_final_context": null
+ }
+]

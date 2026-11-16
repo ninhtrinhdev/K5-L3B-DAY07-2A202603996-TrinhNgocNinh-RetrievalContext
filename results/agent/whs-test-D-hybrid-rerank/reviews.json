@@ -1,0 +1,240 @@
+[
+ {
+  "query_id": "t-tb1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tb2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tb3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tb4",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tb5",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tb6",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-im1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-im2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-im3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-im4",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-im5",
+  "answer_grade": 1,
+  "citation_support": [
+   false
+  ],
+  "reason": "Chưa đúng/đủ: đáp án là 'Yes' nhưng agent liệt kê Trung Quốc vào cả 'Yes', 'No', 'Not a participant' và 'Not applicable' (tự mâu thuẫn, dựa trên mô tả hình liệt kê sai); citation không xác định được trạng thái."
+ },
+ {
+  "query_id": "t-ch1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-ch2",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-ch3",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-ch4",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-ch5",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   false,
+   false
+  ],
+  "reason": "Đúng 32%, 23%, 28%; nhưng hai citation thêm (bảng tr. 126 và 127 về chỉ số khác) không chứa số liệu WASH của Châu Phi: citation thừa, sai nguồn."
+ },
+ {
+  "query_id": "t-mh1",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-mh2",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-mh3",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-mh4",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tx1",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tx2",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tx3",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-tx4",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án chuẩn; đoạn nguồn trích nêu đúng ý đó."
+ },
+ {
+  "query_id": "t-na1",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "t-na2",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "t-na3",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "t-na4",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "t-na5",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ },
+ {
+  "query_id": "t-na6",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng, không thêm khẳng định nào; đã tìm bằng nhiều câu tìm trước khi từ chối."
+ }
+]

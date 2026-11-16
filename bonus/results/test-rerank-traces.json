@@ -1,0 +1,3949 @@
+[
+ {
+  "query_id": "t-tb1",
+  "group": "table",
+  "split": "test",
+  "question": "In Mongolia, how many years longer was female than male life expectancy at birth in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mongolia | 1 661 | 1 686 | 3 348 | 63.8 | 72.8 | 68.1 | 57.1 | 63.8 | 60.3 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mongolia', cột 'Life expectancy at birth, Male/Female, 2019'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In Mongolia, how many years longer was female than male life expectancy at birth in 2019?",
+   "candidates": [
+    "who-whs-2023-p100-table-000",
+    "who-whs-2023-p128-text-000",
+    "who-whs-2023-p098-table-004",
+    "who-whs-2023-p096-table-004",
+    "who-whs-2023-p096-table-000",
+    "who-whs-2023-p100-table-003",
+    "who-whs-2023-p084-text-001",
+    "who-whs-2023-p096-table-003",
+    "who-whs-2023-p100-table-004",
+    "who-whs-2023-p096-table-001",
+    "who-whs-2023-p098-table-003",
+    "who-whs-2023-p100-table-001",
+    "who-whs-2023-p096-table-002",
+    "who-whs-2023-p102-table-001",
+    "who-whs-2023-p098-table-000"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p100-table-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p128-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 128,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Footnotes\na World population prospects: 2022 revision. New York (NY): United Nations, Department of Economic and Social Affairs, Population Division; 2022 (https://population.un.org/wpp/, accessed 30 April 2023). For Member States with a total population less than 90 000, the male, female values are"
+   },
+   {
+    "id": "who-whs-2023-p098-table-004",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-004",
+    "rank": 4,
+    "score": 0.25,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-000",
+    "rank": 5,
+    "score": 0.2,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-003",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p084-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 84,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Notably, global life expectancy at birth increased from 46.5 years in 1950 to approximately 73.0 years in 2019 and, despite the setback caused by the COVID-19 pandemic, it is projected to reach 77.0 years by WHO’s 100th anniversary in 2048 (1,2).1 WHO regions such as Eastern Mediterranean, South-Eas"
+   },
+   {
+    "id": "who-whs-2023-p096-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-004",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-001",
+    "rank": 10,
+    "score": 0.1,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 13722.0
+ },
+ {
+  "query_id": "t-tb2",
+  "group": "table",
+  "split": "test",
+  "question": "What proportion of births in Brazil were attended by skilled health personnel?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 97,
+    "chunk_id": "who-whs-2023-p097-table-001",
+    "evidence": "| Brazil | 72 | 98 | 14 | 8 | 0.24 | 48 | 3.7 | 0.03 | 9 710 068 |",
+    "locator": "tr. 97, bảng annex, hàng 'Brazil', cột 'Proportion of births attended by skilled health personnel (%), 2013-2022'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What proportion of births in Brazil were attended by skilled health personnel?",
+   "candidates": [
+    "who-whs-2023-p128-text-001",
+    "who-whs-2023-p097-table-001",
+    "who-whs-2023-p071-text-007",
+    "who-whs-2023-p081-text-003",
+    "who-whs-2023-p016-text-003",
+    "who-whs-2023-p099-table-000",
+    "who-whs-2023-p097-table-000",
+    "who-whs-2023-p097-table-003",
+    "who-whs-2023-p099-table-002",
+    "who-whs-2023-p101-table-004",
+    "who-whs-2023-p071-text-006",
+    "who-whs-2023-p101-table-002",
+    "who-whs-2023-p097-table-004",
+    "who-whs-2023-p099-table-004",
+    "who-whs-2023-p101-table-003"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    6,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p097-table-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 97,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p128-text-001",
+    "rank": 2,
+    "score": 0.5,
+    "page": 128,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "c Trends in maternal mortality 2000 to 2020: estimates by WHO, UNICEF, UNFPA, World Bank Group and UNDESA/Population Division. Geneva: World Health Organization; 2023 (https://apps.who.int/iris/handle/10665/366225, accessed 30 April 2023). WHO Member States excluded due to small populations: Andorra"
+   },
+   {
+    "id": "who-whs-2023-p097-table-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 97,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p071-text-007",
+    "rank": 4,
+    "score": 0.25,
+    "page": 71,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The assistance of skilled health personnel during childbirth is crucial for the lives of women, their newborns and families. The global coverage of this service increased from 81% in 2015 to an estimated 86% in 2022 (53). The WHO African Region continues to have the lowest coverage of skilled birth "
+   },
+   {
+    "id": "who-whs-2023-p081-text-003",
+    "rank": 5,
+    "score": 0.2,
+    "page": 81,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "51. WHO recommendations on antenatal care for a positive pregnancy experience. Geneva: World Health Organization; 2016 (https:// apps.who.int/iris/handle/10665/250796, accessed 7 April 2023).\n52. Maternal and reproductive health. Global Health Observatory data. Geneva: World Health Organization (htt"
+   },
+   {
+    "id": "who-whs-2023-p016-text-003",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 16,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "All women need access to high-quality care in pregnancy and during and after childbirth. It is particularly important that all pregnant women receive adequate antenatal care (ANC), and that all births are attended by skilled health professionals (also see the UHC section). To improve maternal health"
+   },
+   {
+    "id": "who-whs-2023-p099-table-000",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 99,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p097-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 97,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p099-table-002",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 99,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p101-table-004",
+    "rank": 10,
+    "score": 0.1,
+    "page": 101,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 3,
+  "elapsed_ms": 6117.3
+ },
+ {
+  "query_id": "t-tb3",
+  "group": "table",
+  "split": "test",
+  "question": "For Afghanistan, what were the age-standardized prevalence of tobacco use (2020) and DTP3 immunization coverage among 1-year-olds (2021)?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 112,
+    "chunk_id": "who-whs-2023-p112-table-000",
+    "evidence": "| Afghanistan | 23.3 | 66 | 44 | 65 | - | 3.50 | - |",
+    "locator": "tr. 112, bảng annex, hàng 'Afghanistan', cột 'Tobacco use prevalence 2020; DTP3 coverage 2021'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "For Afghanistan, what were the age-standardized prevalence of tobacco use (2020) and DTP3 immunization coverage among 1-year-olds (2021)?",
+   "candidates": [
+    "who-whs-2023-p112-table-000",
+    "who-whs-2023-p112-table-004",
+    "who-whs-2023-p118-table-003",
+    "who-whs-2023-p116-table-004",
+    "who-whs-2023-p112-table-002",
+    "who-whs-2023-p112-table-003",
+    "who-whs-2023-p114-table-000",
+    "who-whs-2023-p116-table-001",
+    "who-whs-2023-p112-table-001",
+    "who-whs-2023-p114-table-001",
+    "who-whs-2023-p114-table-004",
+    "who-whs-2023-p116-table-000",
+    "who-whs-2023-p118-table-000",
+    "who-whs-2023-p114-table-002",
+    "who-whs-2023-p116-table-002"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p112-table-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p112-table-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p118-table-003",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 118,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p116-table-004",
+    "rank": 4,
+    "score": 0.25,
+    "page": 116,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p112-table-002",
+    "rank": 5,
+    "score": 0.2,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p112-table-003",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p114-table-000",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 114,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p116-table-001",
+    "rank": 8,
+    "score": 0.125,
+    "page": 116,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p112-table-001",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 112,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p114-table-001",
+    "rank": 10,
+    "score": 0.1,
+    "page": 114,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9160.6
+ },
+ {
+  "query_id": "t-tb4",
+  "group": "table",
+  "split": "test",
+  "question": "What was the total population (both sexes) of Thailand in 2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 102,
+    "chunk_id": "who-whs-2023-p102-table-001",
+    "evidence": "| Thailand | 34 794 | 36 807 | 71 601 | 74.4 | 81.0 | 77.7 | 65.9 | 70.6 | 68.3 |",
+    "locator": "tr. 102, bảng annex, hàng 'Thailand', cột 'Total population (000s), Both sexes, 2021'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What was the total population (both sexes) of Thailand in 2021?",
+   "candidates": [
+    "who-whs-2023-p102-table-001",
+    "who-whs-2023-p098-table-004",
+    "who-whs-2023-p100-table-004",
+    "who-whs-2023-p096-table-004",
+    "who-whs-2023-p096-table-001",
+    "who-whs-2023-p100-table-001",
+    "who-whs-2023-p096-table-002",
+    "who-whs-2023-p100-table-000",
+    "who-whs-2023-p096-table-000",
+    "who-whs-2023-p098-table-002",
+    "who-whs-2023-p102-table-003",
+    "who-whs-2023-p098-table-003",
+    "who-whs-2023-p096-table-003",
+    "who-whs-2023-p128-text-000",
+    "who-whs-2023-p100-table-003"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p102-table-001",
+    "rank": 1,
+    "score": 1.0,
+    "page": 102,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-004",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-004",
+    "rank": 4,
+    "score": 0.25,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-001",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-002",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-002",
+    "rank": 10,
+    "score": 0.1,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 16219.8
+ },
+ {
+  "query_id": "t-tb5",
+  "group": "table",
+  "split": "test",
+  "question": "By how many percentage points was the prevalence of anaemia in women of reproductive age higher in Afghanistan than in Brazil in 2019?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 120,
+    "chunk_id": "who-whs-2023-p120-table-000",
+    "evidence": "| Afghanistan | 33.1 | 5.1 aq, ar | 3.7 | 42.6 | 35 | 46 | 28 | - |",
+    "locator": "tr. 120, bảng annex, hàng 'Afghanistan', cột 'Prevalence of anaemia in women of reproductive age (%), 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 120,
+    "chunk_id": "who-whs-2023-p120-table-001",
+    "evidence": "| Brazil | 7.2 | 3.1 ar | 10.3 | 16.1 | 6 | 23 | 86 | 49 |",
+    "locator": "tr. 120, bảng annex, hàng 'Brazil', cột 'Prevalence of anaemia in women of reproductive age (%), 2019'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "By how many percentage points was the prevalence of anaemia in women of reproductive age higher in Afghanistan than in Brazil in 2019?",
+   "candidates": [
+    "who-whs-2023-p060-text-001",
+    "who-whs-2023-p060-fig2.9",
+    "who-whs-2023-p120-table-001",
+    "who-whs-2023-p120-table-000",
+    "who-whs-2023-p126-table-004",
+    "who-whs-2023-p120-table-004",
+    "who-whs-2023-p126-table-003",
+    "who-whs-2023-p124-table-003",
+    "who-whs-2023-p124-table-004",
+    "who-whs-2023-p122-table-002",
+    "who-whs-2023-p122-table-000",
+    "who-whs-2023-p120-table-003",
+    "who-whs-2023-p124-table-001",
+    "who-whs-2023-p122-table-001",
+    "who-whs-2023-p026-text-001"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    3,
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p060-text-001",
+    "rank": 2,
+    "score": 0.5,
+    "page": 60,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Although the global prevalence of anaemia in women aged 15–49 years decreased slightly from 2000 [31.2% (UI: 28.7–34.1)] to 2019 [29.9% (UI: 27.0–32.8)], the total number affected increased considerably due to population growth – from 492.9 million in 2000 to 570.8 million in 2019. Prevalence was hi"
+   },
+   {
+    "id": "who-whs-2023-p060-fig2.9",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 60,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.9 Global prevalence of anaemia by severity levels* in women aged 15–49 years, 2000–2019\n[Text layer in figure] Figure 2.9 Global prevalence of anaemia by severity levels* in women aged 15–49 years, 2000–2019 0 20 15 10 5 30 25 35 40 50 45 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 20"
+   },
+   {
+    "id": "who-whs-2023-p120-table-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p126-table-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p120-table-004",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p124-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p124-table-004",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p122-table-002",
+    "rank": 10,
+    "score": 0.1,
+    "page": 122,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 20923.8
+ },
+ {
+  "query_id": "t-tb6",
+  "group": "table",
+  "split": "test",
+  "question": "What was healthy life expectancy at birth for both sexes in Viet Nam in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 102,
+    "chunk_id": "who-whs-2023-p102-table-002",
+    "evidence": "| Viet Nam | 48 136 | 49 332 | 97 468 | 69.6 | 78.1 | 73.7 | 62.4 | 68.3 | 65.3 |",
+    "locator": "tr. 102, bảng annex, hàng 'Viet Nam', cột 'Healthy life expectancy at birth, Both sexes, 2019'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What was healthy life expectancy at birth for both sexes in Viet Nam in 2019?",
+   "candidates": [
+    "who-whs-2023-p102-table-002",
+    "who-whs-2023-p096-table-003",
+    "who-whs-2023-p096-table-004",
+    "who-whs-2023-p096-table-000",
+    "who-whs-2023-p096-table-001",
+    "who-whs-2023-p098-table-002",
+    "who-whs-2023-p096-table-002",
+    "who-whs-2023-p100-table-000",
+    "who-whs-2023-p100-table-001",
+    "who-whs-2023-p098-table-004",
+    "who-whs-2023-p100-table-003",
+    "who-whs-2023-p098-table-000",
+    "who-whs-2023-p100-table-004",
+    "who-whs-2023-p102-table-001",
+    "who-whs-2023-p102-table-003"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p102-table-002",
+    "rank": 1,
+    "score": 1.0,
+    "page": 102,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-003",
+    "rank": 2,
+    "score": 0.5,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-004",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-000",
+    "rank": 4,
+    "score": 0.25,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-002",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-002",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-001",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-004",
+    "rank": 10,
+    "score": 0.1,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 5971.0
+ },
+ {
+  "query_id": "t-im1",
+  "group": "image",
+  "split": "test",
+  "question": "According to the timeline of 75 years of public health, what did the World Health Assembly adopt in 2003?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 88,
+    "chunk_id": "who-whs-2023-p088-fig3.3",
+    "evidence": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+    "locator": "tr. 88, Figure 3.3, crop fig3.3_p088.png: mốc 2003: WHA adopts the WHO Framework Convention on Tobacco Control"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "According to the timeline of 75 years of public health, what did the World Health Assembly adopt in 2003?",
+   "candidates": [
+    "who-whs-2023-p088-fig3.3",
+    "who-whs-2023-p093-text-001",
+    "who-whs-2023-p084-text-000",
+    "who-whs-2023-p092-text-003",
+    "who-whs-2023-p007-text-003",
+    "who-whs-2023-p054-text-001",
+    "who-whs-2023-p083-text-000",
+    "who-whs-2023-p129-text-000",
+    "who-whs-2023-p067-text-000",
+    "who-whs-2023-p091-text-000",
+    "who-whs-2023-p082-text-004",
+    "who-whs-2023-p085-text-000",
+    "who-whs-2023-p007-text-000",
+    "who-whs-2023-p080-text-005",
+    "who-whs-2023-p087-text-002"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p088-fig3.3",
+    "rank": 1,
+    "score": 1.0,
+    "page": 88,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 3.3 Seventy-five years of improving public health, 1948–2023\n[Text layer in figure] Figure 3.3 Seventy-five years of improving public health, 1948–2023 1948 WHO Constituion comes into force 1974 WHO founds the Expanded Programme on Immunization to bring life-saving vaccines to all the world's"
+   },
+   {
+    "id": "who-whs-2023-p093-text-001",
+    "rank": 2,
+    "score": 0.5,
+    "page": 93,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "5. Public health milestones through the years. (Online). Geneva: World Health Organization (https://www.who.int/campaigns/75years-of-improving-public-health/milestones#year-1945, accessed 22 April 2023).\n6. Polio Global Eradication Initiative. (Online) (https://polioeradication.org/, accessed 22 Apr"
+   },
+   {
+    "id": "who-whs-2023-p084-text-000",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 84,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•3.1 Improvements in overall population health over the last seven decades\n1 Unless otherwise noted, data on life expectancy, causes of death and burden of disease in this section are derived from the Global Health Estimates 2000–2019 (GHE2019) and World population prospects: 2022 revision (WPP2022)"
+   },
+   {
+    "id": "who-whs-2023-p092-text-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 92,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "This report documents successes and challenges in various aspects of public health, with a focus on the SDG indicators and the trends observed over the last few decades. The data and statistics presented in the annexes are fundamental elements for laying out a strategic roadmap to sustain and accele"
+   },
+   {
+    "id": "who-whs-2023-p007-text-003",
+    "rank": 5,
+    "score": 0.2,
+    "page": 7,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "With many people still lacking access to essential health services, it is imperative to address inequality, along with the environmental, commercial and other determinants of health, to progress towards our shared goal of Health for All and achieving the SDG targets. Countries must take urgent actio"
+   },
+   {
+    "id": "who-whs-2023-p054-text-001",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 54,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "In 2016, the World Health Assembly endorsed the Global Health Sector Strategy on viral hepatitis which calls for the elimination of viral hepatitis as a public health threat by 2030 (18). In 2022, the Seventy-fifth World Health Assembly noted a new set of integrated global health sector strategies o"
+   },
+   {
+    "id": "who-whs-2023-p083-text-000",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 83,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Building on past achievements to prepare for the next stage of global health 03."
+   },
+   {
+    "id": "who-whs-2023-p129-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 129,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "p SDG 3.8.2 Catastrophic health spending (and related indicators) [online database]. Global Health Observatory. Geneva: World\nHealth Organization; 2023. (https://www.who.int/data/gho/data/themes/topics/financial-protection).\nq Public health and environment [online database]. Global Health Observator"
+   },
+   {
+    "id": "who-whs-2023-p067-text-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 67,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "• Box 2.4 New data for assessing WASH services in Montenegrin health care facilities (13)\nIn 2019, the World Health Assembly adopted resolution WHA72.7 on WASH in health care facilities (38), calling for adequate WASH services for providing safe, peoplecentred health care and achieving UHC. Integrat"
+   },
+   {
+    "id": "who-whs-2023-p091-text-000",
+    "rank": 10,
+    "score": 0.1,
+    "page": 91,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Building on past achievements to prepare for the next stage of global health"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 8882.6
+ },
+ {
+  "query_id": "t-im2",
+  "group": "image",
+  "split": "test",
+  "question": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed both the stunting and anaemia thresholds (and no other)?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng giao Stunting-Anaemia: 17 countries crossed stunting and anaemia thresholds"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed both the stunting and anaemia thresholds (and no other)?",
+   "candidates": [
+    "who-whs-2023-p061-fig2.10",
+    "who-whs-2023-p057-fig2.7",
+    "who-whs-2023-p061-text-000",
+    "who-whs-2023-p058-fig2.8",
+    "who-whs-2023-p124-table-001",
+    "who-whs-2023-p058-text-001",
+    "who-whs-2023-p120-table-000",
+    "who-whs-2023-p057-text-000",
+    "who-whs-2023-p058-text-000",
+    "who-whs-2023-p126-table-003",
+    "who-whs-2023-p122-table-000",
+    "who-whs-2023-p124-table-004",
+    "who-whs-2023-p126-table-004",
+    "who-whs-2023-p080-text-002",
+    "who-whs-2023-p120-table-004"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    2,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p061-fig2.10",
+    "rank": 1,
+    "score": 1.0,
+    "page": 61,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022\n[Text layer in figure] Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022 17 countries crossed stunting and anaemia thresholds 6 countries crosse"
+   },
+   {
+    "id": "who-whs-2023-p061-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 61,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Burden of multiple forms of malnutrition\nIn many countries, several factors influence the nutritional status in children under 5 years of age; extremes of malnutrition may coexist with high prevalence of stunting, overweight and obesity at the same time. In addition, high prevalence of anaemia may a"
+   },
+   {
+    "id": "who-whs-2023-p057-fig2.7",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022\n[Text layer in figure] Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 4,
+    "score": 0.25,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p124-table-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p058-text-001",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Still, in 2022, there were 49.8 million children under 5 years of age affected by stunting in the South-East Asia Region [30.1% (UI: 28.3–32.0)], 56.2 million in the African Region [31.0% (UI: 30.2–31.8)] and 22.9 million in the Eastern Mediterranean Region [25.1% (UI: 23.4–26.8)].\nGlobally, an esti"
+   },
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p057-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•2.2 Child malnutrition and anaemia among women\nMalnutrition refers to deficiencies or excesses in nutrient intake, the imbalance of essential nutrients or impaired nutrient utilization. All countries are affected by one or more forms of malnutrition. This section discusses the SDG indicators on mal"
+   },
+   {
+    "id": "who-whs-2023-p058-text-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Stunting\nStunting is the result of chronic and recurrent malnutrition in mothers and in children who do not grow to their maximum potential.\nThe global prevalence of stunting in children under 5 years of age fell from 33.0% (UI: 32.4–33.5) in 2000 to 22.3% (UI: 21.8–22.9) in 2022. The decline occurr"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9049.9
+ },
+ {
+  "query_id": "t-im3",
+  "group": "image",
+  "split": "test",
+  "question": "On the world map of maternal mortality ratio by country in 2020, what are the highest and the lowest legend classes?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 16,
+    "chunk_id": "who-whs-2023-p016-fig1.2",
+    "evidence": "Figure 1.2 Maternal mortality ratio by country/area, 2020",
+    "locator": "tr. 16, Figure 1.2, crop fig1.2_p016.png: chú giải: lớp cao nhất '≥1000', thấp nhất '<20' (per 100 000 live births)"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "On the world map of maternal mortality ratio by country in 2020, what are the highest and the lowest legend classes?",
+   "candidates": [
+    "who-whs-2023-p016-fig1.2",
+    "who-whs-2023-p015-fig1.1",
+    "who-whs-2023-p015-text-002",
+    "who-whs-2023-p015-text-001",
+    "who-whs-2023-p041-text-000",
+    "who-whs-2023-p014-text-002",
+    "who-whs-2023-p014-text-001",
+    "who-whs-2023-p020-fig1.6",
+    "who-whs-2023-p097-table-000",
+    "who-whs-2023-p015-text-000",
+    "who-whs-2023-p024-text-002",
+    "who-whs-2023-p101-table-001",
+    "who-whs-2023-p069-fig2.15",
+    "who-whs-2023-p097-table-002",
+    "who-whs-2023-p091-fig3.4"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    2,
+    3,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p016-fig1.2",
+    "rank": 1,
+    "score": 1.0,
+    "page": 16,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.2 Maternal mortality ratio by country/area, 2020\n[Text layer in figure] Figure 1.2 Maternal mortality ratio by country/area, 2020 Not applicable No data available <20 20–99 100–299 300–499 500–999 ۽эььь (per 100 000 live births) Maternal mortality ratio 0 2000 4000 1000 km Source: Ref. (1)."
+   },
+   {
+    "id": "who-whs-2023-p015-text-002",
+    "rank": 2,
+    "score": 0.5,
+    "page": 15,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Figure 1.2 shows countries and areas for which estimates are available. In 2020, 13 countries had a maternal mortality ratio that was very high (between 500 and 999) or extremely high (over 1000). Of these countries, 11 are in the African Region and two are in the Eastern Mediterranean Region. In to"
+   },
+   {
+    "id": "who-whs-2023-p015-text-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 15,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The maternal mortality ratio levels, as well as the rates of progress and slowdown, have been uneven across WHO regions (Figure 1.1). The WHO South-East Asia Region maintained the fastest reduction rate during the MDG era and the first five years of the SDG era, reducing the maternal mortality ratio"
+   },
+   {
+    "id": "who-whs-2023-p015-fig1.1",
+    "rank": 4,
+    "score": 0.25,
+    "page": 15,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020\n[Text layer in figure] Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020 European Region Western Paciﬁc Region Region of the Americas South-East A"
+   },
+   {
+    "id": "who-whs-2023-p041-text-000",
+    "rank": 5,
+    "score": 0.2,
+    "page": 41,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "References\n1. Trends in maternal mortality 2000 to 2020: estimates by WHO, UNICEF, UNFPA, World Bank Group and UNDESA/Population Division. Geneva: World Health Organization; 2023 (https://apps.who.int/iris/handle/10665/366225, accessed 21 April 2023).\n2. Global health estimates 2019: deaths by cause"
+   },
+   {
+    "id": "who-whs-2023-p014-text-002",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 14,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Levels and trends in maternal mortality\nMuch progress was achieved in the MDG era, as the global maternal mortality ratio dropped by a third between 2000 and 2015, from 339 (UI: 319–360)1 deaths per 100 000 live births to 227 (UI: 211–246) deaths per 100 000 live births, representing a 2.7% (UI: 2.0"
+   },
+   {
+    "id": "who-whs-2023-p014-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 14,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Improvement of maternal and child health has been high on the global development agenda since the turn of the millennium. Reductions in both maternal and child mortality were among the targets of the MDGs, declared in 2000, that the world strived to achieve by 2015. They continue to be among the glo"
+   },
+   {
+    "id": "who-whs-2023-p020-fig1.6",
+    "rank": 8,
+    "score": 0.125,
+    "page": 20,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021\n[Text layer in figure] Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021 Not applicable No data available 1 12 18 29 40 Neonatal mortality rate (per 1000 live births) ۼюё юђҘ"
+   },
+   {
+    "id": "who-whs-2023-p097-table-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 97,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p015-text-000",
+    "rank": 10,
+    "score": 0.1,
+    "page": 15,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "ratio plummeted to -0.04% (UI: -1.6–1.1%) between 2016 and 2020, indicating stagnation. An estimated 287 000 (UI: 273 000–343 000) women lost their lives due to largely preventable causes related to pregnancy and childbirth in 2020 – approximately 800 women every day – equivalent to 223 (UI: 202–255"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9720.7
+ },
+ {
+  "query_id": "t-im4",
+  "group": "image",
+  "split": "test",
+  "question": "On the map of under-five and neonatal mortality by country in 2021, what do the circles represent and what value does the largest legend circle stand for?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 20,
+    "chunk_id": "who-whs-2023-p020-fig1.6",
+    "evidence": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021",
+    "locator": "tr. 20, Figure 1.6, crop fig1.6_p020.png: chú giải: vòng tròn = Neonatal mortality rate (per 1000 live births), vòng lớn nhất = 40"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "On the map of under-five and neonatal mortality by country in 2021, what do the circles represent and what value does the largest legend circle stand for?",
+   "candidates": [
+    "who-whs-2023-p020-fig1.6",
+    "who-whs-2023-p019-fig1.5",
+    "who-whs-2023-p019-fig1.4",
+    "who-whs-2023-p018-text-003",
+    "who-whs-2023-p018-text-001",
+    "who-whs-2023-p018-text-000",
+    "who-whs-2023-p097-table-004",
+    "who-whs-2023-p101-table-003",
+    "who-whs-2023-p008-table-000",
+    "who-whs-2023-p101-table-004",
+    "who-whs-2023-p103-table-003",
+    "who-whs-2023-p099-table-004",
+    "who-whs-2023-p129-text-002",
+    "who-whs-2023-p004-text-003",
+    "who-whs-2023-p018-text-004"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p020-fig1.6",
+    "rank": 1,
+    "score": 1.0,
+    "page": 20,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021\n[Text layer in figure] Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021 Not applicable No data available 1 12 18 29 40 Neonatal mortality rate (per 1000 live births) ۼюё юђҘ"
+   },
+   {
+    "id": "who-whs-2023-p019-fig1.5",
+    "rank": 2,
+    "score": 0.5,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021\n[Text layer in figure] Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021  0 4 3 2 1 6 5 7 8 10 9 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 "
+   },
+   {
+    "id": "who-whs-2023-p019-fig1.4",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021\n[Text layer in figure] Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021  0 20 10 40 30 50 60 80 70 2000 2005 2010 2015 2021 Mortality rate (per 1000 live b"
+   },
+   {
+    "id": "who-whs-2023-p018-text-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Children around the world face vastly different chances of survival depending on where they are born. While U5MR in the African Region fell by 52% between 2000 and 2021, it remained the highest at 72 (UI: 65–84) deaths per 1000 live births – almost twice the global U5MR and about nine times higher t"
+   },
+   {
+    "id": "who-whs-2023-p018-text-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Substantial global progress has been made in reducing child mortality since 2000. Approximately 10 million (9.9 million, UI: 9.8–10.1 million)2 children under 5 years of age died globally in 2000, corresponding to an under-five mortality rate (U5MR) of 76 (UI: 75–78) deaths per 1000 live births. Bot"
+   },
+   {
+    "id": "who-whs-2023-p018-text-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Child mortality\n2 Child mortality statistics are presented here with 90% uncertainty intervals.\nChild survival is an important marker of human development – it has been one of the main drivers of increasing global life expectancy over the past 75 years. The international community committed to reduc"
+   },
+   {
+    "id": "who-whs-2023-p097-table-004",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 97,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p101-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 101,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   },
+   {
+    "id": "who-whs-2023-p008-table-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 8,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "| ABR | adolescent birth rates | MRSA | methicillin-resistant |\n| AIDS | acquired immunodeficiency syndrome |  | Staphylococcus aureus |\n| AMR | antimicrobial resistance | NAP | national adaptation plan |\n| ANC | antenatal care | NCD | noncommunicable disease |\n| ARI | acute respiratory infection | "
+   },
+   {
+    "id": "who-whs-2023-p101-table-004",
+    "rank": 10,
+    "score": 0.1,
+    "page": 101,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.1 |  | 3.2 |  | 3.3 |  |  |  |  |\n|  | Maternal mortality ratioc (per 100 000 live births) | Proportion of births attended by skilled health personneld (%) | Under-five mortality ratee (per 1000 live births) | Neonatal mortality ratee (per 1000 live births) | New HIV infectionsf (per 1000 uni"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 26100.3
+ },
+ {
+  "query_id": "t-im5",
+  "group": "image",
+  "split": "test",
+  "question": "On the map of national health and climate change plans or strategies in 2021, what status is shown for China?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 38,
+    "chunk_id": "who-whs-2023-p038-fig1.16",
+    "evidence": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+    "locator": "tr. 38, Figure 1.16, crop fig1.16_p038.png: China tô màu đỏ sẫm = 'Yes' theo chú giải"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "On the map of national health and climate change plans or strategies in 2021, what status is shown for China?",
+   "candidates": [
+    "who-whs-2023-p038-text-000",
+    "who-whs-2023-p037-text-006",
+    "who-whs-2023-p039-fig1.17",
+    "who-whs-2023-p038-fig1.16",
+    "who-whs-2023-p043-text-004",
+    "who-whs-2023-p037-text-000",
+    "who-whs-2023-p043-text-003",
+    "who-whs-2023-p037-text-005",
+    "who-whs-2023-p039-text-000",
+    "who-whs-2023-p036-text-000",
+    "who-whs-2023-p038-text-001",
+    "who-whs-2023-p040-text-002",
+    "who-whs-2023-p039-text-001",
+    "who-whs-2023-p043-text-000",
+    "who-whs-2023-p036-text-002"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    3,
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p038-fig1.16",
+    "rank": 1,
+    "score": 1.0,
+    "page": 38,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021\n[Text layer in figure] Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021 0 2000 4000 1000 km Not applicable Not a participant Unknown No U"
+   },
+   {
+    "id": "who-whs-2023-p038-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 38,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Build better, more climate-resilient and environmentally sustainable health systems\nBuilding climate-resilient and sustainable health systems involves a systematic and comprehensive approach to strengthening all core functions of a health system so that it can respond and adapt to the health risks o"
+   },
+   {
+    "id": "who-whs-2023-p037-text-006",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 37,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Under the Paris Agreement, countries set out their mitigation commitments and adaptation priorities through their nationally determined contributions (NDCs) and national adaptation plans (NAPs). The 2023 WHO Review of Health in the NDC report found that over 90% of countries reflect health prioritie"
+   },
+   {
+    "id": "who-whs-2023-p039-fig1.17",
+    "rank": 4,
+    "score": 0.25,
+    "page": 39,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.17 Main barriers to implementation of national health and climate change plans or strategies, 2021\n[Text layer in figure] Figure 1.17 Main barriers to implementation of national health and climate change plans or strategies, 2021 Insuﬃcient ﬁnance/budget 70 0 10 20 30 40 50 60 70 80 Percent"
+   },
+   {
+    "id": "who-whs-2023-p043-text-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 43,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "48. WHO health and climate change global survey report. Geneva: World Health Organization; 2021 (https://apps.who.int/iris/ handle/10665/348068, accessed 19 April 2023).\n49. Global road map for health care decarbonization: a navigational tool for achieving zero emissions with climate resilience and "
+   },
+   {
+    "id": "who-whs-2023-p037-text-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 37,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "that climate change was projected to have a substantial adverse impact on future mortality.\nSince 2015, WHO, the United Nations Framework Convention on Climate Change (UNFCCC) Health and Climate Change Country Profile project has worked with national governments to produce evidence-based summaries o"
+   },
+   {
+    "id": "who-whs-2023-p043-text-003",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 43,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "44. Markandya A, Sampedro J, Smith SJ, Van Dingenen R, Pizarro-Irizar C, Arto I et al. Health co-benefits from air pollution and mitigation costs of the Paris Agreement: a modelling study. Lancet Planet Health. 2018;2:e126–33.\n45. Romanello M, McGushin A, Napoli C, Drummond P, Hughes N, Jamart L et "
+   },
+   {
+    "id": "who-whs-2023-p037-text-005",
+    "rank": 8,
+    "score": 0.125,
+    "page": 37,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Health benefits from climate change mitigation save lives, provide cost-savings for health systems and improved productivity from a healthier workforce. These economic gains have been shown to be of the same magnitude as mitigation costs and in some cases even double the costs of mitigation (44,46),"
+   },
+   {
+    "id": "who-whs-2023-p039-text-000",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 39,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Protect health from the wide range of impacts of climate change\nCountries are facing increasing threats to public health and health systems from climate change. A number of factors, including geography and socioeconomic conditions influence these risks. Countries can assess their individual health v"
+   },
+   {
+    "id": "who-whs-2023-p036-text-000",
+    "rank": 10,
+    "score": 0.1,
+    "page": 36,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•1.4 Climate change and health\nClimate change is one of the greatest health challenges of the 21st century. As climatic conditions change, we are witnessing more frequent and intensifying weather and climate events, such as storms, extreme heat, floods, droughts and wildfires. These weather and clim"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 23568.9
+ },
+ {
+  "query_id": "t-ch1",
+  "group": "chart",
+  "split": "test",
+  "question": "In the Eastern Mediterranean Region in 2021, what percentages of people living with HIV knew their status, were on treatment and were virally suppressed?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 75,
+    "chunk_id": "who-whs-2023-p075-fig2.20",
+    "evidence": "Figure 2.20 HIV testing and treatment cascade",
+    "locator": "tr. 75, Figure 2.20, crop fig2.20_p075.png: panel b, Eastern Mediterranean Region: 41 / 27 / 24"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In the Eastern Mediterranean Region in 2021, what percentages of people living with HIV knew their status, were on treatment and were virally suppressed?",
+   "candidates": [
+    "who-whs-2023-p075-fig2.20",
+    "who-whs-2023-p074-text-004",
+    "who-whs-2023-p075-text-000",
+    "who-whs-2023-p046-text-002",
+    "who-whs-2023-p047-fig2.1",
+    "who-whs-2023-p046-text-004",
+    "who-whs-2023-p048-text-001",
+    "who-whs-2023-p074-text-000",
+    "who-whs-2023-p046-text-001",
+    "who-whs-2023-p089-text-001",
+    "who-whs-2023-p052-text-000",
+    "who-whs-2023-p079-text-000",
+    "who-whs-2023-p088-fig3.3",
+    "who-whs-2023-p059-text-002",
+    "who-whs-2023-p103-table-003"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p075-fig2.20",
+    "rank": 1,
+    "score": 1.0,
+    "page": 75,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.20 HIV testing and treatment cascade\n[Text layer in figure] Figure 2.20 HIV testing and treatment cascade a. Global, 2015 and 2021  0 20 40 60 80 100 Percentage (%) People living with HIV who know their status People living with HIV who are on treatment People living with HIV who are virall"
+   },
+   {
+    "id": "who-whs-2023-p074-text-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 74,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Continued improvements were made towards the treatment targets for HIV,4 despite the COVID-19 pandemic. The HIV testing and treatment cascade (Figure 2.20) shows that in 2021, an estimated 85% (UI: 75–97%) of the 38.4 (UI: 33.9–43.8) million people living with HIV (PLHIV) globally knew their HIV sta"
+   },
+   {
+    "id": "who-whs-2023-p075-text-000",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 75,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "coverage was found in the WHO African and Western Pacific regions, whereas the Eastern Mediterranean Region had the lowest coverage in 2021. The roll-out of effective HIV treatment\nhas reduced global HIV-related deaths by 52% since 2010 – from 1.4 (UI: 1.1–1.8) million to 650 000 (UI: 510 000–860 00"
+   },
+   {
+    "id": "who-whs-2023-p046-text-002",
+    "rank": 4,
+    "score": 0.25,
+    "page": 46,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "In 2021, there were 1.5 (UI: 1.1–2.0) million new HIV infections globally. This represents a decline of 32% in new HIV infections compared to 2010. The incidence rate (new infections per 1000 uninfected population) declined from 0.32 (UI: 0.24–0.43) in 2010 to 0.19 (UI: 0.15–0.26) in 2021. Across al"
+   },
+   {
+    "id": "who-whs-2023-p047-fig2.1",
+    "rank": 5,
+    "score": 0.2,
+    "page": 47,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.1 New HIV infections (per 1000 uninfected population), by WHO region and global, 2000–2021\n[Text layer in figure] Figure 2.1 New HIV infections (per 1000 uninfected population), by WHO region and global, 2000–2021 a. WHO regions (excluding Africa) and global 0 0.1 0.2 0.3 0.4 0.5 New HIV in"
+   },
+   {
+    "id": "who-whs-2023-p046-text-004",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 46,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Scale-up of HIV testing and access to antiretroviral therapy (ART), especially for adults, has transformed the global AIDS response (see UHC section). However, children are markedly less likely than adults to be diagnosed with HIV, to receive ART and to achieve viral suppression. In 2021, children ("
+   },
+   {
+    "id": "who-whs-2023-p048-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 48,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The WHO Regional Office for Africa provides support to Member States by characterizing the current epidemiology of HIV, reviewing surveillance approaches and methods, and disseminating strategic information guidelines. With the evolution of the disease and for more targeted interventions, the region"
+   },
+   {
+    "id": "who-whs-2023-p074-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 74,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "• Box 2.5 Analysis of an RMNCH service coverage index at subnational level in Rwanda\nCommunicable diseases\n4 The 2025 testing, treatment and viral suppression targets are: 95% of people within the subpopulation who are living with HIV know their HIV status; 95% of people within the subpopulation who"
+   },
+   {
+    "id": "who-whs-2023-p046-text-001",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 46,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "In June 2021, the UN General Assembly adopted the Political Declaration on HIV and AIDS: Ending Inequalities and Getting on Track to End AIDS by 2030. The core targets require a decrease in annual global new HIV infections to less than 370 000 and HIV-related deaths to fewer than 250 000 by 2025. La"
+   },
+   {
+    "id": "who-whs-2023-p089-text-001",
+    "rank": 10,
+    "score": 0.1,
+    "page": 89,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Working closely with Member States and other partners, WHO has seen many remarkable milestones achieved during its 75 years of existence. Smallpox was eradicated in 1980 after an ambitious 12-year global vaccination campaign led by WHO. By 2023, five of the six WHO Regions were certified free of wil"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 6053.7
+ },
+ {
+  "query_id": "t-ch2",
+  "group": "chart",
+  "split": "test",
+  "question": "How did the global prevalence of stunting in children under 5 change between 2000 and 2022?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 57,
+    "chunk_id": "who-whs-2023-p057-fig2.7",
+    "evidence": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+    "locator": "tr. 57, Figure 2.7, crop fig2.7_p057.png: biểu đồ trái, đường Stunting: 33.0 (2000) -> 22.3 (2022)"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "How did the global prevalence of stunting in children under 5 change between 2000 and 2022?",
+   "candidates": [
+    "who-whs-2023-p057-fig2.7",
+    "who-whs-2023-p058-text-000",
+    "who-whs-2023-p058-fig2.8",
+    "who-whs-2023-p058-text-001",
+    "who-whs-2023-p126-table-004",
+    "who-whs-2023-p120-table-000",
+    "who-whs-2023-p059-text-001",
+    "who-whs-2023-p124-table-001",
+    "who-whs-2023-p120-table-001",
+    "who-whs-2023-p126-table-003",
+    "who-whs-2023-p120-table-003",
+    "who-whs-2023-p122-table-001",
+    "who-whs-2023-p122-table-004",
+    "who-whs-2023-p122-table-002",
+    "who-whs-2023-p059-text-000"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p058-text-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Stunting\nStunting is the result of chronic and recurrent malnutrition in mothers and in children who do not grow to their maximum potential.\nThe global prevalence of stunting in children under 5 years of age fell from 33.0% (UI: 32.4–33.5) in 2000 to 22.3% (UI: 21.8–22.9) in 2022. The decline occurr"
+   },
+   {
+    "id": "who-whs-2023-p057-fig2.7",
+    "rank": 2,
+    "score": 0.5,
+    "page": 57,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022\n[Text layer in figure] Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 Prevalence (%) 0 20"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p058-text-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Still, in 2022, there were 49.8 million children under 5 years of age affected by stunting in the South-East Asia Region [30.1% (UI: 28.3–32.0)], 56.2 million in the African Region [31.0% (UI: 30.2–31.8)] and 22.9 million in the Eastern Mediterranean Region [25.1% (UI: 23.4–26.8)].\nGlobally, an esti"
+   },
+   {
+    "id": "who-whs-2023-p126-table-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p120-table-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p059-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 59,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "While the global prevalence of overweight in children under 5 years of age virtually stagnated, the Western Pacific Region, the Region of the Americas and the South-East Asia Region saw the prevalence increasing since 2000 (Figure 2.8). Prevalence in the other regions increased in the early 2000s bu"
+   },
+   {
+    "id": "who-whs-2023-p124-table-001",
+    "rank": 8,
+    "score": 0.125,
+    "page": 124,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p120-table-001",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 120,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 2,
+  "elapsed_ms": 9461.8
+ },
+ {
+  "query_id": "t-ch3",
+  "group": "chart",
+  "split": "test",
+  "question": "In the Region of the Americas, how many of the total excess deaths in 2020-2021 were reported COVID-19 deaths?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 30,
+    "chunk_id": "who-whs-2023-p030-fig1.13",
+    "evidence": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021",
+    "locator": "tr. 30, Figure 1.13, crop fig1.13_p030.png: Region of the Americas: tổng 3.2, phần xanh 'Reported COVID-19' = 2.4 (nhãn in trong hình là '2,4')"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In the Region of the Americas, how many of the total excess deaths in 2020-2021 were reported COVID-19 deaths?",
+   "candidates": [
+    "who-whs-2023-p030-fig1.13",
+    "who-whs-2023-p030-text-002",
+    "who-whs-2023-p029-text-001",
+    "who-whs-2023-p030-text-003",
+    "who-whs-2023-p031-text-004",
+    "who-whs-2023-p031-text-000",
+    "who-whs-2023-p031-text-001",
+    "who-whs-2023-p030-text-001",
+    "who-whs-2023-p029-fig1.12",
+    "who-whs-2023-p033-fig1.15",
+    "who-whs-2023-p042-text-001",
+    "who-whs-2023-p032-fig1.14",
+    "who-whs-2023-p032-text-000",
+    "who-whs-2023-p029-text-000",
+    "who-whs-2023-p031-text-002"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p030-fig1.13",
+    "rank": 1,
+    "score": 1.0,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021\n[Text layer in figure] Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021 0 2 4 6 8 10 Deaths (inmillions) Reported COVID-19 Excess deaths not captured in reported COVID-19 deaths African"
+   },
+   {
+    "id": "who-whs-2023-p030-text-002",
+    "rank": 2,
+    "score": 0.5,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "UI: 9.1–12.1 million) – than in 2020 when there was a total of 4.4 million (UI: 3.9–5.0 million). At the regional level, the South- East Asia Region had the highest number of excess deaths for the years 2020 and 2021 at 6.1 million (UI: 4.7–7.8 million), which account for 41% of global excess deaths"
+   },
+   {
+    "id": "who-whs-2023-p029-text-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 29,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Reported COVID-19 mortality and excess mortality associated with the COVID-19 pandemic\nOf the 6.9 million reported deaths attributed to COVID-19 up to 11 March 2023, 43% were reported in WHO’s Region of the Americas, making it the region hardest hit by the pandemic. The WHO European and South-East A"
+   },
+   {
+    "id": "who-whs-2023-p030-text-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The large discrepancy between estimated global excess mortality and the reported deaths due to COVID-19 – a difference of 9.4 million by the end of 2021 – shows that the impact of the pandemic is far-reaching. Indeed, 162 out of 194 WHO Member States show a higher excess mortality rate associated wi"
+   },
+   {
+    "id": "who-whs-2023-p031-text-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 31,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "While the crude excess mortality rate, as calculated by dividing the total number of excess deaths by the total person-years of exposure between 2020 and 2021, provides an informative summary measure of the magnitude of mortality brought about by the COVID-19 pandemic, this calculation masks the imp"
+   },
+   {
+    "id": "who-whs-2023-p031-text-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 31,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Age and sex distributions in the excess mortality associated with the COVID-19 pandemic\nWhile a total of 14.9 million estimated excess deaths was associated with the COVID-19 pandemic between 2020 and 2021, the age distribution of the COVID-19-related excess mortality shows that the pandemic disprop"
+   },
+   {
+    "id": "who-whs-2023-p031-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 31,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Partly influenced by differences in population structure, there was a visible heterogeneity in the percentage of excess deaths by age group in the six WHO regions. The percentage of excess deaths that occurred in ages 65 years and above was above 50% of all excess deaths in the African Region (54%),"
+   },
+   {
+    "id": "who-whs-2023-p030-text-001",
+    "rank": 8,
+    "score": 0.125,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Nevertheless, reported deaths due to COVID-19 generally underestimate the true toll of the impact of COVID-19 on human mortality. Over the past two years, WHO has undertaken a monumental effort to collate all available information on reported all-cause mortality by week and month both during and bef"
+   },
+   {
+    "id": "who-whs-2023-p029-fig1.12",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 29,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.12 Reported COVID-19 deaths by WHO region, to 11 March 2023\n[Text layer in figure] Figure 1.12 Reported COVID-19 deaths by WHO region, to 11 March 2023 Eastern Mediterranean Region 349 680 Western Paciﬁc Region 407 355 South-East Asia Region 803 904 European Region 2 201 892 Region of the A"
+   },
+   {
+    "id": "who-whs-2023-p033-fig1.15",
+    "rank": 10,
+    "score": 0.1,
+    "page": 33,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.15 Excess deaths and years of life lost due to the COVID-19 pandemic, by age group and WHO region, 2020–2021\n[Text layer in figure] Figure 1.15 Excess deaths and years of life lost due to the COVID-19 pandemic, by age group and WHO region, 2020–2021 Excess deaths -0.5 0 1.0 0.5 2.0 3.0 4.0 "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 8908.7
+ },
+ {
+  "query_id": "t-ch4",
+  "group": "chart",
+  "split": "test",
+  "question": "What was the prevalence of current tobacco use among males in the South-East Asia Region in 2000 and in 2020?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-fig1.9",
+    "evidence": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020",
+    "locator": "tr. 25, Figure 1.9, crop fig1.9_p025.png: hàng Male, South-East Asia Region: 68.2 (2000), 46.6 (2020)"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What was the prevalence of current tobacco use among males in the South-East Asia Region in 2000 and in 2020?",
+   "candidates": [
+    "who-whs-2023-p025-fig1.9",
+    "who-whs-2023-p024-text-000",
+    "who-whs-2023-p024-text-002",
+    "who-whs-2023-p027-fig1.11",
+    "who-whs-2023-p118-table-003",
+    "who-whs-2023-p034-text-000",
+    "who-whs-2023-p024-text-001",
+    "who-whs-2023-p058-fig2.8",
+    "who-whs-2023-p023-fig1.7",
+    "who-whs-2023-p026-fig1.10",
+    "who-whs-2023-p093-text-002",
+    "who-whs-2023-p026-text-001",
+    "who-whs-2023-p118-table-000",
+    "who-whs-2023-p019-fig1.5",
+    "who-whs-2023-p116-table-004"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p025-fig1.9",
+    "rank": 1,
+    "score": 1.0,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020\n[Text layer in figure] Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020 2000 2020"
+   },
+   {
+    "id": "who-whs-2023-p024-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Tobacco use\nGlobally, the age-standardized prevalence of current tobacco use among persons aged 15 years or older has declined by over 30% – from 32.7% in 2000 to 22.3% in 2020 (Figure 1.9). With one of the greatest decline of over 40%, the South-East Asia Region nevertheless had the highest prevale"
+   },
+   {
+    "id": "who-whs-2023-p024-text-002",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The age-standardized current tobacco use prevalence was higher among men than among women across the world. The male-to-female ratio at global level was 4.7 in 2020, rising from 3.0 in 2000 and indicating a slower reduction among men compared to women. The lack of progress among men in relative term"
+   },
+   {
+    "id": "who-whs-2023-p027-fig1.11",
+    "rank": 4,
+    "score": 0.25,
+    "page": 27,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019\n[Text layer in figure] Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019 Prevalence (%) 0 20 15 10 5 30 25"
+   },
+   {
+    "id": "who-whs-2023-p118-table-003",
+    "rank": 5,
+    "score": 0.2,
+    "page": 118,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.a | 3.b |  |  |  |  |  |\n|  | Age- standardized prevalence of tobacco use among persons 15 years and olders (%) | Diphtheria- tetanus- pertussis (DTP3) immunization coverage among 1-year- oldst (%) | Measles- containing- vaccine second- dose (MCV2) immunization coverage by the nationally reco"
+   },
+   {
+    "id": "who-whs-2023-p034-text-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 34,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Globally, men have lost a total of 196.9 million life-years – 42% more than women who lost 140.0 million life-years. The age distribution of YLL is similar among men and women at the global level where YLL in age groups between 45 and 74 years account for around 70% of total YLL for both men and wom"
+   },
+   {
+    "id": "who-whs-2023-p024-text-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "dropped only by 16.5% between 2010 and 2020, falling much short of the target of the 30% reduction by 2025. If the trend continues, the likelihood of meeting this target is lowest in Western Pacific with only a 5.7% reduction between 2010 and 2020. In contrast, the regions of Africa, Americas and So"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 8,
+    "score": 0.125,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p023-fig1.7",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 23,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.7 Probability of dying from the four major NCDs* (ages 30–69 years), projection versus SDG target, WHO regions and global, 2000–2048\n[Text layer in figure] Figure 1.7 Probability of dying from the four major NCDs* (ages 30–69 years), projection versus SDG target, WHO regions and global, 200"
+   },
+   {
+    "id": "who-whs-2023-p026-fig1.10",
+    "rank": 10,
+    "score": 0.1,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016\n[Text layer in figure] Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016 Both sexes Male Female 0 15 10 "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 40857.8
+ },
+ {
+  "query_id": "t-ch5",
+  "group": "chart",
+  "split": "test",
+  "question": "In the African Region in 2020, what proportion of the population used safely-managed drinking-water, safely-managed sanitation and a hand-washing facility with soap and water?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 66,
+    "chunk_id": "who-whs-2023-p066-fig2.13",
+    "evidence": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+    "locator": "tr. 66, Figure 2.13, crop fig2.13_p066.png: African Region: 32 / 23 / 28"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In the African Region in 2020, what proportion of the population used safely-managed drinking-water, safely-managed sanitation and a hand-washing facility with soap and water?",
+   "candidates": [
+    "who-whs-2023-p066-fig2.13",
+    "who-whs-2023-p065-text-001",
+    "who-whs-2023-p127-table-003",
+    "who-whs-2023-p126-table-003",
+    "who-whs-2023-p127-table-004",
+    "who-whs-2023-p121-table-002",
+    "who-whs-2023-p121-table-004",
+    "who-whs-2023-p121-table-003",
+    "who-whs-2023-p125-table-004",
+    "who-whs-2023-p123-table-004",
+    "who-whs-2023-p125-table-003",
+    "who-whs-2023-p126-table-004",
+    "who-whs-2023-p123-table-000",
+    "who-whs-2023-p120-table-004",
+    "who-whs-2023-p123-table-001"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    3,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p066-fig2.13",
+    "rank": 1,
+    "score": 1.0,
+    "page": 66,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020\n[Text layer in figure] Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020 0 20 40 60 80 100 Proportion of the population (%) Safely-managed drinking-water services Safel"
+   },
+   {
+    "id": "who-whs-2023-p126-table-003",
+    "rank": 2,
+    "score": 0.5,
+    "page": 126,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 2.2 |  |  |  | 5.2 |  | 6.1 | 6.2 |\n|  | Prevalence of stunting in children under 5aa (%) | Prevalence of wasting in children under 5aa (%) | Prevalence of overweight in children under 5aa (%) | Prevalence of anaemia in women of reproductive age (15–49 years)ab (%) | Proportion of ever- partner"
+   },
+   {
+    "id": "who-whs-2023-p065-text-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 65,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Despite progress, WASH services are still not universally available. Safely managed drinking-water services – i.e. located on premises, available when needed and free from contamination – were accessible by 74% of the global population in 2020, leaving 2 billion people with only basic or limited ser"
+   },
+   {
+    "id": "who-whs-2023-p127-table-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p127-table-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p121-table-002",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p121-table-004",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p121-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p125-table-004",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 125,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p123-table-004",
+    "rank": 10,
+    "score": 0.1,
+    "page": 123,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 57046.3
+ },
+ {
+  "query_id": "t-mh1",
+  "group": "multihop",
+  "split": "test",
+  "question": "For Mexico, what are life expectancy at birth for both sexes (2019) and the under-five mortality rate (2021)?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mexico | 61 856 | 64 849 | 126 705 | 73.1 | 78.9 | 76.0 | 64.3 | 67.2 | 65.8 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mexico', cột 'Life expectancy at birth, Both sexes, 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 101,
+    "chunk_id": "who-whs-2023-p101-table-000",
+    "evidence": "| Mexico | 59 | 97 | 13 | 8 | 0.13 | 25 | 0.1 | 0.03 | 19 825 655 |",
+    "locator": "tr. 101, bảng annex, hàng 'Mexico', cột 'Under-five mortality rate (per 1000 live births), 2021'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "For Mexico, what are life expectancy at birth for both sexes (2019) and the under-five mortality rate (2021)?",
+   "candidates": [
+    "who-whs-2023-p100-table-000",
+    "who-whs-2023-p098-table-000",
+    "who-whs-2023-p096-table-000",
+    "who-whs-2023-p096-table-003",
+    "who-whs-2023-p100-table-001",
+    "who-whs-2023-p098-table-002",
+    "who-whs-2023-p096-table-001",
+    "who-whs-2023-p096-table-004",
+    "who-whs-2023-p100-table-003",
+    "who-whs-2023-p102-table-003",
+    "who-whs-2023-p084-text-001",
+    "who-whs-2023-p096-table-002",
+    "who-whs-2023-p100-table-002",
+    "who-whs-2023-p098-table-001",
+    "who-whs-2023-p098-table-004"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p100-table-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-000",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p098-table-002",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 98,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-001",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p096-table-004",
+    "rank": 8,
+    "score": 0.125,
+    "page": 96,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p100-table-003",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 100,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   },
+   {
+    "id": "who-whs-2023-p102-table-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 102,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | Total populationa (000s) |  |  | Life expectancy at birthb (years) |  |  | Healthy life expectancy at birthb (years) |  |  |\n| Data type | Comparable estimates |  |  | Comparable estimates |  |  | Comparable estimates |  |  |\n|  | Male | Female | Both sexes | Male | Female | Both sexes | Male |"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9261.7
+ },
+ {
+  "query_id": "t-mh2",
+  "group": "multihop",
+  "split": "test",
+  "question": "In the Region of the Americas, what were the prevalence of adult obesity in 2016 and the prevalence of adult hypertension in 2019?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-text-000",
+    "evidence": "was in the Americas where 28.6% (UI: 26.6–30.5%) of adults were obese",
+    "locator": "tr. 25, đoạn văn"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 26,
+    "chunk_id": "who-whs-2023-p026-text-000",
+    "evidence": "the Americas at 35.4% (UI: 33.3–37.6%)",
+    "locator": "tr. 26, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "In the Region of the Americas, what were the prevalence of adult obesity in 2016 and the prevalence of adult hypertension in 2019?",
+   "candidates": [
+    "who-whs-2023-p025-text-000",
+    "who-whs-2023-p026-text-000",
+    "who-whs-2023-p026-fig1.10",
+    "who-whs-2023-p025-text-001",
+    "who-whs-2023-p026-text-001",
+    "who-whs-2023-p027-fig1.11",
+    "who-whs-2023-p127-table-003",
+    "who-whs-2023-p059-text-000",
+    "who-whs-2023-p121-table-003",
+    "who-whs-2023-p125-table-003",
+    "who-whs-2023-p123-table-002",
+    "who-whs-2023-p127-table-004",
+    "who-whs-2023-p121-table-004",
+    "who-whs-2023-p121-table-000",
+    "who-whs-2023-p125-table-001"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p025-text-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Obesity\nThe age-standardized prevalence of obesity among adults aged 18 years or older – i.e. body mass index (BMI) >30 kg/m2 – has been rising since the 1970s. In 2016, 13.1% (UI: 12.4–13.9%) of adults globally were obese, up from 8.7% (UI: 8.4–9.0) in 2000. The greatest increases occurred in the S"
+   },
+   {
+    "id": "who-whs-2023-p026-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Hypertension\nThe global age-standardized prevalence of hypertension among adults aged 30–79 years has been rising since 1990 before peaking around 2009; it declined thereafter to 33.1% (UI: 31.5–34.8%) in 2019 (Figure 1.11). The similar bell-curved trends were also observed in all WHO regions, excep"
+   },
+   {
+    "id": "who-whs-2023-p026-fig1.10",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016\n[Text layer in figure] Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016 Both sexes Male Female 0 15 10 "
+   },
+   {
+    "id": "who-whs-2023-p025-text-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Unlike many other health risks, the prevalence rates of obesity were higher among adult women than men. Globally, the femaleto-male ratio of age-standardized prevalence of obesity was 1.4 in 2016, down from 1.6 in 2000 and indicating a more rapid rise in male obesity. The sex difference was greatest"
+   },
+   {
+    "id": "who-whs-2023-p026-text-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The sex difference in age-standardized prevalence of hypertension among adults varies markedly across WHO regions. In the African, Eastern Mediterranean and South-East Asia regions, the prevalence among women was consistently higher than among men, and the gap has widened in the African Region but n"
+   },
+   {
+    "id": "who-whs-2023-p027-fig1.11",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 27,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019\n[Text layer in figure] Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019 Prevalence (%) 0 20 15 10 5 30 25"
+   },
+   {
+    "id": "who-whs-2023-p127-table-003",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p059-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 59,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Oveweight\nPrevalence (%)\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2019\n2020\n2018\n2022\n2021\nAfrican Region Region of the Americas Eastern Mediterranean Region European Region\nSouth-East Asia Region Western Paciﬁc Region Global\nSource: Ref. (27).\nOverwe"
+   },
+   {
+    "id": "who-whs-2023-p121-table-003",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p125-table-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 125,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9496.7
+ },
+ {
+  "query_id": "t-mh3",
+  "group": "multihop",
+  "split": "test",
+  "question": "What was the average annual rate of reduction of the global under-five mortality rate in 2010-2021, and how many countries will miss the SDG under-five mortality target if that trend continues?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 19,
+    "chunk_id": "who-whs-2023-p019-fig1.4",
+    "evidence": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+    "locator": "tr. 19, Figure 1.4, crop fig1.4_p019.png: nhãn ARR trên đường U5MR giai đoạn 2010-2021 = 2.7%"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 20,
+    "chunk_id": "who-whs-2023-p020-text-000",
+    "evidence": "54 countries will not meet the SDG target for U5MR",
+    "locator": "tr. 20, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What was the average annual rate of reduction of the global under-five mortality rate in 2010-2021, and how many countries will miss the SDG under-five mortality target if that trend continues?",
+   "candidates": [
+    "who-whs-2023-p019-fig1.4",
+    "who-whs-2023-p020-text-000",
+    "who-whs-2023-p018-text-001",
+    "who-whs-2023-p010-text-001",
+    "who-whs-2023-p024-text-001",
+    "who-whs-2023-p020-fig1.6",
+    "who-whs-2023-p018-text-000",
+    "who-whs-2023-p019-fig1.5",
+    "who-whs-2023-p018-text-002",
+    "who-whs-2023-p022-text-004",
+    "who-whs-2023-p018-text-004",
+    "who-whs-2023-p018-text-003",
+    "who-whs-2023-p010-text-005",
+    "who-whs-2023-p014-text-002",
+    "who-whs-2023-p015-fig1.1"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    8,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p019-fig1.4",
+    "rank": 1,
+    "score": 1.0,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": true,
+    "text": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021\n[Text layer in figure] Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021  0 20 10 40 30 50 60 80 70 2000 2005 2010 2015 2021 Mortality rate (per 1000 live b"
+   },
+   {
+    "id": "who-whs-2023-p020-text-000",
+    "rank": 2,
+    "score": 0.5,
+    "page": 20,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Interventions to prevent child deaths\nIf current trends continue – i.e. if the ARR of 2010–2021 remains constant – 54 countries will not meet the SDG target for U5MR and 63 countries will not meet the target for NMR by 2030. Meeting the SDG target in the off-track countries would avert almost 10 mil"
+   },
+   {
+    "id": "who-whs-2023-p018-text-002",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Globally, NMR declined at a slower rate compared to U5MR, and both declined more slowly during the second decade (2010–2021) compared to the first decade (2000–2009). The ARR of the NMR dropped from 3.2% during 2000–2009 to 2.2% during 2010–2021, while the ARR of U5MR fell from 4.0% during the first"
+   },
+   {
+    "id": "who-whs-2023-p018-text-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Substantial global progress has been made in reducing child mortality since 2000. Approximately 10 million (9.9 million, UI: 9.8–10.1 million)2 children under 5 years of age died globally in 2000, corresponding to an under-five mortality rate (U5MR) of 76 (UI: 75–78) deaths per 1000 live births. Bot"
+   },
+   {
+    "id": "who-whs-2023-p010-text-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 10,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "However, the rapid progress commonly observed for many of these indicators in the era of the Millennium Development Goals (MDGs) has markedly stalled since 2015, challenging the timely attainment of the SDG targets by 2030. This is evidenced by the falling annual rate of reduction in indicators such"
+   },
+   {
+    "id": "who-whs-2023-p024-text-001",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "dropped only by 16.5% between 2010 and 2020, falling much short of the target of the 30% reduction by 2025. If the trend continues, the likelihood of meeting this target is lowest in Western Pacific with only a 5.7% reduction between 2010 and 2020. In contrast, the regions of Africa, Americas and So"
+   },
+   {
+    "id": "who-whs-2023-p020-fig1.6",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 20,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021\n[Text layer in figure] Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021 Not applicable No data available 1 12 18 29 40 Neonatal mortality rate (per 1000 live births) ۼюё юђҘ"
+   },
+   {
+    "id": "who-whs-2023-p018-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 18,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Child mortality\n2 Child mortality statistics are presented here with 90% uncertainty intervals.\nChild survival is an important marker of human development – it has been one of the main drivers of increasing global life expectancy over the past 75 years. The international community committed to reduc"
+   },
+   {
+    "id": "who-whs-2023-p019-fig1.5",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 19,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021\n[Text layer in figure] Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021  0 4 3 2 1 6 5 7 8 10 9 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 "
+   },
+   {
+    "id": "who-whs-2023-p022-text-004",
+    "rank": 10,
+    "score": 0.1,
+    "page": 22,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Men have a higher probability of premature death from NCDs than women in all WHO regions and globally. The absolute gap between sexes had been closing during the last two decades globally and in all WHO regions. However, the relative gap – as measured by the male-to-female ratio – increased by 11% i"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 16404.3
+ },
+ {
+  "query_id": "t-mh4",
+  "group": "multihop",
+  "split": "test",
+  "question": "For Brazil, what are the density of medical doctors and the UHC service coverage index?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 113,
+    "chunk_id": "who-whs-2023-p113-table-001",
+    "evidence": "| Brazil | 21.4 | 55.1 | 6.7 | 3.4 | 69 | - | - | 10.8 |",
+    "locator": "tr. 113, bảng annex, hàng 'Brazil', cột 'Density of medical doctors (per 10 000 population), 2013-2021'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 105,
+    "chunk_id": "who-whs-2023-p105-table-001",
+    "evidence": "| Brazil | 2.3 | 80 | 11.8 | 1.9 | 28.9 | 6.6 | 0.1 |",
+    "locator": "tr. 105, bảng annex, hàng 'Brazil', cột 'UHC: Service coverage index, 2021'"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "For Brazil, what are the density of medical doctors and the UHC service coverage index?",
+   "candidates": [
+    "who-whs-2023-p113-table-001",
+    "who-whs-2023-p105-table-001",
+    "who-whs-2023-p076-text-004",
+    "who-whs-2023-p117-table-004",
+    "who-whs-2023-p113-table-004",
+    "who-whs-2023-p129-text-002",
+    "who-whs-2023-p071-text-003",
+    "who-whs-2023-p073-text-000",
+    "who-whs-2023-p113-table-003",
+    "who-whs-2023-p077-fig2.21",
+    "who-whs-2023-p113-table-002",
+    "who-whs-2023-p072-text-003",
+    "who-whs-2023-p119-table-002",
+    "who-whs-2023-p071-text-000",
+    "who-whs-2023-p115-table-000"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p105-table-001",
+    "rank": 1,
+    "score": 1.0,
+    "page": 105,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 3.7 | 3.8 |  |  | 3.9 |  |  |\n|  | Adolescent birth raten (per 1000 women aged 10–14 years) | UHC: Service coverage indexo | Population with household expenditures on health > 10% of total household expenditure or incomep (%) | Population with household expenditures on health > 25% of total hou"
+   },
+   {
+    "id": "who-whs-2023-p113-table-001",
+    "rank": 2,
+    "score": 0.5,
+    "page": 113,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": true,
+    "text": "|  | 3.c |  |  |  | 3.d |  |  | 1.a |\n|  | Density of medical doctorsw (per 10 000 population) | Density of nursing and midwifery personnelw (per 10 000 population) | Density of dentistsw (per 10 000 population) | Density of pharmacistsw (per 10 000 population) | Average of 15 International Health R"
+   },
+   {
+    "id": "who-whs-2023-p076-text-004",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 76,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Progress toward UHC depends on the availability, accessibility, acceptability and quality of the health workforce. Current challenges include maldistribution, inefficiencies, lack of support and protection, and shortages at national and subnational levels (72). A recent assessment shows that the glo"
+   },
+   {
+    "id": "who-whs-2023-p117-table-004",
+    "rank": 4,
+    "score": 0.25,
+    "page": 117,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.c |  |  |  | 3.d |  |  | 1.a |\n|  | Density of medical doctorsw (per 10 000 population) | Density of nursing and midwifery personnelw (per 10 000 population) | Density of dentistsw (per 10 000 population) | Density of pharmacistsw (per 10 000 population) | Average of 15 International Health R"
+   },
+   {
+    "id": "who-whs-2023-p113-table-004",
+    "rank": 5,
+    "score": 0.2,
+    "page": 113,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.c |  |  |  | 3.d |  |  | 1.a |\n|  | Density of medical doctorsw (per 10 000 population) | Density of nursing and midwifery personnelw (per 10 000 population) | Density of dentistsw (per 10 000 population) | Density of pharmacistsw (per 10 000 population) | Average of 15 International Health R"
+   },
+   {
+    "id": "who-whs-2023-p129-text-002",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 129,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "v Data collected with the WHO Essential Medicines and Health Products Price and Availability Monitoring Mobile Application (WHO EMP MedMon): (https://www.who.int/news/item/18-02-2018-medmon-mobile-application, accessed 30 April 2023) and Health Action International’s Medicine Prices, Availability, A"
+   },
+   {
+    "id": "who-whs-2023-p071-text-003",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 71,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Monitoring the coverage of essential services presents unique challenges due to the inclusionary nature of UHC and its emphasis on providing health services (promotive, preventive, curative, rehabilitative and palliative) of sufficient quality to be effective to persons in need. No index can fully s"
+   },
+   {
+    "id": "who-whs-2023-p073-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 73,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "• Box 2.5 Analysis of an RMNCH service coverage index at subnational level in Rwanda\nAdvances in small area estimation (SAE) methods can be used with household survey data to produce estimates for smaller subgroups by using spatial correlation between data points, whereas previously it was not possi"
+   },
+   {
+    "id": "who-whs-2023-p113-table-003",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 113,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.c |  |  |  | 3.d |  |  | 1.a |\n|  | Density of medical doctorsw (per 10 000 population) | Density of nursing and midwifery personnelw (per 10 000 population) | Density of dentistsw (per 10 000 population) | Density of pharmacistsw (per 10 000 population) | Average of 15 International Health R"
+   },
+   {
+    "id": "who-whs-2023-p077-fig2.21",
+    "rank": 10,
+    "score": 0.1,
+    "page": 77,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.21 Density of select health professionals per 10 000 population, 2014–2021\n[Text layer in figure] Figure 2.21 Density of select health professionals per 10 000 population, 2014–2021 Per 10 000 population 0 50 60 70 90 80 Medical doctors African Region Region of the Americas Eastern Mediterr"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 5904.1
+ },
+ {
+  "query_id": "t-tx1",
+  "group": "text",
+  "split": "test",
+  "question": "What share of adults globally were obese in 2016, and how did that compare with 2000?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 25,
+    "chunk_id": "who-whs-2023-p025-text-000",
+    "evidence": "In 2016, 13.1% (UI: 12.4–13.9%) of adults globally were obese, up from 8.7% (UI: 8.4–9.0) in 2000",
+    "locator": "tr. 25, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What share of adults globally were obese in 2016, and how did that compare with 2000?",
+   "candidates": [
+    "who-whs-2023-p025-text-000",
+    "who-whs-2023-p025-text-001",
+    "who-whs-2023-p026-fig1.10",
+    "who-whs-2023-p059-text-000",
+    "who-whs-2023-p127-table-004",
+    "who-whs-2023-p058-fig2.8",
+    "who-whs-2023-p127-table-003",
+    "who-whs-2023-p121-table-003",
+    "who-whs-2023-p121-table-004",
+    "who-whs-2023-p125-table-003",
+    "who-whs-2023-p123-table-004",
+    "who-whs-2023-p086-text-002",
+    "who-whs-2023-p068-text-003",
+    "who-whs-2023-p010-text-002",
+    "who-whs-2023-p010-text-005"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    4,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p025-text-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Obesity\nThe age-standardized prevalence of obesity among adults aged 18 years or older – i.e. body mass index (BMI) >30 kg/m2 – has been rising since the 1970s. In 2016, 13.1% (UI: 12.4–13.9%) of adults globally were obese, up from 8.7% (UI: 8.4–9.0) in 2000. The greatest increases occurred in the S"
+   },
+   {
+    "id": "who-whs-2023-p127-table-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p025-text-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Unlike many other health risks, the prevalence rates of obesity were higher among adult women than men. Globally, the femaleto-male ratio of age-standardized prevalence of obesity was 1.4 in 2016, down from 1.6 in 2000 and indicating a more rapid rise in male obesity. The sex difference was greatest"
+   },
+   {
+    "id": "who-whs-2023-p026-fig1.10",
+    "rank": 4,
+    "score": 0.25,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016\n[Text layer in figure] Figure 1.10 Age-standardized prevalence of obesity among adults (age 18 years or older), WHO regions and global, 1975–2016 Both sexes Male Female 0 15 10 "
+   },
+   {
+    "id": "who-whs-2023-p059-text-000",
+    "rank": 5,
+    "score": 0.2,
+    "page": 59,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Oveweight\nPrevalence (%)\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2019\n2020\n2018\n2022\n2021\nAfrican Region Region of the Americas Eastern Mediterranean Region European Region\nSouth-East Asia Region Western Paciﬁc Region Global\nSource: Ref. (27).\nOverwe"
+   },
+   {
+    "id": "who-whs-2023-p058-fig2.8",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 58,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022\n[Text layer in figure] Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022 Stunting 0 20 1"
+   },
+   {
+    "id": "who-whs-2023-p127-table-003",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p121-table-003",
+    "rank": 8,
+    "score": 0.125,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p121-table-004",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 121,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p125-table-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 125,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 22694.7
+ },
+ {
+  "query_id": "t-tx2",
+  "group": "text",
+  "split": "test",
+  "question": "How many excess deaths globally could be attributed to the COVID-19 pandemic by the end of 2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 30,
+    "chunk_id": "who-whs-2023-p030-text-001",
+    "evidence": "14.9 million (95% UI: 13.3–16.6 million) excess deaths could be attributed to the COVID-19 pandemic by the end of 2021",
+    "locator": "tr. 30, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "How many excess deaths globally could be attributed to the COVID-19 pandemic by the end of 2021?",
+   "candidates": [
+    "who-whs-2023-p030-text-001",
+    "who-whs-2023-p030-text-003",
+    "who-whs-2023-p031-text-000",
+    "who-whs-2023-p032-text-000",
+    "who-whs-2023-p030-text-002",
+    "who-whs-2023-p010-text-004",
+    "who-whs-2023-p029-text-000",
+    "who-whs-2023-p030-fig1.13",
+    "who-whs-2023-p042-text-001",
+    "who-whs-2023-p029-text-001",
+    "who-whs-2023-p035-text-001",
+    "who-whs-2023-p031-text-004",
+    "who-whs-2023-p033-fig1.15",
+    "who-whs-2023-p007-text-001",
+    "who-whs-2023-p031-text-002"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    5,
+    13,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p030-text-001",
+    "rank": 1,
+    "score": 1.0,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Nevertheless, reported deaths due to COVID-19 generally underestimate the true toll of the impact of COVID-19 on human mortality. Over the past two years, WHO has undertaken a monumental effort to collate all available information on reported all-cause mortality by week and month both during and bef"
+   },
+   {
+    "id": "who-whs-2023-p010-text-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 10,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The COVID-19 pandemic has led to 14.9 million excess deaths and cost 336.8 million years of life lost globally in 2020 and 2021. This means that, on average, each death directly or indirectly attributed to the COVID-19 pandemic by the end of 2021 led to a loss of more than 22 years of life – equival"
+   },
+   {
+    "id": "who-whs-2023-p007-text-001",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 7,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "However, even before the COVID-19 pandemic, beginning in 2015, progress against many global health indicators had slowed or stagnated. The pandemic set things back even further, overwhelming health systems and badly disrupting essential health services. The pandemic is estimated to have resulted in "
+   },
+   {
+    "id": "who-whs-2023-p030-text-003",
+    "rank": 4,
+    "score": 0.25,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The large discrepancy between estimated global excess mortality and the reported deaths due to COVID-19 – a difference of 9.4 million by the end of 2021 – shows that the impact of the pandemic is far-reaching. Indeed, 162 out of 194 WHO Member States show a higher excess mortality rate associated wi"
+   },
+   {
+    "id": "who-whs-2023-p031-text-000",
+    "rank": 5,
+    "score": 0.2,
+    "page": 31,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Age and sex distributions in the excess mortality associated with the COVID-19 pandemic\nWhile a total of 14.9 million estimated excess deaths was associated with the COVID-19 pandemic between 2020 and 2021, the age distribution of the COVID-19-related excess mortality shows that the pandemic disprop"
+   },
+   {
+    "id": "who-whs-2023-p032-text-000",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 32,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Years of life lost due to excess mortality associated with the COVID-19 pandemic\nWhile excess mortality – as opposed to the deaths reported to be due to COVID-19 – provides a unique lens through which to evaluate the toll of the pandemic, it does not comprehensively account for the impact of each de"
+   },
+   {
+    "id": "who-whs-2023-p030-text-002",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "UI: 9.1–12.1 million) – than in 2020 when there was a total of 4.4 million (UI: 3.9–5.0 million). At the regional level, the South- East Asia Region had the highest number of excess deaths for the years 2020 and 2021 at 6.1 million (UI: 4.7–7.8 million), which account for 41% of global excess deaths"
+   },
+   {
+    "id": "who-whs-2023-p029-text-000",
+    "rank": 8,
+    "score": 0.125,
+    "page": 29,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "•1.3 Assessing the impact of the COVID-19 pandemic, 2020–2021\nSince the first cases of COVID-19 were reported around the world more than three years ago, the pandemic has had an unprecedented impact on every country in the world. Up to 11 of March 2023, there had been over 759 million confirmed case"
+   },
+   {
+    "id": "who-whs-2023-p030-fig1.13",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 30,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021\n[Text layer in figure] Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021 0 2 4 6 8 10 Deaths (inmillions) Reported COVID-19 Excess deaths not captured in reported COVID-19 deaths African"
+   },
+   {
+    "id": "who-whs-2023-p042-text-001",
+    "rank": 10,
+    "score": 0.1,
+    "page": 42,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "22. WHO Coronavirus (COVID-19) dashboard. Geneva: World Health Organization (https://covid19.who.int/data, accessed 14 April 2023).\n23. Msemburi W, Karlinsky A, Knutson V, Aleshin-Guendel S, Chatterji S, Wakefield J. The WHO estimates of excess mortality associated with the COVID-19 pandemic. Nature"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 9688.2
+ },
+ {
+  "query_id": "t-tx3",
+  "group": "text",
+  "split": "test",
+  "question": "Since 2016, for how many countries has the availability and affordability of a core set of essential medicines been estimated, and what was the median value?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 77,
+    "chunk_id": "who-whs-2023-p077-text-000",
+    "evidence": "has been estimated for 17 countries across WHO’s African, Americas and European regions, with a median value across all 17 countries of 15% (IQR: 0–28%)",
+    "locator": "tr. 77, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "Since 2016, for how many countries has the availability and affordability of a core set of essential medicines been estimated, and what was the median value?",
+   "candidates": [
+    "who-whs-2023-p077-text-000",
+    "who-whs-2023-p082-text-004",
+    "who-whs-2023-p129-text-002",
+    "who-whs-2023-p025-text-001",
+    "who-whs-2023-p119-table-003",
+    "who-whs-2023-p034-text-005",
+    "who-whs-2023-p123-table-002",
+    "who-whs-2023-p089-text-001",
+    "who-whs-2023-p127-table-004",
+    "who-whs-2023-p034-text-007",
+    "who-whs-2023-p111-table-003",
+    "who-whs-2023-p007-text-001",
+    "who-whs-2023-p123-table-000",
+    "who-whs-2023-p072-text-002",
+    "who-whs-2023-p121-table-000"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p077-text-000",
+    "rank": 1,
+    "score": 1.0,
+    "page": 77,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "Access to essential medicines – a multidimensional concept which combines both the affordability and availability of medicines – is another key component for achieving UHC. Since 2016, the proportion of health facilities that have a core set of relevant essential medicines available and affordable o"
+   },
+   {
+    "id": "who-whs-2023-p082-text-004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 82,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "77. Data collected with a) the Essential medicines and health products price and availability monitoring mobile application (WHO EMP MedMon). Geneva: World Health Organization (https://www.who.int/medicines/areas/policy/monitoring/empmedmon/ en/, accessed 7 April 2023) and b) Medicine prices, availa"
+   },
+   {
+    "id": "who-whs-2023-p129-text-002",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 129,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "v Data collected with the WHO Essential Medicines and Health Products Price and Availability Monitoring Mobile Application (WHO EMP MedMon): (https://www.who.int/news/item/18-02-2018-medmon-mobile-application, accessed 30 April 2023) and Health Action International’s Medicine Prices, Availability, A"
+   },
+   {
+    "id": "who-whs-2023-p025-text-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Unlike many other health risks, the prevalence rates of obesity were higher among adult women than men. Globally, the femaleto-male ratio of age-standardized prevalence of obesity was 1.4 in 2016, down from 1.6 in 2000 and indicating a more rapid rise in male obesity. The sex difference was greatest"
+   },
+   {
+    "id": "who-whs-2023-p119-table-003",
+    "rank": 5,
+    "score": 0.2,
+    "page": 119,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 3.c |  |  |  | 3.d |  |  | 1.a |\n|  | Density of medical doctorsw (per 10 000 population) | Density of nursing and midwifery personnelw (per 10 000 population) | Density of dentistsw (per 10 000 population) | Density of pharmacistsw (per 10 000 population) | Average of 15 International Health R"
+   },
+   {
+    "id": "who-whs-2023-p034-text-005",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 34,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Across all countries, self-reported receipt of COVID-19 vaccine was higher among those with more education. As of December 2021, still in the early stages in terms of the availability of COVID-19 vaccines, the median level of vaccination across 90 countries among population groups with educational l"
+   },
+   {
+    "id": "who-whs-2023-p123-table-002",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 123,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p089-text-001",
+    "rank": 8,
+    "score": 0.125,
+    "page": 89,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Working closely with Member States and other partners, WHO has seen many remarkable milestones achieved during its 75 years of existence. Smallpox was eradicated in 1980 after an ambitious 12-year global vaccination campaign led by WHO. By 2023, five of the six WHO Regions were certified free of wil"
+   },
+   {
+    "id": "who-whs-2023-p127-table-004",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 127,
+    "source": "9789240074323-eng.pdf",
+    "kind": "table",
+    "hit": false,
+    "text": "|  | 6.2 | 6.3 | 6.a | 7.1 | 11.6 | 16.1 | GPW 13 |  |  |  |  |\n|  | Proportion of population using a hand- washing facility with soap and waterad (%) | Proportion of safely treated domestic wastewater flowsae (%) | Amount of water- and sanitation- related official development assistance that is par"
+   },
+   {
+    "id": "who-whs-2023-p034-text-007",
+    "rank": 10,
+    "score": 0.1,
+    "page": 34,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Populations in LICs and LMICs were more likely to report experiencing a structural barrier to vaccination [median across 28 countries: 34.6% (UI: 29.3–38.9)] – such as not meeting eligibility requirements, availability or accessibility issues or lack of information – than populations in UMICs [media"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 8258.1
+ },
+ {
+  "query_id": "t-tx4",
+  "group": "text",
+  "split": "test",
+  "question": "What was the global male-to-female ratio of tobacco use prevalence in 2020, and how had it changed since 2000?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 24,
+    "chunk_id": "who-whs-2023-p024-text-002",
+    "evidence": "The male-to-female ratio at global level was 4.7 in 2020, rising from 3.0 in 2000",
+    "locator": "tr. 24, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "rerank",
+   "query": "What was the global male-to-female ratio of tobacco use prevalence in 2020, and how had it changed since 2000?",
+   "candidates": [
+    "who-whs-2023-p024-text-002",
+    "who-whs-2023-p025-fig1.9",
+    "who-whs-2023-p024-text-000",
+    "who-whs-2023-p025-text-001",
+    "who-whs-2023-p026-text-001",
+    "who-whs-2023-p022-text-004",
+    "who-whs-2023-p027-fig1.11",
+    "who-whs-2023-p024-fig1.8",
+    "who-whs-2023-p093-text-002",
+    "who-whs-2023-p062-text-003",
+    "who-whs-2023-p070-fig2.17",
+    "who-whs-2023-p031-text-003",
+    "who-whs-2023-p034-text-000",
+    "who-whs-2023-p028-text-002",
+    "who-whs-2023-p023-fig1.7"
+   ],
+   "llm": "gemini-3.5-flash-lite",
+   "llm_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "base": "hybrid"
+  },
+  "results": [
+   {
+    "id": "who-whs-2023-p024-text-002",
+    "rank": 1,
+    "score": 1.0,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": true,
+    "text": "The age-standardized current tobacco use prevalence was higher among men than among women across the world. The male-to-female ratio at global level was 4.7 in 2020, rising from 3.0 in 2000 and indicating a slower reduction among men compared to women. The lack of progress among men in relative term"
+   },
+   {
+    "id": "who-whs-2023-p025-fig1.9",
+    "rank": 2,
+    "score": 0.5,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020\n[Text layer in figure] Figure 1.9 Age-standardized prevalence of current tobacco use among persons aged 15 years or older, WHO regions and global, 2000–2020 2000 2020"
+   },
+   {
+    "id": "who-whs-2023-p024-text-000",
+    "rank": 3,
+    "score": 0.33333,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Tobacco use\nGlobally, the age-standardized prevalence of current tobacco use among persons aged 15 years or older has declined by over 30% – from 32.7% in 2000 to 22.3% in 2020 (Figure 1.9). With one of the greatest decline of over 40%, the South-East Asia Region nevertheless had the highest prevale"
+   },
+   {
+    "id": "who-whs-2023-p025-text-001",
+    "rank": 4,
+    "score": 0.25,
+    "page": 25,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Unlike many other health risks, the prevalence rates of obesity were higher among adult women than men. Globally, the femaleto-male ratio of age-standardized prevalence of obesity was 1.4 in 2016, down from 1.6 in 2000 and indicating a more rapid rise in male obesity. The sex difference was greatest"
+   },
+   {
+    "id": "who-whs-2023-p026-text-001",
+    "rank": 5,
+    "score": 0.2,
+    "page": 26,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "The sex difference in age-standardized prevalence of hypertension among adults varies markedly across WHO regions. In the African, Eastern Mediterranean and South-East Asia regions, the prevalence among women was consistently higher than among men, and the gap has widened in the African Region but n"
+   },
+   {
+    "id": "who-whs-2023-p022-text-004",
+    "rank": 6,
+    "score": 0.16667,
+    "page": 22,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Men have a higher probability of premature death from NCDs than women in all WHO regions and globally. The absolute gap between sexes had been closing during the last two decades globally and in all WHO regions. However, the relative gap – as measured by the male-to-female ratio – increased by 11% i"
+   },
+   {
+    "id": "who-whs-2023-p027-fig1.11",
+    "rank": 7,
+    "score": 0.14286,
+    "page": 27,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019\n[Text layer in figure] Figure 1.11 Age-standardized prevalence of hypertension among adults (age 30–79 years), WHO regions and global, 1990–2019 Prevalence (%) 0 20 15 10 5 30 25"
+   },
+   {
+    "id": "who-whs-2023-p024-fig1.8",
+    "rank": 8,
+    "score": 0.125,
+    "page": 24,
+    "source": "9789240074323-eng.pdf",
+    "kind": "figure",
+    "hit": false,
+    "text": "Figure 1.8 Total alcohol consumption per capita (age 15 years or older), WHO regions and global, 2000–2019\n[Text layer in figure] Figure 1.8 Total alcohol consumption per capita (age 15 years or older), WHO regions and global, 2000–2019 2000 2005 2010 2015 2019 2000 2005 2010 2015 2019 2000 2005 201"
+   },
+   {
+    "id": "who-whs-2023-p093-text-002",
+    "rank": 9,
+    "score": 0.11111,
+    "page": 93,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "11. WHO global report on trends in prevalence of tobacco use 2000–2025, fourth edition. Geneva: World Health Organization; 2021 (https://apps.who.int/iris/handle/10665/348537, accessed 22 April 2023).\n12. Levels and trends in child mortality. Report 2022. Estimates developed by the UN Inter-agency G"
+   },
+   {
+    "id": "who-whs-2023-p062-text-003",
+    "rank": 10,
+    "score": 0.1,
+    "page": 62,
+    "source": "9789240074323-eng.pdf",
+    "kind": "text",
+    "hit": false,
+    "text": "Globally, men are about twice as likely to die from injury than women are. The death rates due to all injuries in 2019 were 77.6 (UI: 52.7–109.1) deaths per 100 000 male population and 36.9 (UI: 24.4–53.2) deaths per 100 000 female population. Across WHO regions and among the three injury causes dis"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "first_gold_rank": 1,
+  "elapsed_ms": 8942.5
+ }
+]

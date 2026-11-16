@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bộ lắp 136 trang · Day 7 Agentic RAG</title>
+  <meta name="description" content="Hướng dẫn lắp ráp tương tác: một báo cáo WHO 136 trang được tách thành 536 viên chunk và lắp lên một index duy nhất.">
+</head>
+<body>
+  <a class="skip" href="#buoc-1">Bỏ qua tới bước 1</a>
+
+  <header class="top">
+    <a class="set" href="#buoc-1" aria-label="Về bước 1">
+      <span class="set__mark" aria-hidden="true"></span>
+      <span class="set__name">Bộ 136 trang</span>
+    </a>
+    <p class="set__meta">Day 7 · Agentic RAG · Trịnh Ngọc Ninh · 2A202603996</p>
+    <nav class="steps" aria-label="Các bước lắp">
+      <ol id="stepnav"></ol>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BƯỚC 1 -->
+    <section class="spread spread--tall" id="buoc-1" data-step="1" aria-labelledby="h1">
+      <div class="stage">
+        <div class="num" aria-hidden="true">1</div>
+        <div class="callout callout--bag">
+          <p class="callout__title">Trong túi này</p>
+          <ul class="bag" id="bag"></ul>
+          <a class="btn" href="#buoc-5">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 3h10l4 4v14H5z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M9 12h6M9 16h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+            Chọn một trang thật
+          </a>
+        </div>
+        <div class="scene scene--1" id="scene1" aria-hidden="true"></div>
+        <h1 class="line" id="h1">Tách một trang thành ba loại viên, lắp lên một tấm nền.</h1>
+        <p class="hint" id="hint1">Cuộn để lắp</p>
+      </div>
+    </section>
+
+    <!-- BƯỚC 2 -->
+    <section class="spread" id="buoc-2" data-step="2" aria-labelledby="h2">
+      <div class="stage stage--split">
+        <div class="lead">
+          <div class="num" aria-hidden="true">2</div>
+          <h2 id="h2">Nối dòng, cắt theo đoạn.</h2>
+          <p class="say">Chữ trong PDF bị ngắt giữa câu ở cuối mỗi dòng in. Viên <b>text</b> chỉ dùng được khi các dòng đã nối lại, tiêu đề trang và số trang đã bỏ đi.</p>
+          <ul class="spec" id="spec2"></ul>
+        </div>
+        <figure class="callout callout--real" id="ex-text">
+          <figcaption class="callout__title"></figcaption>
+          <div class="realtext" id="ex-text-body"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- BƯỚC 3 -->
+    <section class="spread" id="buoc-3" data-step="3" aria-labelledby="h3">
+      <div class="stage stage--split">
+        <div class="lead">
+          <div class="num" aria-hidden="true">3</div>
+          <h2 id="h3">Ghép tên nước, cắt 12 hàng.</h2>
+          <p class="say">Bảng annex in trên hai trang đối diện. Trang phải chỉ có số, không có tên nước. Viên <b>bảng</b> mượn cột tên từ trang trái rồi mới cắt, mỗi viên lặp lại tiêu đề cột.</p>
+          <ul class="spec" id="spec3"></ul>
+        </div>
+        <div class="tables" id="ex-table"></div>
+      </div>
+    </section>
+
+    <!-- BƯỚC 4 -->
+    <section class="spread" id="buoc-4" data-step="4" aria-labelledby="h4">
+      <div class="stage stage--split">
+        <div class="lead">
+          <div class="num" aria-hidden="true">4</div>
+          <h2 id="h4">Cắt hình, gắn mô tả.</h2>
+          <p class="say">Lớp chữ của một biểu đồ chỉ có nhãn trục. Viên <b>hình</b> ghép ba thứ: chú thích, lớp chữ trong hình và mô tả do model thị giác đọc từ ảnh cắt.</p>
+          <ul class="spec" id="spec4"></ul>
+        </div>
+        <div class="figparts" id="ex-figure"></div>
+      </div>
+    </section>
+
+    <!-- BƯỚC 5 -->
+    <section class="spread spread--plate" id="buoc-5" data-step="5" aria-labelledby="h5">
+      <div class="stage stage--plate">
+        <div class="lead lead--row">
+          <div class="num" aria-hidden="true">5</div>
+          <div>
+            <h2 id="h5">Ấn 536 viên lên một tấm nền.</h2>
+            <p class="say" id="say5"></p>
+          </div>
+        </div>
+        <div class="pickrow">
+          <p class="pickrow__label" id="pagelabel">Chọn một trang của báo cáo</p>
+          <div class="pages" id="pages" role="listbox" aria-labelledby="pagelabel"></div>
+        </div>
+        <div class="platewrap">
+          <div class="plate" id="plate" role="grid" aria-label="536 viên chunk theo thứ tự trang"></div>
+          <aside class="callout callout--piece" id="piece" aria-live="polite"></aside>
+        </div>
+        <ul class="legend" id="legend"></ul>
+      </div>
+    </section>
+
+    <!-- BƯỚC 6 -->
+    <section class="spread" id="buoc-6" data-step="6" aria-labelledby="h6">
+      <div class="stage">
+        <div class="lead lead--row">
+          <div class="num" aria-hidden="true">6</div>
+          <div>
+            <h2 id="h6">Soạn 48 câu hỏi, niêm phong túi test.</h2>
+            <p class="say">Mỗi câu ghi sẵn bằng chứng nằm ở trang nào, viên nào. Túi dev mở ra để thử. Túi test dán kín cho tới khi cấu hình được chốt.</p>
+          </div>
+        </div>
+        <div class="bags">
+          <div class="bagbox" id="devbag"></div>
+          <div class="bagbox bagbox--sealed" id="testbag"></div>
+        </div>
+        <aside class="callout callout--q" id="qcard" aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <!-- BƯỚC 7 -->
+    <section class="spread" id="buoc-7" data-step="7" aria-labelledby="h7" hidden>
+      <div class="stage">
+        <div class="lead lead--row">
+          <div class="num" aria-hidden="true">7</div>
+          <div>
+            <h2 id="h7">Hỏi thử bộ lắp.</h2>
+            <p class="say" id="say7"></p>
+          </div>
+        </div>
+        <div class="askrow">
+          <label class="askrow__label" for="qsel">Câu hỏi dev</label>
+          <div class="select"><select id="qsel"></select></div>
+          <div class="configs" id="configs" role="group" aria-label="Phiên bản index"></div>
+        </div>
+        <p class="asked" id="asked"></p>
+        <div class="methods" id="methods"></div>
+      </div>
+    </section>
+
+    <!-- BƯỚC 8 -->
+    <section class="spread" id="buoc-8" data-step="8" aria-labelledby="h8" hidden>
+      <div class="stage">
+        <div class="lead lead--row">
+          <div class="num" aria-hidden="true">8</div>
+          <div>
+            <h2 id="h8">Giao cho agent.</h2>
+            <p class="say" id="say8"></p>
+          </div>
+        </div>
+        <div class="askrow">
+          <label class="askrow__label" for="asel">Câu hỏi dev</label>
+          <div class="select"><select id="asel"></select></div>
+          <div class="configs" id="aconfigs" role="group" aria-label="Cấu hình agent"></div>
+        </div>
+        <div class="trace" id="trace" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- BƯỚC 9 -->
+    <section class="spread" id="buoc-9" data-step="9" aria-labelledby="h9" hidden>
+      <div class="stage">
+        <div class="lead lead--row">
+          <div class="num" aria-hidden="true">9</div>
+          <div>
+            <h2 id="h9">Mở túi test.</h2>
+            <p class="say" id="say9"></p>
+          </div>
+        </div>
+        <div class="tbench" id="tbench"></div>
+        <div class="atests" id="atests"></div>
+      </div>
+    </section>
+
+    <!-- HỘP -->
+    <section class="spread spread--box" id="hop" aria-labelledby="hbox">
+      <div class="stage">
+        <h2 id="hbox">Ngoài hộp có gì.</h2>
+        <dl class="box" id="box"></dl>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

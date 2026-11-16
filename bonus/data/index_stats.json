@@ -1,0 +1,21 @@
+{
+ "chunks": 536,
+ "inserted": 0,
+ "updated": 44,
+ "unchanged": 492,
+ "deleted": 0,
+ "cache_hits": 0,
+ "api_embedded": 44,
+ "db_rows": 536,
+ "by_kind": {
+  "figure": 44,
+  "text": 336,
+  "table": 156
+ },
+ "seconds": 87.9,
+ "embedding_model": "gemini-embedding-001",
+ "dimensions": 768,
+ "chars_embedded": 608786,
+ "api_calls": 47,
+ "retries": 3
+}

@@ -1,0 +1,413 @@
+[
+ {
+  "query_id": "d-tb1",
+  "group": "table",
+  "split": "dev",
+  "question": "What was life expectancy at birth for males and for females in Mali in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Male/Female, 2019'"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195729.6
+ },
+ {
+  "query_id": "d-tb2",
+  "group": "table",
+  "split": "dev",
+  "question": "What was the suicide mortality rate in Afghanistan in 2019?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 104,
+    "chunk_id": "who-whs-2023-p104-table-000",
+    "evidence": "| Afghanistan | 35.3 | 4.1 | <0.1 | 15.9 | 42.1 am | 62.1 |",
+    "locator": "tr. 104, bảng annex, hàng 'Afghanistan', cột 'Suicide mortality rate (per 100 000 population), 2019'"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195956.1
+ },
+ {
+  "query_id": "d-tb3",
+  "group": "table",
+  "split": "dev",
+  "question": "What was the prevalence of stunting in children under 5 in Viet Nam in 2022?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 126,
+    "chunk_id": "who-whs-2023-p126-table-003",
+    "evidence": "| Viet Nam | 19.3 | 4.7 | 8.1 | 20.6 | 10 | 25 | - | - |",
+    "locator": "tr. 126, bảng annex, hàng 'Viet Nam', cột 'Prevalence of stunting in children under 5 (%), 2022'"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195869.2
+ },
+ {
+  "query_id": "d-im1",
+  "group": "image",
+  "split": "dev",
+  "question": "According to the timeline of 75 years of public health, in which year did WHO found the Expanded Programme on Immunization?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 88,
+    "chunk_id": "who-whs-2023-p088-fig3.3",
+    "evidence": "Figure 3.3 Seventy-five years of improving public health, 1948–2023",
+    "locator": "tr. 88, Figure 3.3, crop fig3.3_p088.png: mốc 1974: 'WHO founds the Expanded Programme on Immunization'"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195793.9
+ },
+ {
+  "query_id": "d-im2",
+  "group": "image",
+  "split": "dev",
+  "question": "In the diagram of countries affected by multiple forms of malnutrition in 2022, how many countries crossed only the stunting threshold?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21 countries only crossed stunting threshold"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195934.1
+ },
+ {
+  "query_id": "d-im3",
+  "group": "image",
+  "split": "dev",
+  "question": "On the map of national health and climate change plans or strategies in 2021, what status is shown for Canada?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 38,
+    "chunk_id": "who-whs-2023-p038-fig1.16",
+    "evidence": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021",
+    "locator": "tr. 38, Figure 1.16, crop fig1.16_p038.png: Canada tô màu xanh đậm = 'No' theo chú giải"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195813.5
+ },
+ {
+  "query_id": "d-ch1",
+  "group": "chart",
+  "split": "dev",
+  "question": "Globally, what percentage of people living with HIV knew their status in 2015 and in 2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 75,
+    "chunk_id": "who-whs-2023-p075-fig2.20",
+    "evidence": "Figure 2.20 HIV testing and treatment cascade",
+    "locator": "tr. 75, Figure 2.20, crop fig2.20_p075.png: panel a, cột xanh nhạt: 2015 = 69, 2021 = 85"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195924.5
+ },
+ {
+  "query_id": "d-ch2",
+  "group": "chart",
+  "split": "dev",
+  "question": "What was the average annual rate of reduction (ARR) of the global under-five mortality rate in 2000-2010 and in 2010-2021?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 19,
+    "chunk_id": "who-whs-2023-p019-fig1.4",
+    "evidence": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021",
+    "locator": "tr. 19, Figure 1.4, crop fig1.4_p019.png: nhãn ARR trên đường U5MR: 4.0% (2000-2010), 2.7% (2010-2021)"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195979.9
+ },
+ {
+  "query_id": "d-ch3",
+  "group": "chart",
+  "split": "dev",
+  "question": "In the European Region in 2020, what proportion of the population used safely-managed drinking-water services and safely-managed sanitation services?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 66,
+    "chunk_id": "who-whs-2023-p066-fig2.13",
+    "evidence": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020",
+    "locator": "tr. 66, Figure 2.13, crop fig2.13_p066.png: European Region: cột xanh dương 92, cột xanh lá 70"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195628.7
+ },
+ {
+  "query_id": "d-mh1",
+  "group": "multihop",
+  "split": "dev",
+  "question": "For Mali, what are life expectancy at birth for both sexes (2019) and the maternal mortality ratio (2020)?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 100,
+    "chunk_id": "who-whs-2023-p100-table-000",
+    "evidence": "| Mali | 11 061 | 10 844 | 21 905 | 62.2 | 63.4 | 62.8 | 54.8 | 54.5 | 54.6 |",
+    "locator": "tr. 100, bảng annex, hàng 'Mali', cột 'Life expectancy at birth, Both sexes, 2019'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 101,
+    "chunk_id": "who-whs-2023-p101-table-000",
+    "evidence": "| Mali | 440 | 67 | 97 | 33 | 0.26 | 50 | 353.6 | 4.62 | 10 144 929 |",
+    "locator": "tr. 101, bảng annex, hàng 'Mali', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 196154.8
+ },
+ {
+  "query_id": "d-mh2",
+  "group": "multihop",
+  "split": "dev",
+  "question": "How much higher was Afghanistan's maternal mortality ratio in 2020 than the global ratio that year?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 97,
+    "chunk_id": "who-whs-2023-p097-table-000",
+    "evidence": "| Afghanistan | 620 | 62 | 56 | 34 | 0.04 | 189 | 6.3 | 0.39 | 14 367 281 |",
+    "locator": "tr. 97, bảng annex, hàng 'Afghanistan', cột 'Maternal mortality ratio (per 100 000 live births), 2020'"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 15,
+    "chunk_id": "who-whs-2023-p015-text-000",
+    "evidence": "223 (UI: 202–255) deaths per 100 000 live births that year",
+    "locator": "tr. 15, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 196009.1
+ },
+ {
+  "query_id": "d-mh3",
+  "group": "multihop",
+  "split": "dev",
+  "question": "How many children under 5 were affected by stunting globally in 2022, and how many countries crossed only the stunting threshold in the malnutrition diagram?",
+  "gold_mode": "all",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 57,
+    "chunk_id": "who-whs-2023-p057-fig2.7",
+    "evidence": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022",
+    "locator": "tr. 57, Figure 2.7, crop fig2.7_p057.png: biểu đồ phải, đường Stunting, nhãn 2022 = 148.1"
+   },
+   {
+    "source_id": "who-whs-2023",
+    "page": 61,
+    "chunk_id": "who-whs-2023-p061-fig2.10",
+    "evidence": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022",
+    "locator": "tr. 61, Figure 2.10, crop fig2.10_p061.png: vùng 'Stunting': 21"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195908.7
+ },
+ {
+  "query_id": "d-tx1",
+  "group": "text",
+  "split": "dev",
+  "question": "How did the global age-standardized prevalence of current tobacco use change between 2000 and 2020?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 24,
+    "chunk_id": "who-whs-2023-p024-text-000",
+    "evidence": "has declined by over 30% – from 32.7% in 2000 to 22.3% in 2020",
+    "locator": "tr. 24, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195745.7
+ },
+ {
+  "query_id": "d-tx2",
+  "group": "text",
+  "split": "dev",
+  "question": "How did the average implementation status of IHR core capacities change from 2021 to 2022?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 77,
+    "chunk_id": "who-whs-2023-p077-text-001",
+    "evidence": "increased from 64% in 2021 to 66% in 2022",
+    "locator": "tr. 77, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 195656.8
+ },
+ {
+  "query_id": "d-tx3",
+  "group": "text",
+  "split": "dev",
+  "question": "Was anaemia prevalence higher among pregnant or non-pregnant women aged 15-49, and what were the values?",
+  "gold_mode": "any",
+  "gold": [
+   {
+    "source_id": "who-whs-2023",
+    "page": 60,
+    "chunk_id": "who-whs-2023-p060-text-001",
+    "evidence": "Prevalence was higher among pregnant women [36.5% (UI: 34.0–39.1)] than non-pregnant women [29.6%",
+    "locator": "tr. 60, đoạn văn"
+   }
+  ],
+  "trace": {
+   "method": "multistage",
+   "error": "Gemini API lỗi: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rat"
+  },
+  "results": [],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "first_gold_rank": null,
+  "elapsed_ms": 196069.1
+ }
+]

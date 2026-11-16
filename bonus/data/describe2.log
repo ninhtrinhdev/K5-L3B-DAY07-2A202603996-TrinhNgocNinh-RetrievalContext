@@ -1,0 +1,21 @@
+ok who-whs-2023-p049-fig2.3 2284
+ok who-whs-2023-p055-fig2.6 1838
+ok who-whs-2023-p058-fig2.8 1905
+ok who-whs-2023-p060-fig2.9 1519
+ok who-whs-2023-p061-fig2.10 1058
+ok who-whs-2023-p063-fig2.11 2094
+ok who-whs-2023-p063-fig2.12 2026
+ok who-whs-2023-p066-fig2.13 2554
+ok who-whs-2023-p066-fig2.14 1592
+ok who-whs-2023-p069-fig2.15 1987
+ok who-whs-2023-p069-fig2.16 1783
+ok who-whs-2023-p070-fig2.17 1198
+ok who-whs-2023-p072-fig2.18 1190
+ok who-whs-2023-p074-fig2.19 2072
+ok who-whs-2023-p077-fig2.21 2075
+ok who-whs-2023-p085-fig3.1 1854
+ok who-whs-2023-p085-fig3.2 1846
+ok who-whs-2023-p088-fig3.3 2553
+ok who-whs-2023-p091-fig3.4 1728
+ok who-whs-2023-p091-fig3.5 1702
+{"models": {"who-whs-2023-p075-fig2.20": "gemini-2.5-flash", "who-whs-2023-p015-fig1.1": "gemini-2.5-flash", "who-whs-2023-p016-fig1.2": "gemini-2.5-flash", "who-whs-2023-p017-fig1.3": "gemini-2.5-flash", "who-whs-2023-p019-fig1.4": "gemini-2.5-flash", "who-whs-2023-p019-fig1.5": "gemini-2.5-flash", "who-whs-2023-p020-fig1.6": "gemini-2.5-flash", "who-whs-2023-p023-fig1.7": "gemini-2.5-flash", "who-whs-2023-p024-fig1.8": "gemini-2.5-flash", "who-whs-2023-p025-fig1.9": "gemini-2.5-flash", "who-whs-2023-p026-fig1.10": "gemini-2.5-flash", "who-whs-2023-p027-fig1.11": "gemini-2.5-flash", "who-whs-2023-p029-fig1.12": "gemini-2.5-flash", "who-whs-2023-p030-fig1.13": "gemini-2.5-flash", "who-whs-2023-p032-fig1.14": "gemini-2.5-flash", "who-whs-2023-p033-fig1.15": "gemini-2.5-flash", "who-whs-2023-p038-fig1.16": "gemini-2.5-flash", "who-whs-2023-p039-fig1.17": "gemini-2.5-flash", "who-whs-2023-p040-fig1.18": "gemini-2.5-flash", "who-whs-2023-p047-fig2.1": "gemini-2.5-flash", "who-whs-2023-p048-fig2.2": "gemini-2.5-flash", "who-whs-2023-p051-fig2.4": "gemini-2.5-flash", "who-whs-2023-p053-fig2.5": "gemini-2.5-flash", "who-whs-2023-p057-fig2.7": "gemini-3.5-flash", "who-whs-2023-p049-fig2.3": "gemini-3.5-flash", "who-whs-2023-p055-fig2.6": "gemini-3.5-flash", "who-whs-2023-p058-fig2.8": "gemini-3.5-flash", "who-whs-2023-p060-fig2.9": "gemini-3.5-flash", "who-whs-2023-p061-fig2.10": "gemini-3.5-flash", "who-whs-2023-p063-fig2.11": "gemini-3.5-flash", "who-whs-2023-p063-fig2.12": "gemini-3.5-flash", "who-whs-2023-p066-fig2.13": "gemini-3.5-flash", "who-whs-2023-p066-fig2.14": "gemini-3.5-flash", "who-whs-2023-p069-fig2.15": "gemini-3.5-flash", "who-whs-2023-p069-fig2.16": "gemini-3.5-flash", "who-whs-2023-p070-fig2.17": "gemini-3.5-flash", "who-whs-2023-p072-fig2.18": "gemini-3.5-flash", "who-whs-2023-p074-fig2.19": "gemini-3.5-flash", "who-whs-2023-p077-fig2.21": "gemini-3.5-flash", "who-whs-2023-p085-fig3.1": "gemini-3.5-flash", "who-whs-2023-p085-fig3.2": "gemini-3.5-flash", "who-whs-2023-p088-fig3.3": "gemini-3.5-flash", "who-whs-2023-p091-fig3.4": "gemini-3.5-flash", "who-whs-2023-p091-fig3.5": "gemini-3.5-flash"}, "described": 44, "figures": 44, "errors_last_run": [], "last_run_model": "gemini-3.5-flash", "last_run_seconds": 298.7, "last_run_stats": {"api_calls": 22, "retries": 2, "prompt_tokens": 26228, "output_tokens": 11256}}
